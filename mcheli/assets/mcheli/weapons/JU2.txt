@@ -1,0 +1,22 @@
+DisplayName = ¾ÞÈÐ2¿ÕµØµ¼µ¯
+Type = ATMissile
+Power = 15000
+Acceleration = 1.7
+Explosion = 4
+Flaming = false
+Sight = MissileSight 
+Delay = 10
+LockTime = 0
+ModeNum = 1
+Sound = bomb_snd
+ProximityFuseDist = 1
+DisableSmoke = true
+ModelBullet = sdb2
+RidableOnly = true
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 40
+SuppliedNum = 10
+Item =  1, iron_ingot
+Item =  2, gunpowder

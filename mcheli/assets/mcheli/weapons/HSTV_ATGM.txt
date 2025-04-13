@@ -1,0 +1,26 @@
+DisplayName = Brimstone 硫磺石反坦克导弹引导电台
+Type = ATMissile
+Power = 450
+Acceleration = 3.0
+Explosion = 6
+ExplosionBLOCK = 2
+Flaming = false
+Sight = MissileSight 
+Delay = 80
+LockTime = 25
+ModeNum = 2
+Round = 2
+reloadtime =100
+ProximityFuseDist = 1
+ModelBullet = agm114
+Sound = zoom
+RidableOnly = true
+HeatCount = 1000
+MaxHeatCount = 1000
+
+
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  10, iron_ingot
+

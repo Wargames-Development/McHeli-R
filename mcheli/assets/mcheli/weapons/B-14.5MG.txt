@@ -1,0 +1,24 @@
+DisplayName = B-14.5MG 14.5MM
+Type = MachineGun1
+ModelBullet = bullet
+Power = 9
+Acceleration = 25.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 2
+Round = 100
+ReloadTime = 100
+SoundDelay = 0
+Sound = gun_l2_snd
+SoundPitch = 1.0
+
+RecoilBufCount = 5, 1
+
+HeatCount = 5
+MaxHeatCount = 250
+
+MaxAmmo = 300
+SuppliedNum = 100
+Item =  8, iron_ingot
+Item =  8, gunpowder

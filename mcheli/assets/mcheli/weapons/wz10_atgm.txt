@@ -1,0 +1,26 @@
+DisplayName = AKD10 ·´Ì¹¿Ëµ¼µ¯ 
+Type = ATMissile
+Power = 500
+Acceleration = 4.0
+Explosion = 6
+ExplosionBLOCK = 0
+Flaming = false
+Sight = MissileSight 
+Delay = 80
+LockTime = 15
+ModeNum = 2
+Round = 2
+reloadtime =100
+ProximityFuseDist = 1
+ModelBullet = agm114
+Sound = missile_1_snd
+RidableOnly = true
+HeatCount = 1000
+MaxHeatCount = 1500
+
+
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  10, iron_ingot
+

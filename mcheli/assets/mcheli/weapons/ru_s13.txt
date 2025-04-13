@@ -1,0 +1,35 @@
+DisplayName = S13OF 122ºÁÃ×»ð¼ýµ¯
+Type = Rocket
+Power = 80
+ModelBullet = hydra70
+Acceleration = 2.0
+Explosion = 5
+Explosionblock =2
+Gravity = -0.0015
+Sound = rocket_snd
+Flaming = false
+Sight = MoveSight
+Delay = 4
+ReloadTime = 110
+Round = 10
+HeatCount = 70
+MaxHeatCount = 630
+Accuracy = 0.5
+
+DisplayMortarDistance = true
+
+DamageFactor = plane, 1.5
+DamageFactor = heli, 1.5
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.5
+
+
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+
+MaxAmmo = 20
+SuppliedNum = 20
+Item =  1, iron_ingot
+
+

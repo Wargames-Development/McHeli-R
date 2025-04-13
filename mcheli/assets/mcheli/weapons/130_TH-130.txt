@@ -1,0 +1,24 @@
+DisplayName = TH-130 “青花岩” 架设型反直升机导弹
+Type = AAMissile
+Power = 50
+Acceleration = 20
+Explosion = 2
+Flaming = false
+Sight = MissileSight
+Delay = 40
+ReloadTime = 40
+Round = 1
+LockTime = 10
+ProximityFuseDist = 1
+ModelBullet = TH-130
+Sound = missile_1_snd
+Piercing = 10
+
+DamageFactor = plane, 1.5
+DamageFactor = heli, 2
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  6, iron_ingot
+Item =  6, gunpowder
+Item =  6, redstone

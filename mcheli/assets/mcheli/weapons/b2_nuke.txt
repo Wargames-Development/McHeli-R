@@ -1,0 +1,29 @@
+DisplayName = ’Ω ı∫ÀŒ‰∆˜
+Type = Bomb
+Power = 750
+ModelBullet = mk82
+Acceleration = 0.1
+Explosion = 200
+Explosionblock = 0
+ExplosionInWater = 10
+Flaming = false
+Sight = None
+Delay = 5
+Sound = bomb_snd
+ModelBomblet = cbc
+Bomblet = 5
+BombletSTime = 80
+BombletDiff = 0.8
+
+ReloadTime = 80
+Round = 1
+
+
+DamageFactor = plane, 3
+
+HeatCount = 2000
+MaxHeatCount = 1
+
+MaxAmmo = 12
+SuppliedNum = 12
+Item =  1, iron_ingot

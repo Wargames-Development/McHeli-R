@@ -1,0 +1,28 @@
+DisplayName = AGM114K 地狱火反坦克导弹
+Type = TVMissile
+Power = 450
+Acceleration = 3
+Explosion = 8
+Explosionblock = 2
+Flaming = false
+Sight = MoveSight
+Delay = 120
+ModeNum = 2
+ModelBullet = agm114
+Sound = sa-2_snd
+ReloadTime = 100
+Round = 4
+
+ProximityFuseDist = 1
+HeatCount = 500
+MaxHeatCount = 1000
+TimeFuse = 100
+DamageFactor = plane, 0.43
+DamageFactor = heli, 0.43
+FixMode = 1
+
+
+
+MaxAmmo = 8
+SuppliedNum = 8
+Item =  1, iron_ingot

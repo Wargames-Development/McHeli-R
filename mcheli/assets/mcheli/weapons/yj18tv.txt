@@ -1,0 +1,29 @@
+DisplayName = Ó¥»÷18Â½¹¥ÐÍ [ÎÂÑ¹Õ½¶·²¿]
+Type = TVMissile
+Power = 250
+Acceleration = 3
+Explosion = 25
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+ModelBullet = 3m54
+Sound = missile_1_snd
+ReloadTime = 100
+Round = 1
+DamageFactor = player, 1
+DamageFactor = plane, 3
+DamageFactor = heli, 1.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.0
+ProximityFuseDist = 1
+HeatCount = 1000
+MaxHeatCount = 900
+
+
+
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  1, iron_ingot

@@ -1,0 +1,28 @@
+DisplayName = KH31·´½¢µ¼µ¯
+Type = AAMissile
+ModelBullet = kh-31dm
+Power = 500
+Acceleration = 4
+Explosion = 3
+Flaming = false
+Sight = MissileSight
+Delay = 8
+ReloadTime = 45
+Round = 4
+HeatCount = 500
+MaxHeatCount = 1800
+RigidityTime = 20
+Gravity = -0.4
+GravityInWater = 1.0
+
+TimeFuse = 150
+
+Group = MainGun
+LockTime = 5
+ProximityFuseDist = 20
+Sound = missile_1_snd
+RigidityTime = 3
+MaxAmmo = 6
+SuppliedNum = 6
+DamageFactor = heli, 1.0
+Item =  1, iron_ingot

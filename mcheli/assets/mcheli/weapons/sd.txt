@@ -1,0 +1,22 @@
+DisplayName = Σ₯»χ114515·΄½’ιοκ€
+Type = ATMissile
+Power = 2200
+Acceleration = 4.0
+Explosion = 12
+Flaming = true
+Sight = MissileSight 
+Delay = 1
+LockTime = 1
+ModeNum = 10
+ProximityFuseDist = 1
+ModelBullet = 59
+Sound = missile_1_snd
+RidableOnly = true
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 20
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

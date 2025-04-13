@@ -1,0 +1,31 @@
+DisplayName = Ó¥»÷18·´½¢ÐÍ[°ë´©¼×Õ½¶·²¿]
+Type = ATMissile
+Power = 800
+Acceleration = 4
+Explosion = 9
+ExplosionBLOCK = 0
+Flaming = false
+Sight = MissileSight 
+Delay = 10
+LockTime = 10
+ModeNum = 2
+Round = 2
+reloadtime =100
+ProximityFuseDist = 1
+ModelBullet = yj18
+Sound = missile_1_snd
+RidableOnly = true
+HeatCount = 1000
+MaxHeatCount = 1900
+DamageFactor = player, 0.5
+DamageFactor = plane, 3
+DamageFactor = heli, 3
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.0
+
+
+
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  1, iron_ingot

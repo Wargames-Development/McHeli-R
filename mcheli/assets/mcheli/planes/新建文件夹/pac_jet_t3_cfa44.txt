@@ -1,0 +1,116 @@
+﻿DisplayName = CFA-44
+AddDisplayName = zh_CN,CFA-44 "吸血鬼" 多用途战机 [泛亚联军T3多用途战机]
+AddDisplayName = en_US,CFA-44
+MaxHp = 400
+ArmorMinDamage = 11
+
+AddPartwing =  0.00, 3.10, -4.182,  -1,0,0,  -50
+SweepWingSpeed = 0.9
+
+
+Speed = 3.0
+
+FlareType = 4
+ParticlesScale = 1.0
+EnableSeaSurfaceParticle = true
+EnableGunnerMode = true
+MaxFuel         = 28000
+FuelConsumption = 20
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+DamageFactor = 0.0
+HUD = CFA44
+
+ThirdPersonDist = 25
+
+MobilityYaw = 30
+
+MobilityRoll = 2.5
+MobilityPitch = 9.5
+
+CameraPosition =1.355, 0.7385, -3.151
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+
+AddSeat 	=  0.00,  2.35,  1.445
+
+
+
+AddPartNozzle =  1.234, 2.021, -14.46, -1,0,0
+AddPartNozzle = -1.234, 2.021, -14.46, -1,0,0
+
+AddPartWeaponBay = future_eml,  -2.574, 2.581, -6.017,  0.000, 0.000, -1.000, -80
+AddPartWeaponBay = future_eml,   -1.173, 2.740, -6.016, 0.000, 0.000, 1.000, -70
+AddPartWeaponBay = future_eml,   1.173, 2.740, -6.016, 0.000, 0.000, 1.000, 70
+AddPartWeaponBay = future_eml,  2.574, 2.581, -6.017,  0.000, 0.000, -1.000, 80
+AddPartWeaponBay = future_ADMM/future_ADMM_aa,  -0.4292, 1.460, -6.513,  0.000, 0.000, 1.000, -85
+AddPartWeaponBay = future_ADMM/future_ADMM_aa,  0.4292, 1.460, -6.513,  0.000, 0.000, 1.000, 85
+AddPartSlideweaponbay =future_eml, 0,0.55,0.00
+AddPartSlideweaponbay =future_eml, 0,0.55,0.00
+
+
+
+AddPartLG =  0, 2.106, -1.055,  1,0,0,100
+AddPartLG =  0, 2.397, -3.375,  1,0,0,  -45
+
+AddPartLGRev =  0, 1.883, -0.4858,  1,0,0,-100
+
+AddPartLGRev =  -0.3264, 1.677, -2.339,  0.12,0.1,1,-90
+
+AddPartLGRev =  0.3264, 1.677, -2.339,  -0.12,0.1,1,90
+
+AddPartLG =  -2.012, 2.173, -9.479,  0,0,0,-90
+AddPartLGRev =  -2.425, 2.131, -9.639 , 0,0,1,-90
+AddPartLG =  2.012, 2.173, -9.479,  0,0,0,-90
+AddPartLGRev =  2.425, 2.131, -9.639,  0,0,1,90
+
+AddPartThrottle = -0.3785, 2.618, 2.350,  0, 0, 0,  0,  0, 0, -6
+
+
+
+
+AddPartSteeringWheel =  1.411,2.356,-1.177, 1, 0, 0.0,   -7
+
+AddPartSteeringWheel =  -1.411,2.356,-1.177, 1, 0, 0.0,   7
+
+
+
+AddWeapon = future_eml,  -1.819,  2.818,  -4.849,  -0.4,  0.0
+AddWeapon = future_eml,  1.819,  2.818,  -4.849,  0.4,  0.0
+
+AddWeapon = future_admm,      -0.2292, 1.460, -6.513,  -15,15.0
+AddWeapon = future_admm,     0.2292, 1.460, -6.513,  15,15.0
+AddWeapon = future_admm,      -0.2292, 1.460, -6.513,  -10,30.0
+AddWeapon = future_admm,     0.2292, 1.460, -6.513,  10,30.0
+AddWeapon = future_admm,      -0.2292, 1.460, -6.513,  -5,35.0
+AddWeapon = future_admm,     0.2292, 1.460, -6.513,  5,35.0
+
+AddWeapon = future_admm_aa,      -0.2292, 1.460, -6.513,  -15,15.0
+AddWeapon = future_admm_aa,     0.2292, 1.460, -6.513,  15,15.0
+AddWeapon = future_admm_aa,      -0.2292, 1.460, -6.513,  -10,25.0
+AddWeapon = future_admm_aa,     0.2292, 1.460, -6.513,  10,25.0
+AddWeapon = future_admm_aa,      -0.2292, 1.460, -6.513,  -5,30.0
+AddWeapon = future_admm_aa,     0.2292, 1.460, -6.513,  5,39.0
+
+
+
+
+AddPartCanopy =  0.00, 3.507, -2.568,  -1,0,0,  40
+AddPartCanopy =  0.00, 3.903, -2.891,  -1,0,0,  0
+
+BoundingBox =  0.00, 2.40, 1.5,  3.0, 3.5
+BoundingBox =  0.00, 1.90, -3.0,  4.9, 3.2
+BoundingBox =  0.00, 1.90, -7.80, 5.0, 3.2
+BoundingBox =  0.00, 1.90, -12.50, 4.0, 3.2
+BoundingBox = -4.2, 2.20, -10.50,  5.0, 1.4
+BoundingBox =  4.2, 2.20, -10.50,  5.0, 1.4
+BoundingBox =  0.00, 2.20, -14.3,  3.5, 2.0,1.5
+EntityWidth  = 0.65
+EntityHeight = 0.65
+
+NameOnModernAARadar = ?
+NameOnEarlyAARadar = ?
+NameOnModernASRadar = ?
+NameOnEarlyASRadar = ?
+RadarType = Modern_AA

@@ -1,0 +1,30 @@
+DisplayName = ²¨¶¯ÅÚ
+Type = Rocket
+Power = 10000
+Acceleration = 50
+ModelBullet = BDP-1
+Explosion = 18
+Explosionblock = 0
+Sight = MoveSight
+Flaming = true
+Sight = MoveSight
+Delay = 0
+SoundDelay = 1
+SoundPitch = 1.0
+Sound = MC
+Accuracy = 0.00000
+HeatCount = 2000
+MaxHeatCount = 1
+SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
+DisplayMortarDistance = true
+
+
+
+
+AddMuzzleFlash      =  1.6,      0.08,        2,  170,254,159,84
+AddMuzzleFlash      =  1.5,      0.06,        1,  150,254,219,184
+AddMuzzleFlashSmoke =  -1.2,  1,   5.0,  2.0, 15,  180,250,245,240
+AddMuzzleFlashSmoke =  -1.2,  1,   3.0,  1.0,  5,  180,220,217,214
+
+MaxAmmo = 3
+SuppliedNum = 3

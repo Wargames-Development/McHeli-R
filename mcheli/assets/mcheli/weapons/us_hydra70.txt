@@ -1,0 +1,35 @@
+DisplayName = Hydra70  70MM Rocket
+Type = Rocket
+Power = 40
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 3
+Explosionblock = 0
+Sound = rocket_snd
+Flaming = false
+Sight = MoveSight
+Delay = 2
+ReloadTime = 110
+Round = 14
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+HeatCount = 50
+MaxHeatCount = 650
+SoundVolume = 10
+DamageFactor = plane, 2
+DamageFactor = heli, 2
+DamageFactor =vehicle , 1
+
+DisplayMortarDistance = true
+Accuracy = 0.5
+
+
+Gravity = -0.002
+
+
+MaxAmmo = 76
+SuppliedNum = 76
+Item =  1, iron_ingot
+
+WeaponSwitchSound = Switch_Jet_Weapon_Missile

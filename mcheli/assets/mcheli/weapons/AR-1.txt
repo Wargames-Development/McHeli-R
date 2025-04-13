@@ -1,0 +1,16 @@
+DisplayName = AR-1
+Type = ASMissile
+Power = 160
+Acceleration = 4.2
+Explosion = 10
+Flaming = true
+Sight = MoveSight
+Delay = 300
+ModelBullet = agm84
+Sound = missile_2_snd
+
+MaxAmmo = 8
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

@@ -1,0 +1,30 @@
+DisplayName = 9M117ÅÚÉä·´Ì¹¿Ëµ¼µ¯
+Type = TVMissile
+Power = 350
+Acceleration = 4
+Explosion = 6
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 50
+ModeNum = 2
+ModelBullet = agm114
+Sound = sa-2_snd
+ReloadTime = 100
+Round = 1
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.0
+ProximityFuseDist = 1
+;DEBUG:Manual control only
+FixMode = 1
+
+
+
+MaxAmmo = 16
+SuppliedNum = 8
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

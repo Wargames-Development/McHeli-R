@@ -1,0 +1,22 @@
+DisplayName = ¸ßËÙµ¼µ¯
+Type = TVMissile
+Power = 5000
+Acceleration = 2.5
+Explosion = 10
+Flaming = false
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+ModelBullet = agm114
+Sound = missile_1_snd
+
+DamageFactor = tank, 3.0
+
+;DEBUG:Manual control only
+;FixMode = 1
+
+DamageFactor = player, 20.0
+; DEBUG
+;RigidityTime = 30
+
+

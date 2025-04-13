@@ -1,0 +1,26 @@
+DisplayName = MB-500[8]
+Type = Bomb
+Power = 30
+ModelBullet = MB-500
+Acceleration = 0.1
+Explosion = 9
+ExplosionInWater = 7
+Flaming = false
+Sight = None
+Delay = 0
+Sound = bomb_snd
+
+ReloadTime = 200
+Round = 8
+HeatCount = 200
+MaxHeatCount = 1600
+
+DamageFactor = tank, 2
+DamageFactor = vehicle, 2
+DamageFactor = plane, 1
+DamageFactor = helicopter, 1
+
+MaxAmmo = 16
+SuppliedNum = 2
+Item =  3, iron_ingot
+Item =  3, gunpowder

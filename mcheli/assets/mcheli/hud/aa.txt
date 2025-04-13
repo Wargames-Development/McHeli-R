@@ -1,0 +1,45 @@
+If=sight_type==2&&lock<=0.91
+DrawTexture = aa0, -500, -250,  1000,500, 0,0, 2048,1024
+EndIf
+If=sight_type==2&&lock>0.81
+DrawTexture = aa0b, -500, -250,  1000,500, 0,0, 2048,1024
+EndIf
+
+
+If=sight_type==2&&lock==0
+DrawTexture = aa1,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+EndIf
+If=lock<=0.08&&lock>0
+DrawTexture = aa1,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+EndIf
+If=lock<=0.16&&lock>0.08
+DrawTexture = aa2,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+EndIf
+If=lock<=0.24&&lock>0.16
+DrawTexture = aa3,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+EndIf
+If=lock<=0.32&&lock>24
+DrawTexture = aa4,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+EndIf
+If=lock<=0.40&&lock>32
+DrawTexture = aa5,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+EndIf
+If=lock<=0.48&&lock>0.40
+DrawTexture = aa6,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+EndIf
+If=lock<=0.56&&lock>0.48
+DrawTexture = aa7,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+EndIf
+If=lock<=0.64&&lock>0.56
+DrawTexture = aa8,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+EndIf
+If=lock<=0.72&&lock>0.64
+DrawTexture = aa9,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+EndIf
+If=lock<=80&&lock>0.72
+DrawTexture = aa10,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+EndIf
+If=lock<=1&&lock>0.81
+DrawTexture = aa11,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+EndIf
+

@@ -1,0 +1,22 @@
+DisplayName = 集束炸弹(无制导模式）
+Type = Bomb
+Power = 150
+Acceleration = 0.1
+Explosion = 5
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 5
+Bomblet = 25
+BombletSTime = 20
+BombletDiff = 1.2
+Sound = bomb_snd
+Round = 1
+
+ModelBullet = MLGB
+ModelBomblet = cbc
+
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder

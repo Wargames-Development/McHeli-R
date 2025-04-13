@@ -1,0 +1,31 @@
+﻿DisplayName = 105mm-ToxicGas-Cannon
+Type = Dispenser
+Acceleration = 7
+Gravity = 0.00
+ModelBullet = bullet76mm
+Sight = MoveSight
+Delay = 80
+SoundDelay = 0
+SoundPitch = 0.7
+SoundVolume = 10
+;SetCartridge = cartridge, 0.1,  180, 0, 10.0, -0.04, 0.40
+Sound = cannon_1_snd
+SmokeSize   = 0
+
+Round = 30
+ReloadTime = 60
+
+AddMuzzleFlash      =  7.2,     1.80,        7,  200,254,129,44
+AddMuzzleFlash      =  7.1,     1.75,        6,  200,254,219,104
+AddMuzzleFlash      =  7.0,     1.70,        5,  200,254,219,184
+AddMuzzleFlashSmoke =  8.2, 20, 10.0,  3.0, 45,  220,160,140,120
+AddMuzzleFlashSmoke = 10.2, 10, 11.0,  6.0, 35,  200,190,170,150
+
+
+
+DispenseItem = flansmod:Gas
+DispenseRange = 1
+
+MaxAmmo = 120
+SuppliedNum = 30
+Item =  6, flansmod:Gas

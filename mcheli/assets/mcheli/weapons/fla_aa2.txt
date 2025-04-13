@@ -1,0 +1,36 @@
+DisplayName = VT1 防空导弹[电视引导]
+Type = TVMissile
+Power = 100
+Acceleration = 3.5
+Explosion = 7
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 30
+ModeNum = 2
+ModelBullet = 9m113m
+Sound = sa-2_snd
+ReloadTime = 100
+Round = 2
+DamageFactor = player, 1
+DamageFactor = plane, 2.5
+DamageFactor = heli, 2.5
+DamageFactor =vehicle , 1
+DamageFactor = tank, 2
+ProximityFuseDist = 1
+;DEBUG:Manual control only
+
+
+
+AddMuzzleFlashSmoke =  0.5, 10,  5.0,  4.0, 65,  220,160,140,120
+AddMuzzleFlashSmoke = 0.6, 7,  7.0,  7.0, 55,  200,190,170,150
+
+
+HeatCount = 500
+MaxHeatCount = 800
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

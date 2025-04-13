@@ -1,0 +1,30 @@
+;本文件由TV90及BFMC开发团队制作，禁止盗用！！！
+;背景
+If = hp_rto>0.25
+DrawTexture = M1A2BNK, (-800*width/683)-stick_x*3, (-800*height/353)-stick_y*3+pitch*3,1600*width/683,1600*height/353, 0,0, 1960,1960
+EndIf
+
+If = hp_rto<=0.25
+DrawTexture = M1A2BNKLOWHP, (-800*width/683)-stick_x*5, (-800*height/353)-stick_y*5+pitch*3,1600*width/683,1600*height/353, 0,0, 1960,1960
+EndIf
+
+Color =0xFFFFE400
+DrawGraduationYaw   = plyr_yaw, 0, 0, -100
+DrawLine = 0,-67,   2,-63,  -2,-63,   0,-67
+DrawCenteredString =   0, -61, "%.0f", PLYR_YAW
+DrawCenteredString =  85, -4, "%.0f", PLYR_PITCH
+DrawLine =   75,-5,    95,-5,    95,5,    75,5,   75,-5
+Color = 0xFFFFE400
+DrawLine =  115, 66,   177, 66,    177, 74,    115, 74,   115, 66,
+DrawString  = 99, 68, "%.0f%%"   , THROTTLE
+DrawString  = 85, 68, "KPH"
+DrawRect    = 116, 67, throttle*60, 6
+
+DrawLine =  115, 30,   177, 30,    177, 22,    115, 22,   115,  30,
+Color = hp_rto>0.25? 0xFFFFE400: 0xFFFFE400
+DrawString  = 120,     13, "%3.0f", HP_PER
+DrawString  = 120+26,  13, "/ 100", HP_PER
+DrawRect    = 116,    23,   hp_rto*60, 6
+
+DrawTexture = mbt_hud, 46,50,  32,32,  0, 0,64,64, yaw - plyr_yaw
+DrawTexture = mbt_hud, 46,50,  32,32, 64, 0,64,64, 

@@ -1,0 +1,30 @@
+DisplayName = ×èÄáÈË 127ºÁÃ×»ð¼ýµ¯
+Type = Rocket
+Power = 100
+ModelBullet = hydra70
+Acceleration = 6.0
+Explosion = 5
+Explosionblock = 2
+Sound = rocket_snd
+Flaming = false
+Sight = MoveSight
+Delay = 3
+ReloadTime = 110
+Round = 8
+HeatCount = 70
+MaxHeatCount = 490
+
+DamageFactor = plane, 0.8
+DamageFactor = heli, 0.8
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.8
+
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+
+MaxAmmo = 16
+SuppliedNum = 8
+Item =  10, iron_ingot
+
+

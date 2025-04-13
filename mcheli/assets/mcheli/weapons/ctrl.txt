@@ -1,0 +1,7 @@
+DisplayName = 按左ctrl解锁自由视角
+Type = TargetingPod
+Sight = MoveSight
+Delay = 60
+Sound = lockon
+
+Target = block

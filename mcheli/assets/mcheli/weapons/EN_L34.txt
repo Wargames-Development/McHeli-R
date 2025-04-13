@@ -1,0 +1,55 @@
+DisplayName = L34 Smoke
+Type = Dispenser
+DispenseItem = mcheli:m18_white
+;DispenseItem = mcheli:tank_smoke
+;DispenseItem = mcheli:tanksmoke
+DispenseRange = 1
+
+
+disablesmoke = true
+StackSize = 0.5
+AliveTime = 10
+SmokeSize = 0.5
+SmokeNum = 6
+SmokeColor = 255, 255, 255
+SmokeVelocityVertical   = 0.1
+SmokeVelocityHorizontal = 0.1
+
+DispenseAcceleration = 9
+
+group = maingun
+Acceleration = 9
+Gravity = -0.01
+RidableOnly = true
+ModelBullet = None
+Flaming = false
+Sight = MoveSight
+Delay = 90
+SoundPitchRandom = 0.0
+SoundVolume = 10.0
+
+Accuracy = 1
+DisplayMortarDistance = true
+SoundPitch = 1.0
+Sound = NATO_120_snd
+soundvolume = 10
+DamageFactor = tank,0
+DamageFactor = helicopter,0
+DamageFactor = plane,0
+DamageFactor = player, 0
+
+RecoilBufCount = 40, 5
+Recoil = 1.8
+
+
+AddMuzzleFlash      =  8.2,      2.10,        7,  220,254,159,74
+AddMuzzleFlash      =  8.1,      2.05,        6,  220,254,219,104
+AddMuzzleFlash      =  8.0,      2.00,        5,  220,254,219,184
+AddMuzzleFlashSmoke =  8.2, 30,  12.0,  4.0, 65,  220,160,140,120
+AddMuzzleFlashSmoke = 10.2, 20,  13.0,  7.0, 55,  200,190,170,150
+
+
+
+MaxAmmo = 10
+SuppliedNum = 1
+Item =  1, mcheli:m18_white

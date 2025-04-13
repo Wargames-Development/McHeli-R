@@ -1,0 +1,18 @@
+DisplayName = 100LB bomb
+Type = Bomb
+Power = 35
+Acceleration = 0.1
+Explosion = 4
+ExplosionBlock = 3
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 5
+Sound = bomb_snd
+
+ReloadTime = 100
+MaxAmmo = 12
+SuppliedNum = 3
+
+Item = 2, iron_ingot
+Item = 2, gunpowder

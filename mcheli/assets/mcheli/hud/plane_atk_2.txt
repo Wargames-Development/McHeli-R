@@ -1,0 +1,171 @@
+﻿Call = Lock
+; 色設定を緑にしてUAVの電波の強さ描画を呼び出す。色設定はCall先にも引き継がれる。
+Color = 0xFF28d448
+Call = uav_fs
+
+; UAVかガンナーモードの場合はカメラの倍率を表示する
+If = is_uav || gunner_mode
+	Color = 0xCFFFFFFF
+	DrawString = -70, 10, "x%.1f", CAM_ZOOM
+EndIf
+
+; 色設定を緑にして照準描画を呼び出す。色設定はCall先にも引き継がれる。
+Color = 0xFF28d448
+
+; 色設定を緑にして目盛を描画する。
+Color = 0xFF28d448
+DrawGraduationYaw   = plyr_yaw, 0,   0, -120
+DrawLine = 0,-87,   2,-83,  -2,-83,   0,-87
+DrawCenteredString =   0, -81, "%.0f", PLYR_YAW
+
+DrawGraduationPitch2 = plyr_pitch, -roll,  motion_x, motion_y
+
+
+Color = 0xFF28d448
+If = free_look==1
+	DrawString = -90, -80, "FREE LOOK"
+Endif
+
+If = auto_pilot==1
+	DrawString = 50, 0, "Auto Pilot"
+Endif
+
+If = hovering==1
+	Color = 0xCF1FFF1F
+	DrawCenteredString = 0, 20, "HOVERING"
+Endif
+
+If = vtol_stat>0
+	; VTOL切替中は赤、VTOL中は緑
+	Color = vtol_stat==2? 0xFF28d448: 0xFFDF0408
+	DrawString = 50, 10, "VTOL"
+EndIf
+
+;近地警告
+If = altitude<=30&&motion_y<=0&&(pitch>45||pitch<-60)&&free_look ==0
+DrawTexture = AH6JLandingWARN, -150, -150, 300,300 ,0,0, 500,500,0
+EndIf
+
+;速度，海拔
+Color = 0xFF28d448
+DrawString = -150, 90, "G  %.2f",motion_Y
+Color = 0xFF28d448
+DrawString = -150, 75, "M  %.2f",THROTTLE
+Color = 0xFF28d448
+DrawString = -150, 60, "P  %.2f",PLYR_PITCH
+DrawCenteredString = -100, -92, "%3d", ALTITUDE
+DrawCenteredString = 100, -92, "%.1f", THROTTLE
+
+;背景
+DrawTexture = F35_MainHUD, -400, -200,  800,400, 0,0, 2048,1024
+DrawTexture = JET_Cross, -400-stick_x*25, -200-stick_y*50,  800,400, 0,0, 2048,1024
+
+;武器
+
+;机炮
+If = sight_type==0&&reloading==0&&wpn_heat<1.0
+DrawTexture = JET_Cannon,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+Color = 0xFF28d448
+DrawCenteredString = 0, 55, "%s",  WPN_NAME
+Endif
+If = sight_type==0&&(reloading==1||wpn_heat==1.0)
+DrawTexture = JET_Cannon,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+Color = 0xFFDF0408
+DrawCenteredString = 0, 55, "%s",  WPN_NAME
+Endif
+
+;火箭弹
+If = sight_type==1&&dsp_mt_dist==1&&reloading==0&&wpn_heat<1.0
+DrawTexture = AH64Cross2, -30-stick_x*15, -30-stick_y*15,  60,60, 0,0, 128,128
+Color = 0xFF28d448
+DrawCenteredString = 0, 55, "%s",  WPN_NAME
+Endif
+If = sight_type==1&&dsp_mt_dist==1&&(reloading==1||wpn_heat==1.0)
+DrawTexture = AH64Cross2, -30-stick_x*15, -30-stick_y*15,  60,60, 0,0, 128,128
+Color = 0xFF28d448
+DrawCenteredString = 0, 55, "%s",  WPN_NAME
+Endif
+
+;制导炸弹
+If = sight_type==1&&reloading==0&&wpn_heat<1.0
+Color = 0xFF28d448
+DrawCenteredString = 0, 55, "%s",  WPN_NAME
+Endif
+If = sight_type==1&&(reloading==1||wpn_heat==1.0)
+Color = 0xFF28d448
+DrawCenteredString = 0, 55, "%s",  WPN_NAME
+Endif
+
+
+
+;武器热量
+If = is_heat_wpn==1
+	Color = 0xFF28d448
+	DrawRect = -20, 65, 41, 2
+	Color = 0xFFDF0408
+	DrawRect = -20, 65, 41*wpn_heat, 2
+EndIf
+
+;血量
+Color = hp_rto>0.25? 0xFF28d448: #FFFF6A6A
+DrawString  = 150,     50, "HP %3.0f", HP_PER
+
+;红外线热诱弹
+If = have_flare==1
+        DrawTexture = ECM, -200, -100, 70,20 ,0,0, 280,80,0
+Endif
+If = have_flare==1&&can_flare==1
+        DrawTexture = Ready, -200, -80, 70,20 ,0,0, 280,80,0
+Endif
+If = have_flare==1&&can_flare==0
+        DrawTexture = NotReady, -200, -80, 70,20 ,0,0, 280,80,0
+Endif
+
+If=lock<=0.15&&lock>0
+DrawTexture = LOCK1 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.2&&lock>0.15
+DrawTexture = LOCK2 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.25&&lock>0.2
+DrawTexture = LOCK3 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.3&&lock>0.25
+DrawTexture = LOCK4 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.35&&lock>0.3
+DrawTexture = LOCK5 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.4&&lock>0.35
+DrawTexture = LOCK6 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.45&&lock>0.4
+DrawTexture = LOCK7 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.5&&lock>0.45
+DrawTexture = LOCK8 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.55&&lock>0.5
+DrawTexture = LOCK9 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.6&&lock>0.55
+DrawTexture = LOCK10 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.65&&lock>0.6
+DrawTexture = LOCK10 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.7&&lock>0.65
+DrawTexture = LOCK9 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.75&&lock>0.7
+DrawTexture = LOCK8 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.8&&lock>0.75
+DrawTexture = LOCK9 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.85&&lock>0.8
+DrawTexture = LOCK10 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=1&&lock>0.85
+DrawTexture = LOCK11 ,-64, -64,  128,128, 0,0, 256,256
+EndIf

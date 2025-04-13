@@ -1,0 +1,34 @@
+DisplayName = 7.62毫米高射速机枪
+Type = MachineGun1
+modelbullet = bullet105mm
+Power = 11
+Explosion = 0
+Explosionblock = 0
+Acceleration = 16.0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+ReloadTime = 80
+Round = 150
+SoundDelay = 3
+Accuracy = 3.0
+; SetCartridge = model_name, Acceleration, Yaw, Pitch, ModelScale, Gravity, Bound
+SetCartridge = cartridge, 0.0, 0, 0, 2.00, -0.04, 0.40
+Sound = gun_l2_snd
+HeatCount = 1
+MaxHeatCount = 150
+
+DamageFactor = player, 0.5
+DamageFactor = plane, 1.7
+DamageFactor = heli, 2
+DamageFactor =vehicle , 2
+DamageFactor = tank, 1.0
+AddMuzzleFlash      =  0.0,      0.32,        3,  150,254,159,84
+AddMuzzleFlash      =  0.0,      0.30,        2,  150,254,219,184
+AddMuzzleFlashSmoke =  2.2,  1,   4.0,  1.0, 15,  180,250,245,240
+AddMuzzleFlashSmoke =  3.2,  1,   3.0,  1.0,  5,  180,220,217,214
+
+MaxAmmo = 1600
+SuppliedNum = 1600
+Item =  3, iron_ingot
+

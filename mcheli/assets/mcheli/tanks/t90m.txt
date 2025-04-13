@@ -1,0 +1,118 @@
+DisplayName = T90M
+AddDisplayName = zh_CN,T90M “突破”主战坦克 
+AddDisplayName = en_US,T-90M Proryv-3 MBT
+ItemID = 91128
+MaxHp = 300
+Speed = 0.70
+
+Gravity = -0.1
+
+DamageFactor = 0.00
+EnableNightVision = true
+EnableEntityRadar = false
+Sound = mbt_run
+HUD = mbt_hud2, mbt_gnr2
+WeightType = Tank
+DefaultFreelook = true
+
+CameraZoom = 6
+ThirdPersonDist = 12
+
+FlareType = 10
+
+ArmorDamageFactor = 1
+
+ThrottleUpDown = 2.0
+MobilityYawOnGround = 2.6
+OnGroundPitchFactor = 3.9
+OnGroundRollFactor  = 3.9
+MotionFactor = 0.9
+
+
+EnableBack = true
+SetWheelPos =  1.79,  -0.21,  4.14, 3.01, 0.83, -1.11, -3.26
+
+SubmergedDamageHeight = 2
+WeightedCenterZ = 0.0
+
+
+
+
+PivotTurnThrottle = 0.0
+
+AddGunnerSeat =  0.00, 1.58, 0.0,    -0.6, 1.78, 2.0,  false, -90, 90, true
+AddGunnerSeat = -0.6034, 4.304, -1.175,  -0.5475, 3.012, -1.248, false, -90, 90, true
+Entitywidth=0
+Entityheight=0
+
+HideEntity = true
+
+CameraPosition = 0.8,  2.4, 2.01, true
+CameraRotationSpeed = 40
+
+StepHeight = 3
+HideEntity = true
+
+ArmorMinDamage = 18
+
+
+MaxFuel         = 1500
+FuelConsumption = 1.0
+
+TrackRollerRot = 50
+
+
+AddCrawlerTrack = true, 0.23, -2.40,  -0.30/3.13, -0.17/3.46, 0.34/4.31, 0.61/4.42, 0.87/4.31,0.98/4.04, 0.98/-3.32, 0.87/-3.59, 0.61/-3.70, 0.34/-3.59, -0.31/-2.12,
+AddCrawlerTrack = true, 0.23, 2.40,  -0.30/3.13, -0.17/3.46, 0.34/4.31, 0.61/4.42, 0.87/4.31, 0.98/4.04, 0.98/-3.32, 0.87/-3.59, 0.61/-3.70, 0.34/-3.59, -0.31/-2.12,
+
+
+AddTrackRoller = -2.32,  0.6047,  4.039
+AddTrackRoller = -2.32,  0.1928,  3.127
+AddTrackRoller = -2.32,  0.1971,  2.085
+AddTrackRoller = -2.32,  0.1971,  1.032
+AddTrackRoller = -2.32,  0.1971, -0.002433
+AddTrackRoller = -2.32,  0.1971, -1.032
+AddTrackRoller = -2.32,  0.1971, -2.126
+AddTrackRoller = -2.32,  0.6040, -3.331
+
+
+
+
+
+MinRotationPitch = -17
+MaxRotationPitch =  8
+
+
+
+
+
+
+AddTurretWeapon = ru_ap,  0.00, 1.705, 1.371,  0.0, 0.0, true,1, 0,-360,360, -17, 8
+AddTurretWeapon = ru_he,  0.00, 1.705, 1.371,  0.0, 0.0, true,1, 0,-360,360, -17, 8
+AddTurretWeapon = ru_atgm,  0.00, 1.705, 1.371,  0.0, 0.0, true,1, 0,-360,360, -17, 8
+
+AddTurretWeapon = MG_762,      -0.35, 1.705, 0.34,  0.0, 0.0, true,1, 0,-360,360, -17, 8
+AddPartWeapon = ru_heat /ru_he/ru_atgm, false, true, false,  0.00, 1.58, 0.0, 0
+AddPartWeaponChild = false, true, 0.00, 1.705, 1.371
+AddPartWeaponChild = false, true, 0.00, 1.705, 1.371, 0.5
+
+AddPartTurretWeapon = mg_127, true, true, false, -0.5475, 2.512, -1.248
+AddPartWeaponChild   = false, true, -0.2087, 3.072, -1.431
+AddTurretWeapon = mg_127, -0.2087, 3.072, -1.431, 0.0, 0.0, false, 2, 0, -360,360, -60,10
+
+
+BoundingBox =  0.0, 0.809, 0.211,   5.5, 2,  0.65
+BoundingBox =  1.0, 0.809, 3.13,   2, 2,  0.4
+BoundingBox =  -1.0, 0.809, 3.13,   2, 2,  0.4
+BoundingBox =  1.0, 0.5, 3.7,   2, 0.7,  1
+BoundingBox =  -1.0, 0.5, 3.7,   2, 0.7,  1
+BoundingBox =  1.0, 2.19, 1.13,   2, 1.2,  0.4
+BoundingBox =  -1.0, 2.19, 1.13,   2, 1.2,  0.4
+BoundingBox =  1.0, 2.19, -0.831,   2, 1.2,  0.9
+BoundingBox =  -1.0, 2.19, -0.831,   2, 1.2,  0.9
+BoundingBox =  1.0, 0.809, -2.9,   2, 2,  1.7
+BoundingBox =  -1.0, 0.809, -2.9,   2, 2,  1.7
+
+
+
+;AddRecipe = "TBT",  "TXT",  "IDI",  T, tnt_minecart, B, bow, X, dispenser, I, iron_ingot, D, diamond

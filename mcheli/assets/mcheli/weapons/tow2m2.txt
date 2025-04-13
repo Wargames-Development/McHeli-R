@@ -1,0 +1,27 @@
+DisplayName = ÌÕ2B ·´Ì¹¿Ëµ¼µ¯
+Type = ATMissile
+Power =600
+Acceleration = 1.5
+Explosion = 6
+ExplosionBLOCK = 0
+Flaming = false
+Sight = MissileSight 
+Delay = 80
+LockTime = 1
+ModeNum = 2
+Round = 2
+reloadtime =100
+ProximityFuseDist = 1
+ModelBullet = agm114
+
+Sound = sa-2_snd
+Group = MainGun
+heatcount = 700
+maxheatcount  = 800
+
+
+
+MaxAmmo = 10
+SuppliedNum = 5
+Item =  0, iron_ingot
+

@@ -1,0 +1,22 @@
+DisplayName = 超高速加力导弹
+Type = TVMissile
+Power = 1000
+Acceleration = 16.0
+Explosion = 5
+Flaming = false
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+ModelBullet = agm114
+Sound = missile_1_snd
+
+DamageFactor = tank, 3.0
+
+;DEBUG:Manual control only
+;FixMode = 1
+
+DamageFactor = player, 20.0
+; DEBUG
+;RigidityTime = 30
+
+

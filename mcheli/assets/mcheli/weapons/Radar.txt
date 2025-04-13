@@ -1,0 +1,9 @@
+DisplayName = Radar
+Type = TargetingPod
+Sight = None
+Delay = 100
+Sound = SCAN
+Length = 500
+Radius = 45
+Target = planes/helicopters/tanks
+MarkTime = 8

@@ -1,0 +1,2 @@
+DisplayName = Ç°Ôµ½óÒíÕ¹¿ª
+Type = Dummy

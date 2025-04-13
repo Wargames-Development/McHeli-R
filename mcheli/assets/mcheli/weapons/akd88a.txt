@@ -1,0 +1,23 @@
+DisplayName = 空地88空对地导弹
+Type = ATMissile
+Power = 320
+Acceleration = 4.0
+Explosion = 12
+Flaming = true
+Sight = MissileSight 
+Delay = 50
+LockTime = 5
+ModeNum = 2
+ProximityFuseDist = 1
+ModelBullet = agm84
+Sound = missile_1_snd
+RidableOnly = true
+Round = 2
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

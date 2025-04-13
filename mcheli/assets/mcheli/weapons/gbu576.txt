@@ -1,0 +1,23 @@
+DisplayName = GBU-57ื๊ตุ6รื
+Type = ASMissile
+Power = 15000
+Acceleration = 2
+Explosion = 15
+Flaming = false
+Sight = MoveSight
+Delay = 120
+Round = 2
+ReloadTime = 190
+SoundVolume = 3
+SoundPitch = 0.1
+Sound = bomb_snd
+ModelBullet = gbu57
+Gravity = -0.01
+DisableSmoke = true
+Piercing  = 6
+DamageFactor = player, 100.0
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  4, iron_ingot
+Item =  4, gunpowder
+

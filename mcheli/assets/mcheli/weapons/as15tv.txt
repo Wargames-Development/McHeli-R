@@ -1,0 +1,23 @@
+DisplayName = AS-15 TV
+Type = TVMissile
+Power = 280
+Acceleration = 2.2
+Explosion = 18
+Flaming = true
+Sight = MoveSight
+Delay = 40
+ModelBullet = asmissile
+Sound = missile_2_snd
+ModeNum = 2
+Piercing  = 2
+
+
+DamageFactor = tank, 2.0
+
+
+
+MaxAmmo = 5
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  2, redstone

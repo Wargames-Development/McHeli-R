@@ -1,0 +1,18 @@
+DisplayName = tvga
+Type = TVMissile
+Power = 20000
+Acceleration = 2.0
+Explosion = 20
+Sight = MoveSight
+Delay = 220
+ModeNum = 2
+ModelBullet = agm158
+Sound = missile_1_snd
+DisableSmoke = true
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  3, iron_ingot
+Item =  3, gunpowder

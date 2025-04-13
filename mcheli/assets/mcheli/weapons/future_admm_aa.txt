@@ -1,0 +1,34 @@
+DisplayName = ADMM 多用途导弹[对空模式]
+Type = AAMissile
+Power = 60
+Acceleration = 2.2
+Explosion = 3
+ExplosionBLOCK = 1
+Flaming = false
+Sight = MissileSight 
+Delay = 0
+LockTime = 1
+ModeNum = 2
+Round =6
+reloadtime =100
+ProximityFuseDist = 1
+ModelBullet = agm14
+Sound = missile_11_snd
+RidableOnly = false
+HeatCount = 200
+MaxHeatCount = 1000
+
+RigidityTime = 30
+TimeFuse = 180
+DisplayMortarDistance = true
+
+
+DamageFactor = player, 0.5
+DamageFactor = plane, 1.5
+DamageFactor = heli, 1.5
+DamageFactor =vehicle , 1.1
+DamageFactor = tank, 1.1
+
+MaxAmmo = 12
+SuppliedNum = 2
+Item =  10, iron_ingot

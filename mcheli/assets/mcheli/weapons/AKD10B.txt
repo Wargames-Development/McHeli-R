@@ -1,0 +1,30 @@
+DisplayName = AKD10反坦克导弹 [电视制导]
+Type = TVMissile
+Power = 430
+Acceleration = 3
+Explosion = 6
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+ModelBullet = agm114
+Sound = missile_1_snd
+ReloadTime = 100
+Round = 2
+DamageFactor = player, 1
+DamageFactor = plane, 3
+DamageFactor = heli, 2
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.0
+ProximityFuseDist = 1
+HeatCount = 1600
+MaxHeatCount = 2000
+TimeFuse = 100
+
+
+
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  1, iron_ingot

@@ -1,0 +1,30 @@
+DisplayName = RAM-101R °∞‘¬—“°±  ÷–æ‡¿Î¿πΩÿµØ 
+Type = AAMissile
+Power = 13
+Acceleration = 6
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 7
+ReloadTime = 200
+Round = 8
+LockTime = 7
+ProximityFuseDist = 1
+ModelBullet = RAM-77RM
+Sound = missile_1_snd
+
+FAE = true
+
+DamageFactor = plane, 5.0
+DamageFactor = heli, 6.0
+
+HeatCount = 65
+MaxHeatCount = 220
+
+RigidityTime = 30
+
+MaxAmmo = 16
+SuppliedNum = 2
+Item =  4, iron_ingot
+Item =  4, gunpowder
+Item =  4, redstone

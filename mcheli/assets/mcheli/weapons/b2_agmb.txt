@@ -1,0 +1,30 @@
+DisplayName = AGM158巡航导弹 [电视制导]
+Type = TVMissile
+Power = 1000
+Acceleration = 4.5
+Explosion = 12
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 180
+ModeNum = 2
+ModelBullet = AGM158
+Sound = missile_1_snd
+ReloadTime = 100
+Round = 2
+DamageFactor = player, 1
+DamageFactor = plane, 2
+DamageFactor = heli, 1.5
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.0
+ProximityFuseDist = 1
+HeatCount = 1400
+MaxHeatCount = 1400
+TimeFuse = 180
+DamageFactor = plane, 0.3
+
+
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  1, iron_ingot

@@ -1,0 +1,19 @@
+DisplayName = MK82 ÎÞÖÆµ¼Õ¨µ¯
+Type = Bomb
+Power = 500
+Acceleration = 0.1
+Explosion = 10
+Explosionblock = 0
+ExplosionInWater = 10
+Flaming = false
+Sight = None
+Delay = 5
+Sound = bomb_snd
+round = 2
+reloadtime =100
+HeatCount = 500
+MaxHeatCount = 900
+
+MaxAmmo = 4
+SuppliedNum = 8
+Item =  1, iron_ingot

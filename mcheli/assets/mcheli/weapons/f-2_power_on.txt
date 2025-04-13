@@ -1,0 +1,11 @@
+﻿DisplayName = 機体電源オン
+Type = MachineGun1
+Power = 0
+Accuracy = 0
+Flaming = true
+Sight = None
+Delay = 1000
+ModelBullet = none
+Particle = none
+Sound = f110_start_snd
+SoundVolume = 5.0

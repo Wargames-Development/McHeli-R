@@ -1,0 +1,30 @@
+DisplayName = ·´Ç±»ð¼ýµ¯
+Type = Rocket
+Power = 100
+Acceleration = 4.0
+Flaming = true
+Sight = None
+Gravity = -0.04
+Delay = 1
+SoundVolume = 0.6
+SoundPitch = 1.0
+Accuracy = 1.0
+Explosion = 7
+ExplosionBlock = 0
+Round = 48
+ReloadTime = 120
+ModelBullet = m30
+
+Group = Rocket
+Sound = sa-2_snd
+DisplayMortarDistance = true
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.2
+HeatCount = 50
+MaxHeatCount = 1000
+
+
+MaxAmmo = 48
+SuppliedNum = 48
+Item =  5, iron_ingot
+Item =  5, gunpowder

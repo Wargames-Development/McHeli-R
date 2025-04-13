@@ -1,0 +1,27 @@
+DisplayName = S8KO 80ºÁÃ×»ð¼ýµ¯
+Type = Rocket
+Power = 38
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 3
+Explosionblock = 1
+Sound = rocket_snd
+Flaming = false
+Sight = MoveSight
+Delay = 2
+ReloadTime = 110
+Round = 20
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+HeatCount = 50
+MaxHeatCount = 950
+DamageFactor = tank, 1.5
+DamageFactor = plane, 1
+DamageFactor = heli, 1
+DamageFactor =vehicle , 1
+
+MaxAmmo = 76
+SuppliedNum = 76
+Item =  1, iron_ingot
+

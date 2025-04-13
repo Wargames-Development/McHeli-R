@@ -1,0 +1,44 @@
+DisplayName =×èÖÍ-500 500¹«½ïº½¿Õ×èÖÍµ¯
+Type = Rocket
+Power = 50
+Bomblet = 20
+BombletSTime = 20
+BombletDiff = 0.8
+Acceleration = 0.5
+Explosion = 2
+ExplosionBlock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+DisableSmoke = True
+ReloadTime = 160
+Round = 2
+SoundVolume = 7.0
+Accuracy = 0
+Piercing  = 1
+Gravity = 0
+Group = MainGun
+Recoil = 3.5
+HeatCount = 600
+MaxHeatCount = 1000
+Sound = bomb_snd
+DisplayMortarDistance = true
+
+
+ModelBullet = zz500
+ModelBomblet = cbc
+
+
+
+DamageFactor = player, 0.1
+DamageFactor = plane, 1.5
+DamageFactor = heli, 1.5
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.0
+
+
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  10, iron_ingot
+Item =  20, gunpowder

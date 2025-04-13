@@ -1,0 +1,44 @@
+DisplayName =GBU-24 "宝石路III" 制导炸弹[半主动激光制导]
+Type =ATMissile
+Power = 1200
+Acceleration = 1.2
+Explosion = 12
+Explosionblock = 2
+Flaming = false
+Sight = MoveSight
+Delay = 200
+ModeNum = 2
+ModelBullet =GBU16
+Sound =bomb_snd
+ReloadTime = 100
+Round = 1
+fixmode=1
+ProximityFuseDist = 1
+HeatCount = 1400
+MaxHeatCount = 1000
+
+DamageFactor = plane, 0.7
+DamageFactor = heli, 0.7
+
+NukeEffectOnly=true
+ExplosionType = hbmNT
+
+turningFactor = 1
+
+SpeedDependsAircraft = true
+IsHeatSeekerMissile = false
+
+
+IsRadarMissile = true
+MaxLockOnRange = 600
+MaxDegreeOfMissile =25
+PassiveRadar = true
+EnableOffAxis = true
+
+
+DisableSmoke = True
+ProximityFuseDist = 1
+MaxAmmo = 8
+SuppliedNum = 8
+Item =  1, iron_ingot
+WeaponSwitchSound = Switch_Jet_Weapon_Missile

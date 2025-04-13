@@ -1,0 +1,27 @@
+DisplayName = ’ŸªΩ‘∂≥ÃµºµØ÷ß‘Æ
+Type = ASMissile
+Power = 500
+Acceleration = 10
+Explosion = 15
+Explosionblock = 0
+Flaming = true
+Sight = MoveSight
+Delay = 300
+ModelBullet = 3m54
+Sound = missile_2_snd
+round =1
+reloadtime = 300
+HeatCount = 1000
+MaxHeatCount = 500
+
+
+
+
+
+
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

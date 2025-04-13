@@ -1,0 +1,36 @@
+DisplayName = GAU-8 ¸´³ðÕß»úÅÚ
+Type = MachineGun2
+Power = 40
+Acceleration = 11
+Explosion = 2
+Explosionblock = 0
+Sight = MoveSight
+Flaming = false
+ModelBullet = bullet105mm
+
+Sight = MoveSight
+Delay = 0
+SoundVolume = 0.6
+SoundPitch = 1.0
+Sound = gun_h5_snd
+Accuracy = 1.2
+HeatCount = 10
+MaxHeatCount = 400
+SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
+DisplayMortarDistance = true
+DamageFactor = plane, 0.45
+DamageFactor = heli, 0.45
+
+
+AddMuzzleFlash      =  1.6,      0.22,        2,  170,254,159,84
+AddMuzzleFlash      =  1.5,      0.20,        1,  150,254,219,184
+AddMuzzleFlashSmoke =  2.2,  1,   5.0,  2.0, 15,  180,250,245,240
+AddMuzzleFlashSmoke =  3.2,  1,   3.0,  1.0,  5,  180,220,217,214
+DamageFactor = player, 0.5
+
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.3
+
+MaxAmmo = 2000
+SuppliedNum = 2000
+Item =  1, iron_ingot

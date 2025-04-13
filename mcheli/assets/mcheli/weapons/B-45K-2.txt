@@ -1,0 +1,23 @@
+DisplayName = B-45K-2 45mm
+Type = MachineGun2
+Power = 16
+Acceleration = 20.0
+Explosion = 1
+Flaming = false
+Sight = MoveSight
+Delay = 3
+ReloadTime = 30
+Round = 50
+SoundVolume = 3
+SoundPitch = 1.0
+Sound = gun_h3_snd
+Accuracy = 1.0
+ModeNum = 2
+
+HeatCount = 2
+MaxHeatCount = 110
+
+MaxAmmo = 180
+SuppliedNum = 30
+Item =  2, iron_ingot
+Item =  3, gunpowder

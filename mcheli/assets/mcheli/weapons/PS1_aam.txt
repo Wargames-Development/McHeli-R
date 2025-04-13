@@ -1,0 +1,26 @@
+DisplayName = 9M37热引导导弹
+Type = AAMissile
+Power = 120
+Acceleration = 5
+LockTime = 15
+Explosion = 4
+Explosionblock = 0
+Flaming = true
+Sight =MissileSight
+Delay = 20
+
+ModelBullet = AIM9
+Sound = sa-2_snd
+ProximityFuseDist = 1
+
+HeatCount = 500
+MaxHeatCount = 1000
+
+TimeFuse = 120
+
+
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, iron_ingot
+

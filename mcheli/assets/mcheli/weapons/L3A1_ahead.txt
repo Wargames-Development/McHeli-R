@@ -1,0 +1,46 @@
+DisplayName = DM21ÖØÐÍÁñö±µ¯
+Type = Rocket
+Power = 40
+Bomblet = 12
+BombletSTime = 0
+BombletDiff = 0.4
+Acceleration = 15.0
+Explosion = 3
+ExplosionBlock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 140
+DisableSmoke = True
+ReloadTime = 80
+Round = 1
+SoundVolume = 7.0
+Accuracy = 0
+Piercing  = 1
+BulletColor        = 255, 255, 100, 100
+Gravity = 0
+Group = MainGun
+Recoil = 3.5
+
+Sound = kf51_snd
+
+
+AddMuzzleFlash      =  10.2,     1.50,        7,  100, 254,219,104
+AddMuzzleFlash      =  10.1,     1.55,        6,  100,254,215,111
+;AddMuzzleFlash      =  10.3,     1.50,        5,  40, 255,204,112
+AddMuzzleFlashSmoke =  10.2, 15, 12.0,  4.0, 65,  220,160,140,120
+AddMuzzleFlashSmoke = 11.2, 10, 13.0,  7.0, 55,  200,190,170,150
+
+
+DamageFactor = player, 0.1
+DamageFactor = plane, 3
+DamageFactor = heli, 3
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.0
+
+
+RecoilBufCount = 40, 5
+
+MaxAmmo = 20
+SuppliedNum = 10
+Item =  10, iron_ingot
+Item =  20, gunpowder

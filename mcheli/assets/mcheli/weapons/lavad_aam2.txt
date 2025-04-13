@@ -1,0 +1,25 @@
+DisplayName = FIM120D 主动雷达防空导弹
+Type = AAMissile
+Power = 120
+Acceleration = 2.5
+LockTime = 0
+Explosion = 4
+Explosionblock = 0
+Flaming = true
+Sight =MissileSight
+Delay = 20
+
+ModelBullet = aim120
+Sound = sa-2_snd
+ProximityFuseDist = 1
+HeatCount = 500
+MaxHeatCount = 1000
+RigidityTime = 30
+TimeFuse = 120
+
+
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, iron_ingot
+

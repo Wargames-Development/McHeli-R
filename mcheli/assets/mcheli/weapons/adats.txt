@@ -1,0 +1,25 @@
+DisplayName = °¢´ï´Ä·À¿Õµ¼µ¯
+Type = AAMissile
+Power = 220
+Acceleration = 3
+LockTime = 8
+Explosion = 4
+Explosionblock = 0
+Flaming = true
+Sight =MissileSight
+Delay = 20
+
+ModelBullet = 9M113M
+Sound = sa-2_snd
+ProximityFuseDist = 2
+
+HeatCount = 500
+MaxHeatCount = 1000
+
+
+
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, iron_ingot
+

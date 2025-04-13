@@ -1,0 +1,26 @@
+DisplayName = 火龙100反坦克导弹【电视制导】
+Type = TVMissile
+Power = 250
+Acceleration = 8.0
+Explosion = 10
+Flaming = true
+Sight = MoveSight
+Delay = 50
+ModeNum = 2
+ModelBullet = agm114
+Sound = sa-2_snd
+ReloadTime = 30
+Round = 6
+
+
+
+;DEBUG:Manual control only
+;FixMode = 1
+
+; DEBUG
+;RigidityTime = 30
+
+MaxAmmo = 12
+SuppliedNum = 2
+Item =  0, iron_ingot
+Item =  0, gunpowder

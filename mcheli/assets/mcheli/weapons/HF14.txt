@@ -1,0 +1,26 @@
+DisplayName = ·´²½±ø»ð¼ýµ¯
+Type = Rocket
+Power = 10
+ModelBullet = hydra70
+Acceleration = 3
+Explosion = 4
+Explosionblock = 0
+Sound = rocket_snd
+Flaming = false
+Sight = MoveSight
+Delay = 4
+ReloadTime = 110
+Round = 14
+heatcount = 150
+maxheatcount =1950
+
+
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+
+MaxAmmo = 140
+SuppliedNum = 2
+Item =  3, iron_ingot
+Item =  3, gunpowder
+

@@ -1,0 +1,32 @@
+﻿DisplayName = Stun_grenade-Laughcher
+Type = Dispenser
+Acceleration = 2.7
+ModelBullet = mk19bullet
+Sight = None
+Delay = 6
+SoundDelay = 0
+Gravity = -0.01
+Sound = mk19_l_snd
+SmokeSize   = 0.2
+
+Round = 12
+ReloadTime = 60
+
+AddMuzzleFlash      =  1.6,      0.22,        2,  170,254,159,84
+AddMuzzleFlash      =  1.5,      0.20,        1,  150,254,219,184
+AddMuzzleFlashSmoke =  2.2,  1,   5.0,  2.0, 15,  180,250,245,240
+AddMuzzleFlashSmoke =  3.2,  1,   3.0,  1.0,  5,  180,220,217,214
+
+; 拝抏嫍棧偺昞帵
+;DisplayMortarDistance = true
+; 僇儊儔偺悅捈曽岦傪0偵屌掕偡傞
+;FixCameraPitch = true
+; 僇儊儔偺夞揮懍搙偺攞棪(彫偝偔偡傞偲傛傝嵶偐偔拝抏抧揰偑挷惍偑偱偒傞)
+CameraRotationSpeedPitch = 0.3
+
+DispenseItem = flansmod:m87_stungrenade
+DispenseRange = 1
+
+MaxAmmo = 30
+SuppliedNum = 6
+Item =  6, flansmod:m87_stungrenade

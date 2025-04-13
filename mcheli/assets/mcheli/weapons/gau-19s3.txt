@@ -1,0 +1,23 @@
+DisplayName = Ç¿Á¦É¢µ¯
+Type = Rocket
+Power = 0
+Acceleration = 4.0
+Explosion = 0
+Flaming = false
+sound = V_Cannon
+Sight = MoveSight
+Delay = 10
+ReloadTime = 200
+Round = 80
+Piercing  = 2
+Bomblet = 30
+BombletSTime = 1
+BombletDiff = 0.8
+
+ModelBullet = laserblue
+ModelBomblet = cbc
+
+MaxAmmo = 1200
+SuppliedNum = 200
+Item =  2, iron_ingot
+Item =  2, gunpowder

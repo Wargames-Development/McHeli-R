@@ -1,0 +1,18 @@
+DisplayName = 热核无人侦查机
+Type = TVMissile
+Power = 2000
+Acceleration = 0.2
+Explosion = 8
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+ModelBullet = DL
+Sound = missile_1_snd
+DisableSmoke = true
+
+DamageFactor = tank, 1.0
+
+MaxAmmo = 40
+SuppliedNum = 1
+Item =  10, iron_ingot
+Item =  10, gunpowder

@@ -1,0 +1,19 @@
+DisplayName = 75mmMainGun
+Type = MachineGun2
+Power = 30
+Acceleration = 8.5
+Explosion = 2
+Sight = None
+ReloadTime = 60
+Round = 1
+SoundVolume = 10
+Accuracy = 1
+ModeNum = 2
+Gravity = -0.01
+Particle = largeexplode
+Sound = ww2tankshot_snd
+
+MaxAmmo = 50
+SuppliedNum = 10
+Item =  2, iron_ingot
+Item =  3, gunpowder

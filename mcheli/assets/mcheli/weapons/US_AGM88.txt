@@ -1,0 +1,44 @@
+DisplayName = AGM88 半主动雷达空地导弹
+Type = ATMissile
+Power =600
+Acceleration = 4
+Explosion = 5
+Explosionblock = 2
+Flaming = false
+Sight = MoveSight
+Delay = 4
+ModeNum = 2
+ModelBullet =AIM7
+Sound =AA11_F
+ReloadTime = 100
+Round = 8
+fixmode=1
+ProximityFuseDist = 1
+HeatCount = 400
+MaxHeatCount = 1000
+TimeFuse = 100
+DamageFactor = plane, 1
+DamageFactor = heli, 1
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.4
+HeatCount = 70
+MaxHeatCount = 490
+turningFactor = 0.1
+locktime=5
+IsHeatSeekerMissile = false
+IsRadarMissile = true
+MaxLockOnRange = 100
+MaxLockOnAngle = 15
+EnableOffAxis = false
+MaxDegreeOfMissile = 35
+PassiveRadar = true
+
+
+
+CameraRotationSpeedPitch = 0.3
+
+ProximityFuseDist = 1
+MaxAmmo = 16
+SuppliedNum = 8
+Item =  1, iron_ingot
+WeaponSwitchSound = Switch_Jet_Weapon_Missile

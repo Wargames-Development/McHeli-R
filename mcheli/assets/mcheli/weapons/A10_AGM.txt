@@ -1,0 +1,25 @@
+DisplayName = AGM65E 热引导空地导弹
+Type = ATMissile
+Power = 450
+Acceleration = 4.0
+Explosion = 4
+ExplosionBLOCK = 2
+Flaming = false
+Sight = MissileSight 
+Delay = 10
+LockTime = 12
+ModeNum = 2
+Round =2
+reloadtime =100
+ProximityFuseDist = 1
+ModelBullet = agm65e
+Sound = missile_1_snd
+RidableOnly = true
+HeatCount = 700
+MaxHeatCount = 1000
+
+
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  10, iron_ingot

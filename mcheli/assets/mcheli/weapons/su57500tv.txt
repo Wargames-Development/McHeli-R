@@ -1,0 +1,32 @@
+DisplayName = KAB500 电视制导炸弹
+Type = TVMissile
+Power = 500
+Acceleration = 1.2
+Explosion = 10
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+Sound = bomb_snd
+ReloadTime = 500
+Round = 1
+ModelBullet = kab500
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.2
+ProximityFuseDist = 1
+HeatCount = 500
+MaxHeatCount = 1
+
+Gravity = -0.08
+DisableSmoke = true
+Piercing  = 1
+
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  4, iron_ingot
+Item =  4, gunpowder
+Item =  4, redstone

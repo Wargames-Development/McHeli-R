@@ -1,0 +1,36 @@
+DisplayName = 1000公斤雷石-6滑翔制导炸弹
+Type = ASMissile
+Power = 700
+Acceleration = 2
+Explosion = 18
+Explosionblock = 0
+
+Flaming = false
+Sight = MissileSight
+Delay = 50
+ModeNum = 1
+Sound = bomb_snd
+RidableOnly = true
+ModelBullet = ls-6
+Accuracy = 0
+DisableSmoke = True
+ProximityFuseDist = 2.0
+round = 4
+RigidityTime = 5
+
+HeatCount = 500
+MaxHeatCount = 2000
+
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1
+
+MaxAmmo = 6
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+

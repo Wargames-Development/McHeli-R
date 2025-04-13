@@ -1,0 +1,27 @@
+DisplayName = RAM-13M-1 AAM
+Type = AAMissile
+Power = 15
+Acceleration = 20
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 15
+LockTime = 20
+Round = 4
+ReloadTime = 200
+ProximityFuseDist = 1
+Sound = missile_3_snd
+
+ModelBullet = RAM-13
+
+HeatCount = 65
+MaxHeatCount = 265
+
+DamageFactor = plane, 3.5
+DamageFactor = heli, 4.5
+
+MaxAmmo = 12
+SuppliedNum = 4
+Item =  5, iron_ingot
+Item =  7, gunpowder
+Item =  5, redstone

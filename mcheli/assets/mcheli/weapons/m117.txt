@@ -1,0 +1,22 @@
+DisplayName = m117 ¸ß±¬µ¯Í·
+Type = ATMissile
+Power = 15000
+Acceleration = 8.0
+Explosion = 20
+Flaming = false
+Sight = MissileSight 
+Delay = 600
+LockTime = 0
+ModeNum = 1
+Sound = bomb_snd
+ProximityFuseDist = 1
+DisableSmoke = true
+ModelBullet = gbu28
+RidableOnly = true
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 18
+SuppliedNum = 3
+Item =  5, iron_ingot
+Item =  5, gunpowder

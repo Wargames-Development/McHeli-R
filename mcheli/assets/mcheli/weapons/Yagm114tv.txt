@@ -1,0 +1,26 @@
+DisplayName = AGM-114
+Type = TVMissile
+Power = 30000
+Acceleration = 2.0
+Explosion = 20
+Flaming = false
+Sight = MoveSight
+Delay = 50
+ModeNum = 2
+ModelBullet = agm114
+Sound = missile_1_snd
+
+DamageFactor = tank, 1.0
+
+;DEBUG:Manual control only
+;FixMode = 1
+
+DamageFactor = player, 20.0
+; DEBUG
+;RigidityTime = 30
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+

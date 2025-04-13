@@ -1,0 +1,76 @@
+DisplayName = AH-6J
+AddDisplayName = zh_CN,AH-6J 轻型运输直升机 [北约联军T2武装直升机]
+AddDisplayName = en_US,AH-6J
+ItemID = 28801
+MaxHp = 300
+EnableNightVision = true
+Speed = 1.5
+ThrottleUpDown = 1.2
+FlareType = 3
+MaxFuel         = 1200
+FuelConsumption = 1.0
+ThirdPersonDist = 12
+damagefactor =0.0
+CameraPosition = 0.0, 0.0, 0.0
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+HUD = Z10, Z10_GNR
+
+DamageFactor = 0.00
+
+
+ArmorMinDamage = 5
+
+AddRotor = 1,0,  -0.0000486,  4.312,  0.00004864,  0.0, 1.0, 0.0
+AddRotor = 1,0,  0.5522,  2.392, -8.467,  1.0, 0.0, 0.0
+AddRotor = 1,0,  0.5522,  2.392, -8.467,  -1.0, 0.0, 0.0
+
+AddPartSteeringWheel =  0.6515,0.9961,1.708, 0, 0, 1,   -20
+AddPartThrottle =  1.186, 1.329, 1.410,  1,0,0.00, -30
+
+AddPartRotWeapon = us_m134,   false, true, true,  -1.928, 0.7609, 0.3530
+AddPartRotWeapon = us_m134,   false, true, true,  1.928, 0.7609, 0.3530
+AddPartWeaponMissile = US_CRV7,   false,  false,  false,     -1.72,  0.96, -1.64
+AddPartWeaponMissile = US_CRV7,   false,  false,  false,     -1.72,  0.96, -1.64
+AddPartWeaponMissile = US_CRV7,   false,  false,  false,     -1.72,  0.96, -1.64
+AddPartWeaponMissile = US_CRV7,   false,  false,  false,     -1.72,  0.96, -1.64
+AddPartWeaponMissile = US_CRV7,   false,  false,  false,     -1.72,  0.96, -1.64
+AddPartWeaponMissile = US_CRV7,   false,  false,  false,     -1.72,  0.96, -1.64
+AddPartWeaponMissile = US_CRV7,   false,  false,  false,     -1.72,  0.96, -1.64
+AddSeat =0.7205,  1.42,  1.283
+AddGunnerSeat = -0.7205,  1.42,  1.283,0.0, 1.02, 3.427,  true
+
+
+
+AddWeapon = us_m134, -1.928, 0.7609, 0.3530,   -0.3, 0.0
+AddWeapon = us_m134,  1.928, 0.7609, 0.3530,  0.3, 0.0
+AddWeapon = US_CRV7, -2.6, 0.6631, 1.15,   -0.5, 0.0
+AddWeapon = US_CRV7, -2.6, 0.6631, 1.15,   -0.5, 0.0
+AddWeapon = US_CRV7, -2.6, 0.6631, 1.15,   -0.5, 0.0
+AddWeapon = US_CRV7, -2.6, 0.6631, 1.15,   -0.5, 0.0
+AddWeapon = US_CRV7, -2.6, 0.6631, 1.15,   -0.5, 0.0
+AddWeapon = US_CRV7, -2.6, 0.6631, 1.15,   -0.5, 0.0
+AddWeapon = US_CRV7, -2.6, 0.6631, 1.15,   -0.5, 0.0
+AddWeapon = us_AIM92, 2, 0.6631, 1.8,   -1.0, -30.0
+
+
+NameOnModernAARadar = AH6
+NameOnEarlyAARadar = HELI
+NameOnModernASRadar = ?
+NameOnEarlyASRadar = ?
+RadarType = Early_AA
+
+
+AddWeapon = CAS,          0.00,50.00, -50.00,  0.0, -80.0, false,2, 0,-360,360, -180, 180
+
+
+ ;AddRecipe = " Y ",  "YXY",  " Y ",  X, iron_block, Y, iron_ingot
+
+BoundingBox =  0.0, 1.65, 1.93,  3, 3
+BoundingBox =  0.0, 1.65, -1.06,  3, 3
+BoundingBox =  0.0, 2.08, -4.04,  3, 1
+BoundingBox =  0.0, 2.08, -6.47,  1.5, 1, 1.5
+BoundingBox =  0.0, 3.31, 0.665,  7, 0.2, 1.5
+

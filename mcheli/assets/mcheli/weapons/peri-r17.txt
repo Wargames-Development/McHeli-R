@@ -1,0 +1,9 @@
+DisplayName =PERI-R17
+Type = TargetingPod
+Sight = MoveSight
+Delay = 0
+Target = monsters/planes/helicopters/vehicles
+Radius = 45
+Length = 100
+Zoom = 2,4,8,12
+

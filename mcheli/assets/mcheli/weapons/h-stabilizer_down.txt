@@ -1,0 +1,2 @@
+DisplayName = к╝ф╫н╡рМоб╫╣
+Type = Dummy

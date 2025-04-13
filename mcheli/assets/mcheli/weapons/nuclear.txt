@@ -1,0 +1,29 @@
+DisplayName = Õ½ÊõºË´ò»÷
+Type = Bomb
+Power = 5000
+Acceleration = 0.1
+Explosion = 100
+ExplosionBlock = 100
+ExplosionInWater = 100
+Flaming = true
+Sight = None
+Delay = 3
+Sound = bomb_snd
+ModelBullet = torpedo
+
+RigidityTime = 20
+RidableOnly = true
+
+
+TrajectoryParticle = largeexplode
+
+
+;DisableSmoke = true
+
+
+ReloadTime = 300
+Round = 1
+MaxAmmo = 1
+SuppliedNum = 1
+Item = 10, iron_ingot
+Item = 10, gunpowder

@@ -1,0 +1,19 @@
+DisplayName = 30mm»úÅÚ
+Type = MachineGun1
+Power = 300
+Acceleration = 15.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+DamageFactor = helicopter,1.5
+DamageFactor = plane,0.6
+Piercing  = 2
+Delay = 0
+ReloadTime = 35
+Round = 50
+SoundDelay = 3
+SoundPitch = 0.6
+Sound = gun_l2_snd
+Accuracy = 8.0
+
+

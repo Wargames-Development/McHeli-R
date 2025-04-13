@@ -1,0 +1,49 @@
+DisplayName = 14.5毫米反人员霰弹
+Type = Rocket
+Power = 5
+Bomblet = 7
+BombletSTime = 0
+BombletDiff = 0.4
+Acceleration = 10.0
+Explosion = 0
+ExplosionBlock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 2
+DisableSmoke = True
+ReloadTime = 80
+Round = 20
+SoundVolume = 7.0
+Accuracy = 0
+Piercing  = 1
+BulletColor        = 255, 255, 100, 100
+Gravity = 0
+Group = MainGun
+modelbullet = bullet105mm
+
+HeatCount = 6
+MaxHeatCount = 120
+Sound = gun_h3_snd
+
+AddMuzzleFlash      =   1.5,      0.12,        3,  150,254,159,84
+AddMuzzleFlash      =   1.4,      0.10,        2,  150,254,219,184
+AddMuzzleFlashSmoke =  1.5,  1,   5.0,  2.0, 15,  180,250,245,240
+AddMuzzleFlashSmoke =  1.6,  1,   3.0,  1.0,  5,  180,220,217,214
+
+
+
+
+
+DamageFactor = player, 1
+DamageFactor = plane, 1.5
+DamageFactor = heli, 1.5
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.0
+
+
+RecoilBufCount = 40, 5
+
+MaxAmmo = 80
+SuppliedNum = 10
+Item =  10, iron_ingot
+Item =  20, gunpowder

@@ -1,0 +1,28 @@
+DisplayName = Oerlikon KDA 35mm APDS
+Type = MachineGun2
+Power = 120
+Acceleration = 8.0
+Piercing = 3
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+
+SoundVolume = 3
+SoundPitch = 1.0
+Sound = gun_h1_snd
+Accuracy = 1.5
+ModeNum = 1
+DamageFactor = helicopters, 1.0
+DamageFactor = plane, 1.0
+DamageFactor = player, 2.0
+DamageFactor = tank, 1.0
+SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
+
+ReloadTime = 40
+Round = 200
+
+MaxAmmo = 600
+SuppliedNum = 100
+Item =  20, iron_ingot
+Item =  20, gunpowder

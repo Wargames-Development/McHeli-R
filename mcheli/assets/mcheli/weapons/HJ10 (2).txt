@@ -1,0 +1,29 @@
+DisplayName = 红箭10重型反坦克导弹
+Type = TVMissile
+Power = 600
+Acceleration = 2.8
+Explosion = 13
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 10
+ModeNum = 2
+ModelBullet = agm114
+Sound = 9K118_F
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.0
+ProximityFuseDist = 1
+;DEBUG:Manual control only
+FixMode = 1
+
+; DEBUG
+RigidityTime = 30
+
+MaxAmmo = 816
+SuppliedNum = 8
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

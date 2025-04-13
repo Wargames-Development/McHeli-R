@@ -1,0 +1,32 @@
+DisplayName = 电视制导巡飞弹[反人员温压战斗部]
+Type = TVMissile
+Power = 20
+Acceleration = 0.8
+Explosion = 12
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+ModelBullet = sdb2
+Sound = sa-2_snd
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.0
+ProximityFuseDist = 1
+round = 8
+reloadtime = 400
+HeatCount = 2000
+MaxHeatCount = 1000
+DisableSmoke = true
+
+
+
+
+
+MaxAmmo = 16
+SuppliedNum = 16
+Item =  1, iron_ingot
+

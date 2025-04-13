@@ -1,0 +1,24 @@
+DisplayName = ±¨∆∆»º…’
+Type = Rocket
+Power = 10
+ModelBullet = 105mm
+Acceleration = 10
+Explosion = 8
+Explosionblock = 0
+Sound = rocket_snd
+Flaming = true
+FAE = true
+DisableSmoke = true
+Sight = MoveSight
+gun_l1_snd
+Delay = 1
+ReloadTime = 110
+Round = 1000
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+
+MaxAmmo = 1000
+SuppliedNum = 1000
+Item =  1, iron_ingot
+

@@ -1,0 +1,26 @@
+DisplayName = FIM120C7 À×´ïÒýµ¼·Éµ¯
+Type = AAMissile
+ModelBullet = AIM120
+Power = 150
+Acceleration = 2.6
+Explosion = 2
+Flaming = false
+Sight = MissileSight
+Delay = 5
+ReloadTime = 45
+Group = MainGun
+Round = 4
+LockTime = 0
+TimeFuse = 150
+ProximityFuseDist = 1
+
+RigidityTime = 10
+
+
+Sound = missile_1_snd
+
+MaxAmmo = 6
+SuppliedNum = 6
+Item =  1, iron_ingot
+HeatCount = 500
+MaxHeatCount = 500

@@ -1,0 +1,28 @@
+DisplayName = R27ER °ëÖ÷¶¯À×´ïµ¯
+Type = TVMissile
+Power =180
+Acceleration = 6
+Explosion =4
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 120
+ModeNum = 2
+ModelBullet = aim120
+Sound = sa-2_snd
+ReloadTime = 100
+Round = 2
+
+ProximityFuseDist = 1
+HeatCount = 500
+MaxHeatCount = 1000
+TimeFuse = 120
+DamageFactor = plane, 1
+DamageFactor = heli, 1.2
+FixMode = 1
+
+
+
+MaxAmmo = 8
+SuppliedNum = 8
+Item =  1, iron_ingot

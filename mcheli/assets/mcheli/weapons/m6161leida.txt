@@ -1,0 +1,19 @@
+DisplayName = 雷达定修正机炮
+Type = AAMissile
+Power = 80
+Acceleration = 4
+Explosion = 2
+Flaming = false
+Sight = MissileSight
+Delay = 0
+ModelBullet = bullet46mm
+LockTime = 0
+ProximityFuseDist = 1
+Sound = gun_h5_snd
+DamageFactor = plane,0.2
+DamageFactor = tank,3.0
+
+MaxAmmo = 1200
+SuppliedNum = 10
+Item =  60, iron_ingot
+Item =  60, gunpowder

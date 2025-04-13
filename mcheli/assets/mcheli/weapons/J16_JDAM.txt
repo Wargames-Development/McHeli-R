@@ -1,0 +1,26 @@
+DisplayName = À×Ê¯6ÖÆµ¼Õ¨µ¯
+Type = ATMissile
+Power = 1400
+Acceleration = 2
+Explosion = 10
+ExplosionBLOCK = 0
+Flaming = false
+Sight = MissileSight 
+Delay = 80
+LockTime = 15
+ModeNum = 2
+Round = 2
+reloadtime =100
+ProximityFuseDist = 1
+ModelBullet = ls6
+Sound = bomb_snd
+RidableOnly = false
+HeatCount = 1000
+MaxHeatCount = 1500
+DisableSmoke = True
+
+
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  10, iron_ingot

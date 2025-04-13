@@ -1,0 +1,2 @@
+DisplayName = สีฦ๐ฝ๓าํ
+Type = Dummy

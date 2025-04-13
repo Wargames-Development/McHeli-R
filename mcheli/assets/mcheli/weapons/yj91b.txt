@@ -1,0 +1,16 @@
+DisplayName = Ó¥»÷91¿Õ¶ÔµØµ¼µ¯
+Type = ASMissile
+Power = 320
+Acceleration = 4.0
+Explosion = 12
+Flaming = true
+Sight = MoveSight
+Delay = 50
+ModelBullet = Kh-31
+Sound = missile_2_snd
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

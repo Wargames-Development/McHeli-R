@@ -1,0 +1,28 @@
+DisplayName = KAB500ÖÆµ¼Õ¨µ¯
+Type = ATMissile
+Power = 450
+Acceleration = 1.7
+Explosion = 10
+ExplosionBLOCK = 0
+Flaming = false
+Sight = MissileSight 
+Delay = 3
+LockTime = 0
+ReloadTime = 50
+Round = 2
+ModeNum = 1
+Sound = bomb_snd
+ProximityFuseDist = 1
+DisableSmoke = true
+ModelBullet = kab500
+RidableOnly = true
+heatcount = 700
+maxheatcount = 1200
+
+
+
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

@@ -1,0 +1,33 @@
+DisplayName = GP125ÅÚÉä·´Ì¹¿Ëµ¼µ¯
+Type = ATMissile
+Power = 600
+Acceleration = 3.0
+Explosion = 6
+ExplosionBLOCK = 0
+Flaming = false
+Sight = MissileSight 
+Delay = 120
+LockTime = 15
+ModeNum = 2
+Round = 2
+reloadtime =100
+ProximityFuseDist = 1
+ModelBullet = agm114
+Sound = sa-2_snd
+RidableOnly = true
+
+
+AddMuzzleFlash      =  9.3,      1.10,        7,  220,254,159,74
+AddMuzzleFlash      =  9.2,      1.05,        6,  220,254,219,104
+AddMuzzleFlash      =  9.1,      1.00,        5,  220,254,219,184
+AddMuzzleFlashSmoke =  9.3, 15,  12.0,  4.0, 65,  220,160,140,120
+AddMuzzleFlashSmoke = 11.3, 10,  13.0,  7.0, 55,  200,190,170,150
+
+
+
+
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  10, iron_ingot
+Item =  10, gunpowder
+

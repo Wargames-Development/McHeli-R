@@ -1,0 +1,22 @@
+DisplayName = b61 0.3kt
+Type = ATMissile
+Power = 90000
+Acceleration = 8.0
+Explosion = 80
+Flaming = false
+Sight = MissileSight 
+Delay = 600
+LockTime = 0
+ModeNum = 1
+Sound = bomb_snd
+ProximityFuseDist = 1
+DisableSmoke = true
+ModelBullet = gbu28
+RidableOnly = true
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  64, iron_ingot
+Item =  64, gunpowder

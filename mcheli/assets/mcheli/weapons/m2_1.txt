@@ -1,0 +1,18 @@
+DisplayName = m2_12.7mm
+Type = MachineGun2
+Power = 80
+Acceleration = 80.0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundVolume = 1.2
+SoundPitch = 1.0
+Sound = gun_h1_snd
+Accuracy = 2.0
+HeatCount = 5
+MaxHeatCount = 150
+
+MaxAmmo = 800
+SuppliedNum = 100
+Item =  20, iron_ingot
+Item =  20, gunpowder

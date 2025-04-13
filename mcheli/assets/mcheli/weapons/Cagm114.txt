@@ -1,0 +1,24 @@
+DisplayName = AGM-114 Hellfire
+Type = ATMissile
+Power = 8000
+Acceleration = 4.0
+Explosion = 3
+Flaming = false
+Sight = MissileSight
+Delay = 100
+LockTime = 100
+ModeNum = 2
+ProximityFuseDist = 1
+ModelBullet = agm114
+Sound = missile_1_snd
+RidableOnly = true
+Piercing  = 5
+DamageFactor = tank, 3.0
+DamageFactor = helicopter,10.0
+DamageFactor = plane,10.0
+DamageFactor = player, 4.0
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+

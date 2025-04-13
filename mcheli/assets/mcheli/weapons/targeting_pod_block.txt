@@ -1,0 +1,8 @@
+DisplayName = ±ê¼Ç
+Type = TargetingPod
+Sight = MoveSight
+Delay = 60
+Sound = lockon
+
+Target = block
+MarkTime = 20

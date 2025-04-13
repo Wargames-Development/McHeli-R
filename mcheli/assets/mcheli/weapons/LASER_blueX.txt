@@ -1,0 +1,29 @@
+DisplayName = “蓝镜I” 空载重型激光拦截系统
+Type = MachineGun1
+Power = 40
+Acceleration = 100.0
+Explosion = 2
+Flaming = false
+Sight = MoveSight
+Delay = 0
+SoundDelay = 1
+Accuracy = 2.0
+HeatCount = 2
+Round = 60
+MaxHeatCount = 140
+SoundPitch = 1.0
+SoundVolume = 12.0
+Sound = zoom
+
+FAE = true
+
+DamageFactor = player, 1
+DamageFactor = tank, 1
+DamageFactor = helicopter, 0.3
+DamageFactor = plane, 0.3
+
+ModelBullet = laser-C
+
+MaxAmmo = 540
+SuppliedNum = 60
+Item =  8, gunpowder

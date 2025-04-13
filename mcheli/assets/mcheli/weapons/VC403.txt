@@ -1,0 +1,22 @@
+DisplayName = µç´Å´©¼×µ¯
+Type = MachineGun1
+Power = 15000
+ModelBullet = bullet76mm
+Acceleration = 7.0
+Explosion = 3
+ExplosionBlock = 0
+DamageFactor = player, 100.8
+Flaming = false
+Sight = MoveSight
+Delay = 20
+Round = 4
+ReloadTime = 90
+SoundVolume = 2.0
+sound = V_Cannon
+Particle = largeexplode
+Piercing  = 40
+
+MaxAmmo = 32
+SuppliedNum = 16
+Item =  3, iron_ingot
+Item =  3, gunpowder

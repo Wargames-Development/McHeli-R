@@ -1,0 +1,22 @@
+DisplayName = BM14»ð¼ýÅÚ 
+Power = 42
+ModelBullet = hydra70
+Acceleration = 5.0
+Explosion = 3
+Explosionblock = 0
+Explosionwater = 4
+
+
+Flaming = false
+Sight = MoveSight
+Delay = 3
+ReloadTime = 110
+Round = 17
+Sound = missile_4_snd
+Gravity = -0.03
+Accuracy = 5.0
+
+MaxAmmo = 68
+SuppliedNum = 68
+Item =  1, iron_ingot
+

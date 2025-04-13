@@ -1,0 +1,29 @@
+DisplayName = RAM-44M AAM
+Type = AAMissile
+Power = 13
+Acceleration = 4
+Explosion = 3
+Flaming = false
+Sight = MissileSight
+Delay = 15
+LockTime = 4
+Round = 3
+ReloadTime = 200
+ProximityFuseDist = 1
+Sound = missile_3_snd
+
+ModelBullet = RAM-44M
+
+HeatCount = 65
+MaxHeatCount = 265
+
+RigidityTime = 30
+
+DamageFactor = plane, 2
+DamageFactor = heli, 4.5
+
+MaxAmmo = 12
+SuppliedNum = 2
+Item =  5, iron_ingot
+Item =  7, gunpowder
+Item =  7, redstone

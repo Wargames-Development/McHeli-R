@@ -1,0 +1,34 @@
+DisplayName = 9M113 "竞赛" 反坦克导弹[破甲战斗部]
+Type = TVMissile
+Power = 500
+Acceleration = 3.0
+Explosion = 5
+Explosionblock = 2
+Flaming = false
+Sight = MoveSight
+Delay = 10
+ModeNum = 2
+ModelBullet = agm114
+Sound = sa-2_snd
+ReloadTime = 100
+Round = 1
+heatcount = 900
+maxheatcount = 700
+DamageFactor = player, 1
+DamageFactor = plane, 0.4
+DamageFactor = heli, 0.4
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.0
+ProximityFuseDist = 1
+;DEBUG:Manual control only
+FixMode = 1
+
+
+
+
+
+MaxAmmo = 16
+SuppliedNum = 8
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

@@ -1,0 +1,36 @@
+DisplayName = 鹰击91超音速远程 反舰/反辐射 导弹
+Type = AAMissile
+Power = 300
+Acceleration = 5.0
+Explosion = 18
+Flaming = true
+Sight = MissileSight
+ModelBullet = agm84
+Sound = missile_1_snd
+Delay = 35
+ReloadTime = 160
+Round = 2
+Piercing  = 2
+ProximityFuseDist = 1
+RigidityTime = 10
+RidableOnly = false
+
+
+TrajectoryParticle = largeexplode
+
+
+TrajectoryParticleStartTick = 10
+
+
+
+
+
+
+DamageFactor = plane, 3.5
+
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

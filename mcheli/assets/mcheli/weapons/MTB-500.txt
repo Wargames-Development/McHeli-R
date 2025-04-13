@@ -1,0 +1,25 @@
+DisplayName =MTB-500[12]
+Type = ASMissile
+Power = 35
+Acceleration = 4.0
+Explosion = 9
+Flaming = true
+Sight = MoveSight
+Delay = 10
+Sound = missile_2_snd
+
+ModelBullet = MTB-500
+
+Round = 12
+ReloadTime = 200
+
+DamageFactor = tank, 2
+DamageFactor = vehicle, 2
+DamageFactor = plane, 2
+DamageFactor = helicopter, 2
+
+MaxAmmo = 12
+SuppliedNum = 6
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

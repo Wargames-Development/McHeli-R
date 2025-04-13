@@ -1,0 +1,34 @@
+DisplayName = XM883 ÆÆ¼×µ¯
+Type = MachineGun1
+Power = 170
+Acceleration = 16.0
+Gravity = -0.01
+DisplayMortarDistance = true
+Explosion = 3
+explosionblock = 0
+modelbullet = HE
+Sight = MoveSight
+Flaming = false
+Sight = MoveSight
+Delay = 20
+SoundVolume = 10
+Sound = cannon_2_snd
+round = 10
+reloadtime =50
+Accuracy = 0.1
+HeatCount = 150
+MaxHeatCount = 1050
+SetCartridge = cartridge, 0.1,  90, 30, 3.00, -0.04, 0.40
+DamageFactor = plane, 0.2
+DamageFactor = heli, 0.2
+Recoil = 0.5
+
+AddMuzzleFlash      =  6.524,      0.44,        2,  170,254,159,84
+AddMuzzleFlash      =  6.6,      0.40,        1,  150,254,219,184
+AddMuzzleFlashSmoke =  6.6,  1,   5.0,  2.0, 15,  180,250,245,240
+AddMuzzleFlashSmoke =  6.7,  1,   3.0,  1.0,  5,  180,220,217,214
+
+MaxAmmo = 50
+SuppliedNum = 10
+Item =  2, iron_ingot
+Item =  2, gunpowder

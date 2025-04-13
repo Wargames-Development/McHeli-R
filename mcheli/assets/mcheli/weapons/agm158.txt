@@ -1,0 +1,29 @@
+DisplayName = AGM-158 ½ÜË÷Îé¿Õ¶ÔµØµ¼µ¯
+Type = TVMissile
+Power = 350
+Acceleration = 4.5
+Explosion = 6
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+ModelBullet = agm114
+Sound = missile_1_snd
+ReloadTime = 100
+Round = 2
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.0
+ProximityFuseDist = 1
+HeatCount = 500
+MaxHeatCount = 700
+
+
+
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  1, iron_ingot

@@ -1,0 +1,26 @@
+DisplayName = GBU16º§π‚÷∆µº’®µØ
+Type = ATMissile
+Power = 200
+Acceleration = 2
+Explosion = 4
+Flaming = false
+Sight = MissileSight 
+Delay = 0
+LockTime = 5
+ModeNum = 1
+Sound = bomb_snd
+ProximityFuseDist = 1
+DisableSmoke = true
+ModelBullet = GBU-16
+RidableOnly = true
+Round = 4
+reloadtime = 200
+
+HeatCount = 500
+MaxHeatCount = 1800
+
+
+
+MaxAmmo = 8
+SuppliedNum = 8
+Item =  1, iron_ingot

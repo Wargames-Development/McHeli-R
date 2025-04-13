@@ -1,0 +1,22 @@
+DisplayName = 124ºÁÃ×»ð¼ýµ¯¡¾¼¯Êøµ¯Í·¡¿
+Type = Rocket
+Power = 15
+Acceleration = 4.0
+Explosion = 3
+Flaming = false
+Sight = MoveSight
+Delay = 7
+ReloadTime = 110
+Round = 20
+Sound = rocket_snd
+Bomblet = 12
+BombletSTime = 6
+BombletDiff = 0.8
+
+ModelBullet = hydra70
+ModelBomblet = cbc
+
+MaxAmmo = 40
+SuppliedNum = 20
+Item =  0, iron_ingot
+Item =  0, gunpowder

@@ -1,0 +1,26 @@
+DisplayName = FAB500 ∫Ωø’’®µØ
+Type = Bomb
+Power = 1500
+ModelBullet = fab-500
+Acceleration = 0.1
+Explosion = 16
+Explosionblock = 0
+ExplosionInWater = 10
+Flaming = false
+Sight = None
+Delay = 5
+Sound = bomb_snd
+
+
+ReloadTime = 150
+Round = 2
+
+
+DamageFactor = plane, 3
+
+HeatCount = 500
+MaxHeatCount = 800
+
+MaxAmmo = 8
+SuppliedNum = 8
+Item =  1, iron_ingot

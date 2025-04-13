@@ -1,0 +1,9 @@
+DisplayName = ±Íº«µ–»À[10s]
+Type = TargetingPod
+Sight = None
+Delay = 100
+Sound = SCAN
+Length = 150
+Radius = 45
+Target = planes/helicopters/vehicles/players
+MarkTime = 10

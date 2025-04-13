@@ -1,0 +1,28 @@
+DisplayName = KH31
+Type = TVMissile
+Power = 500
+Acceleration = 0.8
+Explosion = 22
+Flaming = false
+Sight = MoveSight
+Delay = 100
+Speed = 1.8
+ModeNum = 2
+ModelBullet = agm84
+Sound = missile_1_snd
+
+DamageFactor = tank, 3.0
+
+;DEBUG:Manual control only
+;FixMode = 1
+
+DamageFactor = player, 20.0
+; DEBUG
+;RigidityTime = 30
+
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+
+

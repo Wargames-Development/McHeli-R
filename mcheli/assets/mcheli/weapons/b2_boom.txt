@@ -1,0 +1,29 @@
+DisplayName = MK82 ∫Ωø’’®µØ
+Type = Bomb
+Power = 500
+ModelBullet = MK82
+Acceleration = 0.1
+Explosion = 13
+Explosionblock = 0
+ExplosionInWater = 10
+Flaming = false
+Sight = None
+Delay = 5
+Sound = bomb_snd
+ModelBomblet = cbc
+Bomblet = 5
+BombletSTime = 60
+BombletDiff = 0.8
+
+ReloadTime = 150
+Round = 12
+
+
+DamageFactor = plane, 3
+
+HeatCount = 350
+MaxHeatCount = 3850
+
+MaxAmmo = 12
+SuppliedNum = 12
+Item =  1, iron_ingot

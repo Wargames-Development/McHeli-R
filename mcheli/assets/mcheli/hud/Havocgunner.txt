@@ -1,0 +1,36 @@
+DrawTexture = havoc_gunnercross, -128, -128,  256,256, 0,0, 512,512
+
+; 色設定を白にしてUAVの電波の強さ描画を呼び出す。色設定はCall先にも引き継がれる。
+Color = 0xCFFFFFFF
+Call = uav_fs
+
+
+; 色設定(Current Color) 高度が10を超えると白、10以下だと赤
+Color = altitude>10? 0xCFFFFFFF: 0xCFDF0408
+; 高度(Altitude)
+DrawCenteredString = 0, 40, "[ %3d ]", ALTITUDE
+
+; 色設定(Current Color)
+Color =#FFFF6A6A
+
+Color =#FFFF6A6A
+DrawString = -70, 10, "x%.1f", CAM_ZOOM
+
+If = free_look==1
+	DrawString = -90, -80, "FREE LOOK"
+Endif
+
+If = cam_mode==1
+	DrawString = 30, 50, "NIGHT VISION"
+Endif
+If = cam_mode==2
+	DrawString = 30, 50, "THERMAL VISION"
+Endif
+
+Color =#FFFF6A6A
+DrawCameraRot = 0, 60
+
+If = have_flare==1
+	Color = can_flare==1? #FFFF6A6A: 0xCFFFFFFF
+	DrawCenteredString = -60, 50, "[ FLARE ]"
+Endif

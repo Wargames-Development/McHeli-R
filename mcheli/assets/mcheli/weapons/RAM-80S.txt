@@ -1,0 +1,19 @@
+DisplayName = RAM-80S
+Type = AAMissile
+Power = 9
+Acceleration = 20
+Explosion = 2
+Flaming = false
+Sight = MissileSight
+Delay = 0
+ReloadTime = 90
+Round = 10
+LockTime = 0
+ProximityFuseDist = 1
+Sound = missile_1_snd
+
+MaxAmmo = 20
+SuppliedNum = 4
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  2, redstone

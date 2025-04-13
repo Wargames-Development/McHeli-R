@@ -1,0 +1,16 @@
+DisplayName = 80ºÁÃ×»ð¼ýµ¯
+Type = Rocket
+Power = 25
+Acceleration = 3.5
+Explosion = 4
+Flaming = false
+Sight = MoveSight
+Delay = 3
+ReloadTime = 120
+Round = 20
+Sound = rocket_snd
+
+MaxAmmo = 40
+SuppliedNum = 10
+Item =  0, iron_ingot
+Item =  0, gunpowder

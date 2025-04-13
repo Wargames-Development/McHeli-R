@@ -1,0 +1,24 @@
+DisplayName = AGM114 TV
+Type = TVMissile
+Power = 150
+Acceleration = 2.0
+Explosion = 8
+Flaming = true
+Sight = MoveSight
+Delay = 50
+ModeNum = 2
+ModelBullet = agm114
+Sound = missile_1_snd
+
+
+
+;DEBUG:Manual control only
+;FixMode = 1
+
+; DEBUG
+;RigidityTime = 30
+
+MaxAmmo = 16
+SuppliedNum = 2
+Item =  1, iron_ingot
+

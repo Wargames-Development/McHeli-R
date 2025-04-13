@@ -1,0 +1,20 @@
+DisplayName = ºì¼ý20·´Ì¹¿Ëµ¼µ¯
+Type = TVMissile
+Power = 250
+Acceleration = 2.0
+Explosion = 12
+ExplosionBlock = 0
+Flaming = true
+Sight = MoveSight
+Delay = 100
+ModelBullet = 9M113
+Sound = sa-2_snd
+Group = MainGun
+
+
+
+MaxAmmo = 15
+SuppliedNum = 5
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

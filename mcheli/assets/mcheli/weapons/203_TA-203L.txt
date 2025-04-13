@@ -1,0 +1,22 @@
+DisplayName = 203mm TA-203L 炮射高温反坦克导弹
+Type = ATMissile
+Power = 200
+Acceleration = 4
+Explosion = 5
+Flaming = true
+Sight = MoveSight
+Delay = 130
+ReloadTime = 130
+ModelBullet = TA_203
+Sound = cannon_1_snd
+Group = MainGun
+LockTime = 8
+FAE = true
+DamageFactor = tank, 1
+DamageFactor = player, 1
+
+MaxAmmo = 10
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

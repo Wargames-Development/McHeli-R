@@ -1,0 +1,25 @@
+DisplayName = À×Ê¯6 »¬ÏèÖÆµ¼Õ¨µ¯
+Type = ATMissile
+Power = 200
+Acceleration = 1.7
+Explosion = 10
+Flaming = false
+Sight = MissileSight 
+Delay = 5
+LockTime = 0
+ReloadTime = 50
+Round = 4
+ModeNum = 1
+Sound = bomb_snd
+ProximityFuseDist = 1
+DisableSmoke = true
+ModelBullet = ls6
+RidableOnly = true
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

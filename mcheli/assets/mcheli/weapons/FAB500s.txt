@@ -1,0 +1,24 @@
+DisplayName = FAB500无制导集束炸弹
+Type = Bomb
+Power = 100
+Acceleration = 0.1
+Explosion = 7
+explosionblock =0
+ExplosionInWater = 4
+Flaming = false
+Sight = None
+Delay = 5
+Bomblet = 6
+BombletSTime = 20
+BombletDiff = 0.4
+Sound = bomb_snd
+round  = 2
+reloadtime = 500
+ModelBullet = cbu87
+ModelBomblet = cbc
+HeatCount = 500
+MaxHeatCount = 900
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  1, iron_ingot

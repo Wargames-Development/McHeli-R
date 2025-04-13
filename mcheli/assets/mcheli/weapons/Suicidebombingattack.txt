@@ -1,0 +1,14 @@
+DisplayName = Suicide bombing attack
+Type = Bomb
+Power = 500
+Acceleration = 4.0
+Explosion = 14
+TimeFuse = 1
+Flaming = true
+Sight = None
+Delay = 350
+ModelBullet = cbc
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  5, iron_ingot
+Item =  5, gunpowder

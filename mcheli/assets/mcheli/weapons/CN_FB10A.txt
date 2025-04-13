@@ -1,0 +1,30 @@
+DisplayName = 飞豹10A 热引导导弹
+Type = AAMissile
+ModelBullet = AA11
+Power = 120
+Acceleration = 4
+Explosion = 3
+Flaming = false
+Sight = MissileSight
+Delay = 8
+ReloadTime = 45
+HeatCount = 600
+MaxHeatCount = 1200
+Round = 2
+LockTime = 30
+ProximityFuseDist = 1
+Group = MainGun
+Sound = Heatseekers_F
+TrajectoryParticleStartTick = 10
+DamageFactor = heli, 1.5
+Gravity = 0.25
+RigidityTime = 10
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+MaxDegreeOfMissile = 150
+MaxLockOnRange = 200
+

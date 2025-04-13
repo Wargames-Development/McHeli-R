@@ -1,0 +1,31 @@
+DisplayName = MO.1.01.04ÐÍ »ð¼ýµ¯
+Type = Rocket
+Power = 400
+Acceleration = 3.0
+Flaming = true
+Sight = None
+Gravity = -0.04
+Delay = 2
+SoundVolume = 0.6
+SoundPitch = 1.0
+Accuracy = 2.0
+Explosion = 8
+ExplosionBlock = 0
+Round = 30
+ReloadTime = 120
+ModelBullet = m30
+
+Group = Rocket
+Sound = missile_4_snd
+DisplayMortarDistance = true
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.2
+HeatCount = 100
+MaxHeatCount = 2850
+DamageFactor = plane, 1.5
+
+
+MaxAmmo = 60
+SuppliedNum = 30
+Item =  5, iron_ingot
+Item =  5, gunpowder

@@ -1,0 +1,27 @@
+DisplayName = ¼ß35ÁÅ»ú
+Type = TVMissile
+Power = 500
+Acceleration = 0.8
+Explosion = 25
+Flaming = false
+Delay = 100
+ModeNum = 2
+Speed = 0.98
+ModelBullet = 35lj
+Sound = missile_1_snd
+
+DamageFactor = tank, 3.0
+
+;DEBUG:Manual control only
+;FixMode = 1
+
+DamageFactor = player, 20.0
+; DEBUG
+;RigidityTime = 30
+
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+
+

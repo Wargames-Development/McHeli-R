@@ -1,0 +1,39 @@
+DisplayName = “红土地”制导炮弹指示器
+Type =  ATMissile
+Power =200
+Acceleration = 2
+Explosion = 12
+Explosionblock = 0
+LockTime = 30
+
+Flaming = false
+Sight = MissileSight
+Delay = 50
+ModeNum = 1
+Sound = attack_snd
+
+ModelBullet = htd
+TimeFuse = 120
+Accuracy = 0
+DisableSmoke = True
+ProximityFuseDist = 2.0
+
+RigidityTime = 100
+RidableOnly = false
+
+HeatCount = 1000
+MaxHeatCount = 1000
+
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+

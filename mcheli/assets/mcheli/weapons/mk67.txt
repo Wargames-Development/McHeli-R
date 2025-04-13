@@ -1,0 +1,21 @@
+DisplayName = Mark 67 torpedo
+Type = Rocket
+Power = 500
+ModelBullet = mk67
+Acceleration = 2.0
+AccelerationInWater = 2.0
+Explosion = 2
+ExplosionInWater = 8
+Flaming = false
+Sight = None
+Delay = 100
+Gravity = -0.03
+GravityInWater = 0
+Sound = bomb_snd
+Round = 4
+
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

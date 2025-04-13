@@ -1,0 +1,51 @@
+DisplayName = ZPT25电热化学炮 榴霰弹
+Type = Rocket
+Power = 31
+Acceleration = 10
+Explosion = 3
+Explosionblock = 0
+
+Flaming = false
+
+Sight = MoveSight
+Delay = 80
+ReloadTime = 110
+Round = 10
+Bomblet = 20
+BombletSTime = 0
+BombletDiff = 1.1
+heatcount = 800
+maxheatcount = 2400
+
+ModelBullet = he
+ModelBomblet = cbc
+
+Piercing  = 2
+
+DisableSmoke = true
+
+DamageFactor = player, 1
+DamageFactor = plane, 2
+DamageFactor = heli, 2
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.5
+
+
+
+
+
+Sound = dcp
+Group = MainGun
+Recoil = 3
+
+AddMuzzleFlash      =  8.3,      2.10,        7, 220,99,248,255
+AddMuzzleFlash      =  9.0,      2.05,        6, 220,100,219,255
+AddMuzzleFlash      =  8.7,      2.00,        5, 215,112,231,200
+AddMuzzleFlashSmoke =  8.2, 30, 12.0,  4.0, 65,  220,160,140,120
+AddMuzzleFlashSmoke = 11.3, 20,  13.0,  7.0, 55,  104,226,248,255
+
+RecoilBufCount = 40, 5
+
+MaxAmmo = 30
+SuppliedNum = 30
+Item =  1, iron_ingot

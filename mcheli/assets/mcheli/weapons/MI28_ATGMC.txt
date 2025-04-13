@@ -1,0 +1,27 @@
+DisplayName =KH39 ¿Õ¶ÔµØµ¼µ¯ 
+Type = ATMissile
+Power = 450
+Acceleration = 2
+Explosion = 6
+ExplosionBLOCK = 2
+Flaming = false
+Sight = MissileSight 
+Delay = 80
+LockTime = 0
+ModeNum = 2
+Round = 2
+reloadtime =100
+ProximityFuseDist = 1
+ModelBullet = 305
+Sound = sa-2_snd
+RidableOnly = true
+HeatCount = 1000
+MaxHeatCount = 1500
+
+RigidityTime = 10
+
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  10, iron_ingot
+

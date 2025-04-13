@@ -1,0 +1,30 @@
+DisplayName = 9M127“涡流”反坦克导弹
+Type = TVMissile
+Power = 500
+Acceleration = 4
+Explosion = 6
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+ModelBullet = agm114
+Sound = sa-2_snd
+ReloadTime = 100
+Round = 6
+DamageFactor = player, 1
+DamageFactor = plane, 2
+DamageFactor = heli, 2
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.1
+ProximityFuseDist = 1
+HeatCount = 1200
+MaxHeatCount = 2000
+TimeFuse = 100
+
+
+
+
+MaxAmmo = 6
+SuppliedNum = 6
+Item =  1, iron_ingot

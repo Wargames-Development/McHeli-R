@@ -1,0 +1,31 @@
+DisplayName = AKD10 反坦克导弹[高爆弹头]
+Type = TVMissile
+Power = 200
+Acceleration = 2.8
+Explosion = 10
+Flaming = false
+Sight = MoveSight
+Delay = 150
+ModeNum = 2
+ModelBullet = agm114
+Sound = sa-2_snd
+TimeFuse = 300
+HeatCount = 500
+MaxHeatCount = 1000
+DamageFactor = player, 1
+DamageFactor = plane, 6
+DamageFactor = heli, 6.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1.0
+ProximityFuseDist = 1
+
+
+; DEBUG
+RigidityTime = 30
+
+MaxAmmo = 8
+SuppliedNum = 8
+AddMuzzleFlash      =   3.2,      3,        2,  150,254,159,84
+AddMuzzleFlash      =   3.0,      2,        1,  150,254,219,184
+AddMuzzleFlashSmoke   = 2.2,  20,   5.0,  2.0, 15,  180,250,245,240
+AddMuzzleFlashSmoke   = 3.2,  15,   3.0,  3.0,  5,  180,220,217,214

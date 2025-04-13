@@ -1,0 +1,21 @@
+DisplayName = Rocket 70mm 
+Type = Rocket
+Power = 60
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 5
+Sound = rocket_snd
+Flaming = false
+Sight = MoveSight
+Delay = 4
+ReloadTime = 75
+Round = 32
+
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+
+MaxAmmo = 32
+SuppliedNum = 20
+Item =  2, iron_ingot
+Item =  1, gunpowder

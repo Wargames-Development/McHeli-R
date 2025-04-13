@@ -1,0 +1,21 @@
+DisplayName = YU-7
+Type = Torpedo
+Power = 40
+ModelBullet = YU-7
+Acceleration = 0.0
+AccelerationInWater = 2.5
+Explosion = 2
+ExplosionInWater = 8
+Flaming = false
+Sight = None
+Delay = 100
+GuidedTorpedo = true
+Gravity = -0.03
+GravityInWater = 0
+Sound = bomb_snd
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

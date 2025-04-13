@@ -1,0 +1,22 @@
+DisplayName = YJ-85 test Guided Torpedo
+Type = AAMissile
+Power = 4
+Acceleration = 0.1
+VelocityInWater = 40
+Explosion = 8
+Flaming = true
+Sight = MissileSight 
+Delay = 100
+LockTime = 1
+RidableOnly = false
+ProximityFuseDist = 1
+Sound = missile_1_snd
+
+Gravity = -0.06
+GravityInWater = 0
+
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

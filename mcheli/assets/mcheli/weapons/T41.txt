@@ -1,0 +1,16 @@
+DisplayName = ø’ø’ΩÃ¡∑µØ
+Type = AAMissile
+Power = 100
+Acceleration = 3
+Explosion = 2
+Flaming = false
+Sight = MissileSight
+Delay = 10
+ReloadTime = 110
+Round = 2
+LockTime = 0
+ProximityFuseDist = 1
+ModelBullet = aim9x
+Sound = missile_1_snd
+
+

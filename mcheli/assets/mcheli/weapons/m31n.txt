@@ -1,0 +1,28 @@
+DisplayName = M31 (Do not destroy blocks)
+Type = Rocket
+Power = 15
+Acceleration = 4.0
+Flaming = false
+Sight = None
+Gravity = -0.03
+Delay = 5
+SoundVolume = 0.6
+SoundPitch = 1.0
+Sound = missile_2_snd
+Accuracy = 3
+Explosion = 5
+ExplosionBlock = 0
+Round = 12
+ReloadTime = 200
+ModelBullet = m30
+Group = Rocket
+
+Sound = missile_2_snd
+DisplayMortarDistance = true
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.3
+
+MaxAmmo = 120
+SuppliedNum = 10
+Item =  5, iron_ingot
+Item =  5, gunpowder

@@ -1,0 +1,34 @@
+DisplayName = GBU53 SDB-II IR guided bomb
+Type = ATMissile
+Power = 200
+Acceleration = 0.85
+Explosion = 4
+ExplosionBLOCK = 0
+Flaming = false
+Sight = MissileSight 
+Delay = 10
+LockTime = 0
+ModeNum = 2
+Round =4
+reloadtime =100
+ProximityFuseDist = 1
+ModelBullet = gbu53
+Sound = bomb_snd
+
+RidableOnly = false
+HeatCount = 300
+MaxHeatCount = 1000
+DisableSmoke = True
+
+MaxLockOnRange = 600
+
+DamageFactor = player, 0.5
+DamageFactor = plane, 1.5
+DamageFactor = heli, 1.5
+DamageFactor =vehicle , 1.1
+DamageFactor = tank, 1.1
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  10, iron_ingot
+WeaponSwitchSound = Switch_Jet_Weapon_Missile

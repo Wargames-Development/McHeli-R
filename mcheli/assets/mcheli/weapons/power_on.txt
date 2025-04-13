@@ -1,0 +1,2 @@
+DisplayName = 机体电源接通
+Type = Dummy

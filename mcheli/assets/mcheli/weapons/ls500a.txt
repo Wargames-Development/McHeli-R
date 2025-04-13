@@ -1,0 +1,17 @@
+DisplayName = À×Ê¯ 500¹«½ï¸ß±¬µ¯
+Type = Bomb
+Power = 200
+Acceleration = 0.5
+Explosion = 15
+ExplosionInWater = 1
+Flaming = false
+Sight = None
+Delay = 5
+Sound = bomb_snd
+ReloadTime = 50
+Round = 2
+ModelBullet = ls500
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  3, iron_ingot
+Item =  3, gunpowder

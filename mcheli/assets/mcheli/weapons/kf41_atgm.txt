@@ -1,0 +1,28 @@
+DisplayName =长钉NLOS反坦克导弹[电视制导] 
+Type = tvMissile
+Power = 400
+Acceleration = 2
+Explosion = 6
+Explosionblock = 2
+Flaming = false
+Sight = MoveSight
+Delay = 120
+ModeNum = 2
+ModelBullet =agm114
+Sound = sa-2_snd
+ReloadTime = 100
+Round = 4
+
+ProximityFuseDist = 1
+HeatCount = 700
+MaxHeatCount = 1000
+TimeFuse = 100
+DamageFactor = plane, 0.5
+DamageFactor = heli, 0.5
+
+CameraRotationSpeedPitch = 0.3
+
+
+MaxAmmo = 8
+SuppliedNum = 8
+Item =  1, iron_ingot

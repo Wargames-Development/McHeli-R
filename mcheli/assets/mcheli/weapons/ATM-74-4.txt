@@ -1,0 +1,33 @@
+DisplayName = ATM-74E “凰火岩” 高速反坦克导弹
+Type = ATMissile
+Power = 350
+Acceleration = 5
+Explosion = 4
+Explosionblock = 0
+Flaming = false
+Sight = MissileSight
+Delay = 5
+ReloadTime = 200
+Round = 4
+LockTime = 5
+Gravity = -0.04
+
+FAE = true
+
+ModelBullet = RAM-74E
+Sound = missile_1_snd
+
+DamageFactor = player, 1.5
+
+HeatCount = 500
+MaxHeatCount = 1000
+
+SetCartridge = fall, 0.1,  90, 30, 3.00, -0.04, 0.40
+
+RigidityTime = 20
+
+MaxAmmo = 16
+SuppliedNum = 4
+Item =  6, iron_ingot
+Item =  6, gunpowder
+Item =  6, redstone

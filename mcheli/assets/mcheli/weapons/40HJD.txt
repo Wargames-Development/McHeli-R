@@ -1,0 +1,29 @@
+DisplayName = 40ºÁÃ×»ð¼ýÖúÍÆÁñµ¯
+Type = Rocket
+ModelBullet = mk19bullet
+Power = 150
+Acceleration = 2.5
+Explosion = 4
+ExplosionBlock = 0
+ExplosionInWater = 1
+Flaming = true
+Sight = MoveSight
+Delay = 10
+Round = 4
+ReloadTime = 30
+SoundPitch = 0.3
+SoundVolume = 2
+Gravity = -0.01
+Accuracy = 4.0
+Sound = mk19_l_snd
+DisplayMortarDistance = true
+HeatCount = 400
+MaxHeatCount = 1300
+
+MaxAmmo = 72
+SuppliedNum = 72
+Item =  1, iron_ingot
+
+AddMuzzleFlash      =  0.0,      0.20,        1,  150,254,219,184
+AddMuzzleFlashSmoke =  0.0,  1,   5.0,  2.0, 15,  180,250,245,240
+

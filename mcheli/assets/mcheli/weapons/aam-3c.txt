@@ -1,0 +1,19 @@
+﻿DisplayName = AAM-3 (キャプティブ弾)
+Type = AAMissile
+Power = 1
+Acceleration = 4.0
+Explosion = 0
+Flaming = false
+Sight = MissileSight
+Delay = 8
+Round = 99
+ReloadTime = 110
+LockTime = 11
+ProximityFuseDist = 1
+Sound = dummy
+ModelBullet = dummy
+DisableSmoke = true
+
+MaxAmmo = 99
+SuppliedNum = 99
+Item =  1, redstone

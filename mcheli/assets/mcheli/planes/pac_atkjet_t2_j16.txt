@@ -1,0 +1,122 @@
+﻿DisplayName = J16
+AddDisplayName = zh_CN,歼16多用途战机 [泛亚联军T2攻击机]
+AddDisplayName = en_US,J-16
+MaxHp = 400
+ArmorMinDamage = 11
+
+VariableSweepWing = true
+AddPartwing =  0.00, 3.542, -4.496,  -1,0,0,  -20
+SweepWingSpeed = 0.9
+AutoPilotRot = 0
+
+Speed = 2.0
+
+FlareType = 4
+ParticlesScale = 1.0
+EnableSeaSurfaceParticle = true
+EnableGunnerMode = true
+MaxFuel         = 28000
+FuelConsumption = 20
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+DamageFactor = 0.0
+HUD = plane, j16_gnr
+ThrottleUpDown = 0.8
+ThirdPersonDist = 25
+
+MobilityYaw = 0.9
+
+MobilityRoll = 1.5
+MobilityPitch = 0.9
+
+CameraPosition =1.128, 0.2844, -6.5
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+
+AddSeat 	=  0.00,  2.25,  0.4146
+AddGunnerSeat = 0.00,  2.636, -0.91, 1.128, 0.2844, -6.5, true
+
+
+
+AddPartNozzle =  1.19, 1.676, -14.16, -1,0,0
+AddPartNozzle = -1.19, 1.676, -14.16, -1,0,0
+
+AddPartWeaponMissile = cn_akd88,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = cn_akd88,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = cn_pl15,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = cn_pl15,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = cn_TL500,   false, false, false,   1.128, 0.2844, -6.5
+AddPartWeaponMissile = cn_TL500,   false, false, false,   1.128, 0.2844, -6.5
+AddPartWeaponMissile = cn_YJ91,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = cn_YJ91,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = cn_akd88,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = cn_akd88,   false, false, false,  -0.297,  0.518, -8.699
+
+
+
+
+
+
+AddPartLG =  0, 2.476, -2.762,  1,0,0,-90
+AddPartLG =  -1.868,  2.057, -8.975,  0,0,0,90
+AddPartLG =  1.868,  2.057, -8.975,  0,0,0,90
+
+;AddPartLG = -1.868,  2.057, -8.975, -1,0, 0.4,  90,  0, 1,0,  90
+;AddPartLG =  1.868,  2.057, -8.975, -1,0,-0.4,  90,  0,-1,0, 90
+
+AddPartLGRev = -0.2960, 1.754, -1.422,  0,0,1,-85
+AddPartLGRev =  0.02906, 1.829, -4.497,  1,0,0,30
+
+AddPartLGRev = -2.000, 1.992, -7.002,  0,0,1,-100
+AddPartLGRev = 2.000, 1.992, -7.002,  0,0,1,100
+AddPartLGRev = -2.085, 2.008, -8.772,  0,0,1,-85
+AddPartLGRev = 2.085, 2.008, -8.772,  0,0,1,85
+
+AddPartLG =  0, 2.005, -4.495,  1,0,0,-45
+
+
+AddPartSteeringWheel =  2.217, 2.432, -13.25, 0.0, -1.0, 0.337, 30
+AddPartSteeringWheel = -2.223, 2.432, -13.25, 0.0, -1.0, 0.337, 30
+AddPartSteeringWheel =  2.10, 1.945,-14.35, 1, 0, 0.0,   -15
+AddPartSteeringWheel =  -2.081, 1.945,-14.35,  -1, 0, 0.0,   -15
+AddPartSteeringWheel =  2.383,  2.457,  -10.34,   -4.4633, -0.0758, 1.9205,  25
+AddPartSteeringWheel = -2.402,  2.458,  -10.34,    4.4633, -0.0758, 1.9205,  25
+AddPartSteeringWheel =  -0.005844,2.724,0.7424, 0, 0, 1,   -20
+AddPartThrottle = -0.3785, 2.618, 2.350,  0, 0, 0,  0,  0, 0, 0.15
+
+AddWeapon = ru_com_gun,  -0.6850,  2.986,  -0.09,  0.0,  0.0
+AddWeapon = cn_YJ91,     -0.32,  1.758, -1.699,  0,-0.0, false,1,  0,-360,360, 0,90,  true,1
+
+AddWeapon = cn_pl15,     -6.232,  1.758, -7.699,  0,-30.0
+AddWeapon = cn_pl15,     -6.232,  1.758, -7.699,  0,-30.0
+AddWeapon = cn_TL500,  1.128, 0.2844, -6.5,  0, 0,false,2, 0,-360,360, 0,85
+AddWeapon = cn_TL500,  -1.128, 0.2844, -6.5,  0, 0,false,2, 0,-360,360, 0,85
+
+AddWeapon = cn_akd88,  2,  1.8, -2,  0, -0,false,2, 0,-360,360, -15,85
+AddWeapon = cn_akd88,  -2,  1.8, -2,  0, -0,false,2, 0,-360,360, -15,85
+
+
+
+AddPartCanopy =  0.00, 3.903, -2.891,  -1,0,0,  40
+AddPartCanopy =  0.00, 3.903, -2.891,  -1,0,0,  0
+
+BoundingBox =  0.00, 2.40, 1.5,  3.0, 3.5
+BoundingBox =  0.00, 1.90, -3.0,  4.9, 3.2
+BoundingBox =  0.00, 1.90, -7.80, 5.0, 3.2
+BoundingBox =  0.00, 1.90, -12.50, 4.0, 3.2
+BoundingBox = -4.2, 2.20, -10.50,  5.0, 1.4
+BoundingBox =  4.2, 2.20, -10.50,  5.0, 1.4
+BoundingBox =  0.00, 2.20, -14.3,  3.5, 2.0,1.5
+EntityWidth  = 0.65
+EntityHeight = 0.65
+
+NameOnModernAARadar = J16
+NameOnEarlyAARadar = Su27
+NameOnModernASRadar = ?
+NameOnEarlyASRadar = ?
+RadarType = Modern_AS
+motionfactor=0.96
+HasChaff = true
+ChaffUseTime = 100
+ChaffWaitTime = 400

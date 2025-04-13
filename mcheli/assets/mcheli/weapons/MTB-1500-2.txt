@@ -1,0 +1,29 @@
+DisplayName = MTB-1500 1500kg精确制导炸弹
+Type = ASMissile
+Power = 65
+Acceleration = 3
+Explosion = 15
+Flaming = false
+Sight = MoveSight
+Accuracy = 18
+SoundPitch = 1.0
+SoundVolume = 12.0
+Delay = 2
+ReloadTime = 400
+Round = 2
+Sound = bomb_snd
+ModelBullet = MTB-1500
+DamageFactor = tank, 1
+Gravity = -0.03
+
+HeatCount = 220
+MaxHeatCount = 440
+
+DamageFactor = tank, 2
+DamageFactor = vehicle, 2
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  7, iron_ingot
+Item =  17, gunpowder
+Item =  8, redstone

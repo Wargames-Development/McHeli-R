@@ -1,0 +1,42 @@
+DisplayName = APKWS III 70MM ActiveRadar Rocket
+Type = atmissile
+Power = 50
+ModelBullet = hydra70
+Acceleration = 2
+Explosion = 5
+Explosionblock =2
+DisplayMortarDistance = true
+
+Sound = rocket_snd
+Flaming = false
+Sight = MoveSight
+Delay = 4
+ReloadTime = 110
+Round = 8
+HeatCount = 70
+MaxHeatCount = 490
+
+
+
+DamageFactor = plane, 1.5
+DamageFactor = heli, 1.5
+DamageFactor =vehicle , 1
+
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+
+MaxAmmo = 16
+SuppliedNum = 20
+Item =  1, iron_ingot
+SoundVolume = 10
+LockTime = 0
+
+IsHeatSeekerMissile = false
+IsRadarMissile = true
+MaxLockOnRange = 100
+MaxLockOnAngle = 15
+EnableOffAxis = false
+MaxDegreeOfMissile = 15
+ActiveRadar = true
+WeaponSwitchSound = Switch_Jet_Weapon_Missile

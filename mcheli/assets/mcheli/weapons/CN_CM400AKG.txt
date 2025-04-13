@@ -1,0 +1,53 @@
+DisplayName = CM-400AKG ¶Ì³Ìµ¯µÀµ¼µ¯
+Type = ASMissile
+Power = 200
+Acceleration = 4.0
+Explosion = 3
+ExplosionBLOCK = 1
+Flaming = false
+Sight = MissileSight 
+Delay = 100
+
+ModeNum = 2
+
+ProximityFuseDist = 1
+ModelBullet = CM400akg
+Sound = missile_M28_snd
+RidableOnly = false
+HeatCount = 700
+MaxHeatCount = 500
+
+RigidityTime = 
+
+Bomblet = 200
+BombletDiff = 0.3
+BombletSTime = 270
+
+ModelBomblet = cbc
+
+
+DamageFactor = player, 0.5
+DamageFactor = plane, 1.5
+DamageFactor = heli, 1.5
+DamageFactor =vehicle , 1.1
+DamageFactor = tank, 1.1
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  10, iron_ingot
+
+
+ROUND =1
+RELOADTIME=100
+
+
+
+
+
+
+Bomblet = 20
+BombletDiff = 0.2
+BombletSTime = 450
+ModelBomblet = cbc
+
+

@@ -1,0 +1,25 @@
+DisplayName = ∫Ï”ß6 ∑¿ø’µºµØ
+Type = AAMissile
+Power = 200
+Acceleration = 3
+LockTime = 15
+Explosion = 4
+Explosionblock = 0
+Flaming = true
+Sight =MissileSight
+Delay = 20
+
+ModelBullet = AIM120
+Sound = sa-2_snd
+ProximityFuseDist = 1
+
+HeatCount = 500
+MaxHeatCount = 1000
+
+
+
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, iron_ingot
+

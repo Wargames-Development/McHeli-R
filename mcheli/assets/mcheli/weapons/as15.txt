@@ -1,0 +1,19 @@
+DisplayName =AS-15
+Type = ASMissile
+Power = 280
+Acceleration = 4.0
+Explosion = 18
+Flaming = true
+Sight = MoveSight
+Delay = 15
+ModelBullet = asmissile
+Sound = missile_2_snd
+Piercing  = 2
+TimeFuse = 200
+
+
+MaxAmmo = 5
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

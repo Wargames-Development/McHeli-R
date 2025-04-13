@@ -1,0 +1,25 @@
+DisplayName = Ω‚ÃÂµºµØ
+Type = TVMissile
+Power = 200
+Acceleration = 2.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+ModelBullet = agm114
+Sound = missile_1_snd
+ExplosionAltitude = 10
+DamageFactor = tank, 3.0
+
+;DEBUG:Manual control only
+;FixMode = 1
+Bomblet = 40
+BombletSTime = 100
+BombletDiff = 0.7
+Piercing  = 8
+DamageFactor = player, 20.0
+; DEBUG
+;RigidityTime = 30
+
+

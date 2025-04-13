@@ -1,0 +1,27 @@
+DisplayName = M31 ÖØÐÍ»ð¼ýµ¯
+Type = Rocket
+Power = 650
+ModelBullet = M30
+Acceleration = 4.0
+Explosion = 14
+Explosionblock = 0
+Sound = rocket_snd
+Flaming = false
+Sight = MoveSight
+Delay = 6
+ReloadTime = 110
+Round =8
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+HeatCount = 400
+MaxHeatCount = 1600
+Gravity = -0.002
+
+
+
+
+MaxAmmo = 16
+SuppliedNum = 16
+Item =  1, iron_ingot
+

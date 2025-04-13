@@ -1,0 +1,29 @@
+DisplayName = 500¹«½ïÖØÐÍº½µ¯
+Type = Bomb
+Power = 400
+Acceleration = 0.1
+Explosion = 15
+ExplosionBlock = 100
+ExplosionInWater = 100
+Flaming = true
+Sight = None
+Delay = 0
+Sound = bomb_snd
+ModelBullet = 1000boom
+
+RigidityTime = 10
+RidableOnly = true
+
+
+TrajectoryParticle = largeexplode
+
+
+;DisableSmoke = true
+
+
+ReloadTime = 300
+Round = 2
+MaxAmmo = 6
+SuppliedNum = 1
+Item = 10, iron_ingot
+Item = 10, gunpowder

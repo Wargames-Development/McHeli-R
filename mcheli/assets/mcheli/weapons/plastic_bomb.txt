@@ -1,0 +1,16 @@
+DisplayName = 114514
+Type = Bomb
+Power = 100
+Acceleration = 0.1
+Explosion = 12
+ExplosionInWater = 0
+Sight = None
+Delay = 10000
+Sound = 1145141910810
+
+Destruct = true
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, iron_ingot
+

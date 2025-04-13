@@ -1,0 +1,29 @@
+DisplayName = 20ºÁÃ×ö±µ¯ÅÚ
+Type = Rocket
+Power = 10
+Acceleration = 2.0
+Explosion = 1
+ExplosionBlock = 0
+Flaming = false
+Delay = 0
+ReloadTime = 60
+Round = 8
+Sound = rocket_snd
+Bomblet = 18
+BombletSTime = 14
+BombletDiff = 2.8
+ModelBomblet = CBC
+ModelBullet = CBC
+
+DamageFactor = player, 1.2
+DamageFactor = plane, 2
+DamageFactor = heli, 2
+DamageFactor = tank, 1
+DamageFactor = vehicle , 2
+
+
+MaxAmmo = 80
+SuppliedNum = 80
+Item =  0, iron_ingot
+Item =  0, gunpowder
+

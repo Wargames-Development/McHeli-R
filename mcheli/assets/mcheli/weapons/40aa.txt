@@ -1,0 +1,47 @@
+DisplayName = 40ºÁÃ×¼¯Êø·À¿Õ»ð¼ý
+Type = Rocket
+ModelBullet = mk19bullet
+Power = 2
+Acceleration = 3.5
+Explosion = 1
+ExplosionBlock = 0
+ExplosionInWater = 1
+Flaming = true
+Sight = MoveSight
+Delay = 0
+Round = 4
+ReloadTime = 30
+SoundPitch = 0.3
+SoundVolume = 2
+
+Accuracy = 4.0
+Sound = mk19_l_snd
+DisplayMortarDistance = true
+HeatCount = 30
+MaxHeatCount = 120
+Bomblet = 30
+BombletSTime = 11
+BombletDiff = 1.1
+
+DamageFactor = player, 1
+DamageFactor = plane, 50
+DamageFactor = heli, 50
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1
+
+
+
+
+ModelBullet = 105mm
+ModelBomblet = cbc
+
+
+
+
+MaxAmmo = 72
+SuppliedNum = 72
+Item =  1, iron_ingot
+
+AddMuzzleFlash      =  2.1,      0.20,        1,  150,254,219,184
+AddMuzzleFlashSmoke =  2.7,  1,   5.0,  2.0, 15,  180,250,245,240
+

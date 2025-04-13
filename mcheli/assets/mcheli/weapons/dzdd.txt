@@ -1,0 +1,22 @@
+DisplayName = 对地电子欺骗信号
+Type = ATMissile
+Power = 0
+Acceleration = 5
+Explosion = 0
+Flaming = false
+Sight = MissileSight
+Delay = 1000
+LockTime = 0
+ProximityFuseDist = 1
+Sound = missile_1_snd
+ModelBullet =cbc
+round =1
+reload =1000
+HeatCount = 2000
+MaxHeatCount = 2000
+
+
+MaxAmmo = 8
+SuppliedNum = 8
+Item = 1, iron_ingot
+

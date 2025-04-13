@@ -1,0 +1,25 @@
+DisplayName = Σ₯»χ114514·΄½’ιοκ€
+Type = TVMissile
+Power = 1000
+Acceleration = 2.0
+Explosion = 10
+Flaming = true
+Sight = MoveSight
+Delay = 1
+ModeNum = 2
+ModelBullet = 59
+Sound = missile_1_snd
+
+DamageFactor = tank, 2.0
+
+;DEBUG:Manual control only
+;FixMode = 1
+
+; DEBUG
+;RigidityTime = 30
+
+MaxAmmo = 10
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

@@ -1,0 +1,14 @@
+DisplayName = ÌØÖÆµç´Å¾Ñ»÷µ¯
+Type = MachineGun1
+Power = 500
+Acceleration = 80.0
+Explosion = 3
+Flaming = false
+Sight = MoveSight
+Delay = 40
+;SoundDelay = 3
+;Accuracy = 0
+ModelBullet = jiguang2
+SoundPitch = 1.0
+Sound = gun_l1_snd
+

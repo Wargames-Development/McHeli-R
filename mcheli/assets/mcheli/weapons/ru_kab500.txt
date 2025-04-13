@@ -1,0 +1,35 @@
+DisplayName = KAB500L ÖÆµ¼Õ¨µ¯
+Type = Rocket
+Power = 1200
+Acceleration = 1.5
+Explosion = 10
+Flaming = false
+Sight = MoveSight
+Delay = 10
+ModeNum = 1
+Sound = bomb_snd
+RidableOnly = true
+ModelBullet = KAB500
+TimeFuse = 120
+Accuracy = 0
+DisableSmoke = True
+ProximityFuseDist = 2.0
+Gravity = -0.001
+
+RigidityTime = 5
+
+HeatCount = 1200
+MaxHeatCount = 2400
+
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+

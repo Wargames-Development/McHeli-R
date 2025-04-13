@@ -1,0 +1,32 @@
+DisplayName = GL-6 APS
+Type = Dispenser
+DispenseItem = flansmod:tankaps
+DispenseRange = 1
+
+Acceleration = 0.0
+Gravity = -0.05
+
+ModelBullet = None
+Flaming = false
+Sight = MoveSight
+
+
+Delay = 1000
+Round = 1
+SoundPitchRandom = 0.0
+SoundVolume = 10.0
+
+Accuracy = 1
+HeatCount = 1000
+MaxHeatCount = 5
+SoundPitch = 1.0
+Sound = aps_snd
+DamageFactor = tank,0
+DamageFactor = helicopter,0
+DamageFactor = plane,0
+DamageFactor = player, 0
+
+MaxAmmo = 5
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  2, gunpowder

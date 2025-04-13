@@ -1,0 +1,103 @@
+﻿Color = 0xffffa800
+DrawGraduationYaw   = plyr_yaw, 0,   0, -100
+DrawLine = 0,-87,   2,-83,  -2,-83,   0,-87
+DrawCenteredString =   0, -81, "%.0f", PLYR_YAW
+
+;准星
+Color = 0x33ffa800
+DrawLine =  -5, -10,   0, -4,    5, -10,
+DrawLine =  -5, 10,   0, 4,    5, 10,
+DrawLine =  -10, -5,   -4, 0,    -10, 5,
+DrawLine =  10, -5,   4, 0,    10, 5,
+Color = 0x66ffa800
+DrawLine =  55, -20,   65, -10,    65, 10,    55, 20,
+DrawLine =  -55, -20,   -65, -10,    -65, 10,    -55, 20,
+
+; high
+DrawCenteredString =  30, 45, "%.0f", PLYR_PITCH
+DrawLine =   20,55,    40,55,    40,45,    20,45,   20,55
+
+; XYZ
+Color = 0xffffa800
+DrawCenteredString = 200, -20, "W.A-UOA "
+DrawLine =  220, -10,  145, -10,    140, 25,    140, 200,    220,200,    220,-10,
+DrawString = 150, -10, "X: %+.1f", pos_X
+DrawString = 150, 0, "Y: %+.1f", pos_Y
+DrawString = 150, 10, "Z: %+.1f", pos_Z
+DrawString = 185, -10, "[%+.2f]",  motion_X
+DrawString = 185, 0, "[%+.2f]",  motion_Y
+DrawString = 185, 10, "[%+.2f]",  motion_Z
+
+; Time
+Color = 0xffffa800
+DrawString = -75, 45, "Time:   %02d:%02d", MC_THOR, MC_TMIN
+
+; Ammo
+Color = 0xffffa800
+DrawLine =   70,  67,   -70,  67
+Color = reloading==0? 0xffffa800: 0xFFff1515
+;リロード
+If = reloading==1
+	Color = #FFFF6A6A
+	DrawRect = -41, 78, 82, 2
+	Color = #FF8B0000
+	DrawRect = 41, 78, -82*reload_time, 2
+EndIf
+
+; Ammo
+DrawCenteredString = -25, 68, "%s",  WPN_AMMO
+DrawCenteredString =   0, 68, "/",   WPN_AMMO
+DrawCenteredString =  15, 68, "%s",  WPN_RM_AMMO
+; 武器名 (Weapon name)
+DrawCenteredString = 0, 57, "%s",  WPN_NAME
+
+; 銃身の熱量タイプの場合(Heat)
+If = is_heat_wpn==1
+	Color = 0xCFA99D38
+	DrawRect = -20, 77, 41, 2
+	Color = 0xFFDF0408
+	DrawRect = -20, 77, 41*wpn_heat, 2
+EndIf
+
+; 迫撃砲の着弾距離
+Color = 0xFFffe100
+Call = mortar
+
+;Tank gui text
+DrawTexture = ne46_hud, -18,30,  32,32,  0, 0,64,64, yaw - plyr_yaw
+DrawTexture = ne46_hud, -18,30,  32,32, 64, 0,64,64, 
+DrawTexture = ne46_hud, 152,46,  54,54, 150, 0,80,80, 
+DrawTexture = ne46_hud, 142,50,  64,64, 185, 185,70,70, 
+
+; スロットル
+Color = 0xffffa800
+DrawLine =  155, 47,   207, 47,    207, 55,    155, 55,   155, 47,
+DrawString  = 144, 46, "%.0f%%"   , THROTTLE
+DrawRect    = 156, 48, throttle*50, 6
+
+; 燃料
+Color = 0xffffa800
+DrawLine     = 155, 36,  207, 36,   207, 44,   155, 44,  155, 36,
+Color = fuel>0.2? 0xffffa800: 0xFFff1515
+DrawRect     = 156, 37, fuel*50, 6
+; 燃料の低下を警告表示
+Color = 0xFFff1515
+DrawString   = 160,35, "E"
+DrawString   = 200,35, "F"
+DrawCenteredString = 150, 35, "FL:"
+
+; HP
+Color = 0xFFff1515
+DrawCenteredString = 150, 24, "HP:"
+Color = 0xffffa800
+DrawLine =  155, 32,   207, 32,    207, 24,    155, 24,   155,  32,
+Color = hp_rto>0.2? 0xffffa800: 0xFFff1515
+DrawRect    = 156,    25,   hp_rto*50, 6
+Color = 0xFFff1515
+DrawString  = 160,     23, "%3.0f", HP_PER
+DrawString  = 160+26,  23, "/ 100", HP_PER
+;V
+If = have_flare==1
+	Color = can_flare==1? 0xffffa800: 0xFFff1515
+	DrawCenteredString = 60, 45, "[ FLARE ]"
+Endif
