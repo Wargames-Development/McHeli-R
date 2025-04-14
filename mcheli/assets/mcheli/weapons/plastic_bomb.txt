@@ -1,16 +1,15 @@
-DisplayName = 114514
+DisplayName = Plastic Bomb
 Type = Bomb
-Power = 100
+Power = 1
 Acceleration = 0.1
-Explosion = 12
+Explosion = 4
 ExplosionInWater = 0
+Flaming = true
 Sight = None
-Delay = 10000
-Sound = 1145141910810
-
+Delay = 5000
 Destruct = true
 
-MaxAmmo = 2
+MaxAmmo = 1
 SuppliedNum = 1
-Item =  1, iron_ingot
-
+Item =  2, iron_ingot
+Item =  3, gunpowder

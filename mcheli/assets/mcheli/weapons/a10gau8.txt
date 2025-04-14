@@ -1,15 +1,12 @@
-DisplayName = 呼叫空袭
+DisplayName = A-10 GAU-8 Avenger
 Type = CAS
-Power = 40
-Acceleration = 1
+Power = 32
+Acceleration = 4.0
 Explosion = 2
-ExplosionBlock = 0
+ExplosionBlock = 1
 Flaming = false
 Sight = None
-Delay = 5
-ModelBullet = he
-heatcount =500
-maxheatcount =1
+Delay = 300
 
 MaxAmmo = 3
 SuppliedNum = 1

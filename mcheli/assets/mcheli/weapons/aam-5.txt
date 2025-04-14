@@ -1,4 +1,4 @@
-ï»¿DisplayName = AAM-5 04å¼ç©ºå¯¾ç©ºèª˜å°å¼¾
+DisplayName = AAM-5 04®‹ó‘Î‹ó—U“±’e
 Type = AAMissile
 Power = 75
 Acceleration = 4.0
@@ -12,6 +12,9 @@ LockTime = 6
 ProximityFuseDist = 1
 ModelBullet = aam-5
 Sound = missile_1_snd
+
+DamageFactor = plane, 3.0
+DamageFactor = helicopter, 3.0
 
 MaxAmmo = 4
 SuppliedNum = 4

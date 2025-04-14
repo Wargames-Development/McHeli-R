@@ -1,2 +1,2 @@
-DisplayName = ǰԵ����չ��
+﻿DisplayName = 前縁フラップ展開
 Type = Dummy

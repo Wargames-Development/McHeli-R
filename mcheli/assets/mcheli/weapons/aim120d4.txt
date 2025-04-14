@@ -1,0 +1,17 @@
+DisplayName = AIM-120D AMSSD
+Type = AAMissile
+Power = 1000
+Acceleration = 6
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 9
+ReloadTime = 100
+LockTime = 12
+ProximityFuseDist = 1
+ModelBullet = aim-120
+Sound = missile_1_snd
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  4, hbm:item.ammo_stinger_rocket

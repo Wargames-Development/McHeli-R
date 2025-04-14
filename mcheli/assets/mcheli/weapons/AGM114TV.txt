@@ -1,29 +1,25 @@
-DisplayName = AGM114 地狱火反坦克导弹 [电视制导]
+DisplayName = AGM-114 Hellfire
 Type = TVMissile
-Power = 400
-Acceleration = 2
-Explosion = 6
-Explosionblock = 0
-Flaming = false
+Power = 52
+Acceleration = 2.0
+Explosion = 4
+Flaming = true
 Sight = MoveSight
 Delay = 100
 ModeNum = 2
 ModelBullet = agm114
 Sound = missile_1_snd
-ReloadTime = 100
-Round = 4
-DamageFactor = player, 1
-DamageFactor = plane, 3
-DamageFactor = heli, 3
-DamageFactor =vehicle , 1
-DamageFactor = tank, 1.0
-ProximityFuseDist = 1
-HeatCount = 1200
-MaxHeatCount = 2000
-TimeFuse = 100
 
+DamageFactor = tank, 2.0
 
+;DEBUG:Manual control only
+;FixMode = 1
 
-MaxAmmo = 8
-SuppliedNum = 8
+; DEBUG
+;RigidityTime = 30
+
+MaxAmmo = 4
+SuppliedNum = 2
 Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

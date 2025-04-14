@@ -1,11 +1,11 @@
-DisplayName = 48±¶¾¶2C46 ´©¼×µ¯
+DisplayName = 2A46 Smoothbore Gun[APFSDS]
 Type = MachineGun1
-Power = 370
+Power = 165
 Explosion = 1
 ExplosionBlock = 0
 Acceleration = 8.0
 Sight = None
-ReloadTime = 50
+ReloadTime = 165
 Round = 1
 SoundVolume = 10.0
 Sound = mbtshot

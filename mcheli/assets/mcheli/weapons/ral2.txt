@@ -1,0 +1,23 @@
+DisplayName = RAL2 ralsei air to surface missile 
+Type = ASMissile
+Power = 32
+Acceleration = 1.9
+Explosion = 8
+ExplosionBlock = 5
+Flaming = true
+Sight = MoveSight
+Delay = 35
+Round = 9
+ReloadTime = 190
+SoundVolume = 8
+SoundPitch = 0.1
+Sound = ral2fly
+ModelBullet = ral2
+Gravity = -0.01
+DisableSmoke = false
+
+MaxAmmo = 8
+SuppliedNum = 8
+Item =  4, iron_ingot
+Item =  4, gunpowder
+Item =  4, redstone

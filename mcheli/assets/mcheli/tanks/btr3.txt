@@ -1,0 +1,93 @@
+DisplayName = BTR-3
+MaxHp = 200
+Speed = 0.8
+Sound = btr
+ThrottleUpDown = 5
+MobilityYawOnGround = 6.5
+MaxFuel = 1000
+FuelConsumption = 0.5
+EnableNightVision = true
+Gravity = -0.1
+CameraPosition = 0.3725, 1.3906, 1.9573, true
+GravityInWater = -0.1
+MinRotationPitch = -15
+MaxRotationPitch = 6
+MobilityRoll = 0
+InventorySize = 27
+StepHeight = 2
+DefaultFreelook = true
+MotionFactor = 0.9
+EnableBack = true
+FlareType = 10
+CameraRotationSpeed = 90
+WeightedCenterZ = 0.0
+
+
+AddWeapon = kba30mmAPDS, -0.0042, 2.4351,  1.9573,   0.0, 0.0, false, 2, 0, -360,360, -60, 10      
+AddWeapon = kba30mmHEI, -0.0042, 2.4351,  1.9573,   0.0, 0.0, false, 2, 0, -360,360, -60, 10
+AddWeapon = KonkursM, -1.2646, 2.6475, 0.5186,   0.0, 0.0, false, 2, 0, -360,360, -60, 10
+AddWeapon = Barier, -1.2646, 2.3161, 0.7402,   0.0, 0.0, false, 2, 0, -360,360, -60, 10
+AddWeapon = 7.62mm, 0.3139, 2.4598, 0.7665, 0.0, 0.0, false, 2, 0, -360,360, -60, 10
+
+
+AddPartWeapon 	= kba30mmAPDS / kba30mmHEI, false, true, false,  -0.0701, 2.2134, 0.3277, 0
+AddPartWeaponChild    = false, true, -0.0701, 2.2134, 0.3277, 0.0          
+        
+AddPartHatch =  -1.0352,  0.3007,  -1.1394, 0,0, 1, 60
+AddPartHatch =   -1.3921,  1.3069,  -0.7121, 0.0, 1, 0.0,  70
+AddPartHatch =  1.051,  0.3539,  -1.0617, 0, 0, 1, -60
+AddPartHatch =  1.3259,  1.3814,  -0.7029, 0.0, 1, 0.0,  -70
+
+SubmergedDamageHeight = 3
+
+WeightType = Unknown
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 0.8
+
+HUD = bnr32_hud, mbt_hud
+
+AddSeat =  0.3757,  0.3976, 1.6495
+AddGunnerSeat =  -0.4079, 0.4179, 1.3755, -0.0461, 2.7452, 0.1947,  false, -30, 5, false
+
+AddSeat =   0.47,  0.5963, 0.0104
+AddSeat =   0.2451,  0.4052, -0.7407
+AddSeat =   0.2451,  0.4052, -1.3390
+AddSeat =   0.2451,  0.4829, -1.9367
+AddSeat =  -0.3545,  0.5461, -0.0386
+AddSeat =   -0.3545,  0.5393, -0.7455
+AddSeat =  -0.3545,  0.5393, -1.3395
+AddSeat =  -0.3545,  0.5393, -1.9474
+
+SetWheelPos =  1.7,  0.35,  1.74, -0.22, -2.685, -4.61
+
+AddPartWheel =    -1.2837,  0.2131,  1.6124, 30
+AddPartWheel =    -1.2837, 0.1847, 0.0168
+AddPartWheel =    -1.2837, 0.1987, -2.0205
+AddPartWheel =    -1.2837, 0.1865, -3.4617
+
+AddPartWheel =   1.3492, 0.1999, 1.6144, 40
+AddPartWheel =   1.3492, 0.1969, 0.0208
+AddPartWheel =   1.3492, 0.2020, -1.9985
+AddPartWheel =   1.3492, 0.1906, -3.4544
+
+
+PartWheelRot = 30
+
+ArmorMinDamage = 9
+ArmorMaxDamage = 500
+ArmorDamageFactor = 1.00
+EnableBack = true
+
+PivotTurnThrottle = 0.2
+
+DamageFactor = 0.0
+
+
+BoundingBox =  0.0, 1.39,  2,   4, 2.0,   0.8
+BoundingBox =  0.0, 1.39,  -2,   4, 2.0,   1.00
+BoundingBox =  0.0, 1.39,  -4.5,   4, 2.0,   1.25
+BoundingBox =  0.0, 2.78,  0.0,   2, 1,   0.5
+
+
+AddRecipe = "XIX",  "XXX",  "III",  X, gold_block,  I, gold_ingot

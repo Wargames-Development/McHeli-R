@@ -1,25 +1,18 @@
-DisplayName = MK82 ÎÞÖÆµ¼Õ¨µ¯
+DisplayName = MK82 bomb
 Type = Bomb
-Power = 500
-ModelBullet = mk82
+Power = 45
 Acceleration = 0.1
-Explosion = 16
-Explosionblock = 0
-ExplosionInWater = 10
+Explosion = 4
+ExplosionInWater = 0
 Flaming = false
 Sight = None
 Delay = 5
 Sound = bomb_snd
 
 ReloadTime = 150
-Round = 3
-
-
-DamageFactor = plane, 3
-
-HeatCount = 500
-MaxHeatCount = 1400
+Round = 4
 
 MaxAmmo = 8
-SuppliedNum = 8
-Item =  1, iron_ingot
+SuppliedNum = 4
+Item =  3, iron_ingot
+Item =  3, gunpowder

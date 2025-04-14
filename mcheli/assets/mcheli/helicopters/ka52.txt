@@ -1,0 +1,77 @@
+DisplayName = KA-52M Alligator
+AddDisplayName = zh_CN, KA-52“短吻鳄”武装直升机
+MaxHp = 850
+Sound = AH64_idle
+EnableGunnerMode = true
+EnableNightVision = true
+EnableEntityRadar = true
+ArmorMinDamage = 20
+throttleupdown = 0.5
+CameraZoom = 12
+Speed = 1.1
+FlareType = 3
+CameraPosition = 0.5, 0.0, 0.4
+onGroundPitch = -0.3
+MaxFuel         = 1200
+FuelConsumption = 1.0
+ThirdPersonDist = 20
+damagefactor = 0.0
+stealth = 0.2
+HUD = heli, heli_gnr
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+
+AddPartLG    =  0.00, 1.0, 0.22,    1,0,0,90 
+AddPartLG    =  0.5, 1.96, -5.5,     1.4,0.8,0,  50
+AddPartLG    = -0.5, 1.96, -5.5,     -1.4,0.8,0,  -50
+AddPartLG =  1.25, 1.94,  -8.0,  0,0,1, -65
+AddPartLG =  -1.25, 1.94,  -8.0,  0,0,1, 65
+AddPartLG =  1.25, 2.06,  -8.0,  0,0,1, -50
+AddPartLG =  -1.25, 2.06,  -8.0,  0,0,1, 50
+addtexture= ka521
+addtexture= ka522
+addtexture= ka523
+AddPartCanopy =  0.113, 3.25, 0.0,   0,0,1,  45
+AddPartCanopy =  -0.113, 3.25, 0.0,  0,0,1,  -45
+
+
+AddRotor= 1, 0,  -0.004,  0.0,  -5.201,  0.0, 1.0, 0.0
+AddRotor= 1, 0,  -0.004,  0.0,  -5.201,  0.0, -1.0, 0.0
+
+AddSeat       = 0.4,  1.7,  -1.5
+AddGunnerSeat = -0.4,  1.7,  -1.5,  0.0, 0.8, 4.0,  true
+AddWeapon = targeting_pod_block, 0.0, 4.0, 5.0,  0.0, 0.0
+AddWeapon = RDI,   0.0, 0, 2.62,    0.0, 0.0, true,2
+AddWeapon = 2a42_ka50,     -1.2, 1.35,  -3.0,  0,-1,  true,2,  0,-3,6, 0, 30
+AddWeapon = laser,     0.0, 3.76,  -2.4,  0,-1,  true,2,  0,-90,90, -20, 10
+
+AddPartWeapon        = 2a42_ka50,    true,  true,  true,    -1.0457, 1.3521,  -5.0457
+AddPartWeapon        = laser,    true,  true,  true,    -0.0, 3.546,  -2.8582
+
+
+AddWeapon = s8,      1.85,  1.73, -3.84,  0, 0,  true,2
+AddWeapon = s8,      -1.85,  1.73, -3.84,  0, 0,  true,2
+AddWeapon = 9k121,     2.7,  1.7, -3.2, 0, 0,  true,2
+AddWeapon = 9k121,    -2.7,  1.7, -3.2, 0, 0,  true,2
+AddWeapon = 9m127,   3.7,  1.6, -4.0,  1, 0,  true,2
+AddWeapon = 9m127,   -3.7,  1.6, -4.0,  1, 0,  true,2
+AddWeapon = 9K38_ka52,    4.5,  1.82, -3.8,  1, -30,  true,2
+AddWeapon = 9K38_ka52,    -4.5,  1.82, -3.8,  1, -30,  true,2
+
+
+
+BoundingBox =  0.0, 2.0,-1.0,  2.6, 2.2
+BoundingBox =  0.0, 5.2,-5.2,  1.0, 3.0, 1.5
+BoundingBox =  0.0, 2.4, -4.0,  3.5, 2.5
+BoundingBox =  0.0, 2.4, -6.8,  2.5, 2.5
+BoundingBox =  0.0, 2.4, -9.5,  2.5, 2.0
+BoundingBox =  0.0, 2.6,-12.0,  2.2, 1.8
+BoundingBox =  0.0, 2.6,-14.0,  1.2, 1.2
+BoundingBox =  0.0, 3.5,-15.2,  1.2, 2.2
+BoundingBox =  0.0, 4.0,-16.4,  1.2, 3.2
+BoundingBox =  1.4, 3.0,-12.2,  1.6, 0.3
+BoundingBox =  -1.4, 3.0,-12.2,  1.6, 0.3
+BoundingBox =  2.7, 2.4,-5.4,  1.6, 0.3,0.5
+BoundingBox =  -2.7, 2.4,-5.4,  1.6, 0.3,0.5

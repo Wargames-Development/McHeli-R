@@ -1,0 +1,21 @@
+DisplayName = bgmtv
+Type = TVMissile
+Power = 52
+Acceleration = 1.0
+Explosion = 5
+Flaming = true
+Sight = MissileSight
+Delay = 100
+ModeNum = 2
+ModelBullet = bgm
+Sound = bgm
+RidableOnly = true
+DisableSmoke = true
+
+DamageFactor = tank, 3.5
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

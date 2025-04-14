@@ -7,7 +7,7 @@ EnableGunnerMode = true
 EnableFoldBlade = true
 EnableNightVision = true
 EnableEntityRadar = true
-Speed = 0.9
+Speed = 0.33
 FlareType = 3
 ; FlareOption = 浣嶇疆X, 浣嶇疆Y, 浣嶇疆Z
 ; TEST

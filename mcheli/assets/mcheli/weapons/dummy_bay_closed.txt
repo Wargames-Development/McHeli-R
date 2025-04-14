@@ -1,2 +1,2 @@
-DisplayName = µ¯²Õ¹Ø±Õ
+DisplayName = Weapon bay closed
 Type = Dummy

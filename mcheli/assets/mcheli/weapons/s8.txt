@@ -1,23 +1,16 @@
 DisplayName = S-8 Rocket B-8M1
 Type = Rocket
-Power = 50
-ModelBullet = hydra70
-Acceleration = 8.0
+Power = 550
+Acceleration = 4.0
 Explosion = 4
-Sound = rocket_snd
-Flaming = true
+Explosionblock = 1
+Flaming = false
 Sight = MoveSight
 Delay = 2
-ReloadTime = 110
+
 Round = 40
+Sound = rocket_snd
 
-
-; Particle test
-;TrajectoryParticle = heart
-;TrajectoryParticle = fireworksSpark
-
-MaxAmmo = 160
-SuppliedNum = 2
-Item =  3, iron_ingot
-Item =  3, gunpowder
-
+MaxAmmo = 40
+SuppliedNum = 20
+Item =  20, hbm:item.ammo_rocket

@@ -1,2 +1,2 @@
-DisplayName =ｻ擎蠏釀ｴﾇﾐｶﾏ
+DisplayName = 機体電源オフ
 Type = Dummy

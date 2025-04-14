@@ -1,29 +1,19 @@
-DisplayName = AGM-158 ½ÜË÷Îé¿Õ¶ÔµØµ¼µ¯
+DisplayName = AGM-158 JASSM
 Type = TVMissile
-Power = 350
-Acceleration = 4.5
-Explosion = 6
-Explosionblock = 0
-Flaming = false
+Power = 82
+Acceleration = 2.0
+Explosion = 10
 Sight = MoveSight
-Delay = 100
+Delay = 220
 ModeNum = 2
-ModelBullet = agm114
+ModelBullet = agm158
 Sound = missile_1_snd
-ReloadTime = 100
-Round = 2
-DamageFactor = player, 1
-DamageFactor = plane, 1
-DamageFactor = heli, 1.0
-DamageFactor =vehicle , 1
-DamageFactor = tank, 1.0
-ProximityFuseDist = 1
-HeatCount = 500
-MaxHeatCount = 700
+DisableSmoke = true
 
-
-
+DamageFactor = tank, 2.0
 
 MaxAmmo = 4
-SuppliedNum = 4
-Item =  1, iron_ingot
+SuppliedNum = 2
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

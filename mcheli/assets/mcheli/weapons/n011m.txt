@@ -1,4 +1,4 @@
-DisplayName = N011MÀ×´ï
+DisplayName = N011M Radar
 Type = TargetingPod
 Delay = 2
 Sight = MoveSight

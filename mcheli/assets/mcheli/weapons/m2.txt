@@ -1,12 +1,12 @@
-DisplayName = ²ªÀÊÄşÖØ»úÇ¹
+DisplayName = M2 Browning
 Type = MachineGun2
-Power = 12
+Power = 18
 Acceleration = 10.0
 Explosion = 0
 Flaming = false
 Sight = MoveSight
 Delay = 1
-Sound = gun_l1_snd
+Sound = m2_snd
 SoundVolume = 5
 SoundPitch = 1 
 SoundPitchRandom = 0.1

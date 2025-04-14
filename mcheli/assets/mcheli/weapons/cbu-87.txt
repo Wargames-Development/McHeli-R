@@ -1,24 +1,21 @@
-DisplayName = CBU-87 ¼¯ÊøÕ¨µ¯
+DisplayName = CBU-87/B Cluster Bomb
 Type = Bomb
-Power = 100
+Power = 16
 Acceleration = 0.1
-Explosion = 8
-explosionblock =0
-ExplosionInWater = 4
+Explosion = 4
+ExplosionInWater = 0
 Flaming = false
 Sight = None
-Delay = 100
-Bomblet = 25
+Delay = 240
+Bomblet = 12
 BombletSTime = 20
 BombletDiff = 1.1
 Sound = bomb_snd
-round  = 1
-reloadtime = 100
+
 ModelBullet = cbu87
 ModelBomblet = cbc
-HeatCount = 500
-MaxHeatCount = 500
 
 MaxAmmo = 4
-SuppliedNum = 4
-Item =  1, iron_ingot
+SuppliedNum = 2
+Item =  4, iron_ingot
+Item =  4, gunpowder

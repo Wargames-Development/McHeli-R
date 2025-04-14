@@ -97,3 +97,7 @@ If = have_flare==1
 	Color = can_flare==1? 0xCFFFFFFF: 0xCF6F6F6F
 	DrawCenteredString = -60, 50, "[ FLARE ]"
 Endif
+
+
+Color = 0xFF28d448
+Call = mortar

@@ -3,11 +3,11 @@ Type = Bomb
 Power = 50
 Acceleration = 0.1
 Explosion = 4
-ExplosionBlock = 2
+ExplosionBlock = 5
 ExplosionInWater = 0
 Flaming = false
 Sight = None
-Delay = 5
+Delay = 3
 Sound = bomb_snd
 
 ReloadTime = 150

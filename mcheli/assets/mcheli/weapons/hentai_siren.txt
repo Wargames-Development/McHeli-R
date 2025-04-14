@@ -1,0 +1,12 @@
+DisplayName = Hentai Police Siren
+Type = MachineGun1
+Power = 0
+Accuracy = 0
+Flaming = true
+Sight = None
+Delay = 80
+ModelBullet = 0_none
+Particle = none
+Sound = hentai
+SoundVolume = 225
+SoundPitchRandom = 0

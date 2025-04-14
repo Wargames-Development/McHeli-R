@@ -8,6 +8,7 @@ Sight = MoveSight
 Delay = 1
 ModelBullet = rgm109
 Sound = missile_2_snd
+DisableSmoke = true
 
 MaxAmmo = 1
 SuppliedNum = 1

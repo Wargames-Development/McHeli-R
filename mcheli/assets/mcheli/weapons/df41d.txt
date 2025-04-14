@@ -1,23 +1,24 @@
 DisplayName = ÖÞ¼Êµ¯µÀµ¼µ¯
-Type = Rocket
+Type = ATMissile
 Power = 4100
 Acceleration = 3.5
 Explosion = 50
 ExplosionBlock = 50
 ExplosionInWater = 45
 Flaming = true
-Sight = MoveSight
+Sight = MissileSight
 ProximityFuseDist = 20
 Sound = missile_1_snd
 Delay = 15
 ModelBullet = DF41
 Piercing  = 2
-ReloadTime = 25
+ReloadTime = 250
 RigidityTime = 20
 RidableOnly = true
 
 
 TrajectoryParticle = largeexplode
+
 
 
 
@@ -43,10 +44,10 @@ AddMuzzleFlash      =  -29,      7.00,         8,  200,254,219,184
 
 
 
+
 Round = 1
 MaxAmmo = 1
 SuppliedNum = 1
 Item = 10, iron_ingot
 Item = 10, gunpowder
 Item = 10, redstone
-

@@ -1,26 +1,22 @@
-DisplayName = AGM114 地狱火反坦克导弹 
+DisplayName = AGM-114 Hellfire
 Type = ATMissile
-Power = 500
+Power = 62
 Acceleration = 4.0
-Explosion = 6
-ExplosionBLOCK = 0
-Flaming = false
+Explosion = 4
+Flaming = true
 Sight = MissileSight 
-Delay = 80
-LockTime = 5
+Delay = 100
+LockTime = 20
 ModeNum = 2
-Round = 2
-reloadtime =100
 ProximityFuseDist = 1
 ModelBullet = agm114
 Sound = missile_1_snd
 RidableOnly = true
-HeatCount = 1000
-MaxHeatCount = 1500
 
-
+DamageFactor = tank, 2.0
 
 MaxAmmo = 4
-SuppliedNum = 4
+SuppliedNum = 2
 Item =  1, iron_ingot
-
+Item =  1, gunpowder
+Item =  1, redstone

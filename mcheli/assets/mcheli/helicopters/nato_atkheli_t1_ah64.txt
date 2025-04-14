@@ -7,11 +7,9 @@ EnableGunnerMode = true
 EnableFoldBlade = true
 EnableNightVision = true
 EnableEntityRadar = true
-Speed = 0.9
+Speed = 0.33
 FlareType = 3
-; FlareOption = 浣嶇疆X, 浣嶇疆Y, 浣嶇疆Z
-; TEST
-; FlareOption = 10.0,  5.0, -20.0
+
 CameraPosition =  0.00, 0.10, 4.088
 onGroundPitch = 3.8
 ThirdPersonDist = 22
@@ -20,24 +18,17 @@ EntityHeight = 0.9
 ThirdPersonDist = 20
 damagefactor = 0.0
 
-; M = Military(杌嶇敤姗?.  A = Attacker(鏀绘拑姗?
 Category = M.A
 
 HUD = MI28, Mi28_GNR
 
-;椋涜鍙兘鏅傞枔[绉抅 = 鐕冩枡鎼級鍙兘閲?/ 1绉掗枔銇秷璨汇仚銈嬬噧鏂?
-; 鐕冩枡鎼級鍙兘閲?
 MaxFuel         = 1200
-; 1绉掗枔銇秷璨汇仚銈嬬噧鏂?
+
 FuelConsumption = 0
 
 ArmorMinDamage = 14
 
-
-; AddPartWeapon      = 閫ｅ嫊銇欍倠姝﹀櫒鍚?鐒°仐銇檪銇痭one), 銈兂銉娿兗鏅傞潪琛ㄧず锛? Yaw閫ｅ嫊, Pitch閫ｅ嫊, 鍥炶虎搴фX,Y,Z
-; AddPartWeaponChild = Yaw閫ｅ嫊, Pitch閫ｅ嫊, 鍥炶虎搴фX,Y,Z
-; M230
-AddPartWeapon = US_M230,     true,  true,  false,   0.00, 0.8517, 3.482 
+AddPartWeapon = US_M230, true,  true,  false,   0.00, 0.8517, 3.482 
 AddPartWeaponChild  =   false, true,  0.00, 0.1113, 3.308
 
 AddPartWeapon = US_AGM114K/US_M230,    true,  true, false,   -0.02904, 1.56, 6.234
@@ -65,16 +56,13 @@ AddRotor= 1, 0, -0.772,  4.233, -10.97,  -1.0, 0.0, 0.0
 AddSeat = 0.00,  1.68,  2.30
 AddGunnerSeat = 0.0,  1.38,  4.2,  0.0, 0.9768, 6.362,  true,-10, 70, false
 
-
-;AddWeapon = 姝﹀櫒鍚? 浣嶇疆X,Y,Z, Yaw, Pitch, 銉戙偆銉儍銉堛亴浣跨敤銇с亶銈嬶紵, 搴у腑鐣彿, DefaultYaw,RangeYaw, MinPitch, MaxPitch
-
 AddWeapon = US_M230,     0.00, 0.1113, 3.308 ,  0,0,  false,2,  0,-360,360, -10,70
 
 AddWeapon = US_AGM114K,  1.72,  0.96, -1.64,  0, -40,false,2, 0,-360,360, -10,70
 AddWeapon = US_AGM114K,  -1.72,  0.96, -1.64,  0, -40,false,2, 0,-360,360, -10,70
 
-AddWeapon =US_AGM114L,  1.72,  0.96, -1.64,  0, -25
-AddWeapon =US_AGM114L,  -1.72,  0.96, -1.64,  0, -25
+AddWeapon = US_AGM114L,  1.72,  0.96, -1.64,  0, -25
+AddWeapon = US_AGM114L,  -1.72,  0.96, -1.64,  0, -25
 AddWeapon = US_HYDRA70,      2.1,  1.14, 1.4,  0.4, 0,  false,1,  0,0,0, 0, 0
 AddWeapon = US_HYDRA70,     -2.1,  1.14, 1.4, -0.4, 0,  false,1,  0,0,0, 0, 0
 AddWeapon = US_HYDRA70,      2.1,  1.14, 1.4,  0.4, 0,  false,1,  0,0,0, 0, 0
@@ -83,10 +71,6 @@ AddWeapon = US_HYDRA70,      2.1,  1.14, 1.4,  0.4, 0,  false,1,  0,0,0, 0, 0
 AddWeapon = US_HYDRA70,     -2.1,  1.14, 1.4, -0.4, 0,  false,1,  0,0,0, 0, 0
 AddWeapon = US_HYDRA70,      2.1,  1.14, 1.4,  0.4, 0,  false,1,  0,0,0, 0, 0
 AddWeapon = US_HYDRA70,     -2.1,  1.14, 1.4, -0.4, 0,  false,1,  0,0,0, 0, 0
-
-
-
-
 
 AddPartSteeringWheel =  -0.002782,1.659,2.559, 0, 0, 1,   -15
 AddPartSteeringWheel =  0.07374,1.707,2.846, 1, 0, 0,   -30
@@ -101,7 +85,6 @@ BoundingBox =  0.0, 1.88, -7.18,  2, 1.5
 BoundingBox =  0.0, 1.88, -9.18,  2, 1.5
 BoundingBox =  0.0, 2.84, -11.51,  3, 4,1.5
 BoundingBox =  0.0, 4.36, 0.70,  8, 0.2,1.5
-
 
 NameOnModernAARadar = A64
 NameOnEarlyAARadar = HELI

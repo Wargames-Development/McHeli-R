@@ -1,12 +1,9 @@
-DisplayName = BM14»ð¼ýÅÚ 
+DisplayName = BM-14-17 140mm Rocket
+Type = Rocket
 Power = 42
 ModelBullet = hydra70
 Acceleration = 5.0
-Explosion = 3
-Explosionblock = 0
-Explosionwater = 4
-
-
+Explosion = 2
 Flaming = false
 Sight = MoveSight
 Delay = 3
@@ -16,7 +13,7 @@ Sound = missile_4_snd
 Gravity = -0.03
 Accuracy = 5.0
 
-MaxAmmo = 68
-SuppliedNum = 68
-Item =  1, iron_ingot
-
+MaxAmmo = 34
+SuppliedNum = 34
+Item =  8, iron_ingot
+Item =  7, gunpowder

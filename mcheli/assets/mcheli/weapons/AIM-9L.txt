@@ -1,24 +1,19 @@
-DisplayName = AIM9 ¸ñ¶·µ¯
+DisplayName = AIM-9L Sidewinder
 Type = AAMissile
-ModelBullet = aim9
-Power = 150
+Power = 550
 Acceleration = 5
-Explosion = 3
+Explosion = 5
+Explosionblock = 1
 Flaming = false
 Sight = MissileSight
-Delay = 8
-ReloadTime = 45
-Round = 2
-HeatCount = 500
-MaxHeatCount = 900
-RigidityTime = 20
-
-Group = MainGun
-LockTime = 10
+Delay = 5
+LockTime = 12
 ProximityFuseDist = 1
+ModelBullet = AIM-9x
+ReloadTime = 600
 Sound = missile_1_snd
-RigidityTime = 3
-MaxAmmo = 6
-SuppliedNum = 6
-DamageFactor = heli, 1.5
-Item =  1, iron_ingot
+
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  4, hbm:item.ammo_stinger_rocket

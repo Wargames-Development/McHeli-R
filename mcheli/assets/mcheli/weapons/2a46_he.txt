@@ -1,11 +1,11 @@
-DisplayName = 48±¶¾¶2C46 ¸ß±¬µ¯
+DisplayName = 2A46 Smoothbore Gun[HE]
 Type = MachineGun1
-Power = 160
-Explosion = 10
+Power = 10
+Explosion = 4
 ExplosionBlock = 4
 Acceleration = 6.5
 Sight = None
-ReloadTime = 50
+ReloadTime = 165
 Round = 1
 SoundVolume = 10.0
 Sound = mbtshot

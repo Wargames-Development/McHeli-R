@@ -1,25 +1,18 @@
-DisplayName = AIM9 ¸ñ¶·µ¯
+DisplayName = AIM-9 Sidewinder
 Type = AAMissile
-ModelBullet = aim9
-Power = 150
-Acceleration = 5
-Explosion = 3
+Power = 54
+Acceleration = 4
+Explosion = 5
 Flaming = false
 Sight = MissileSight
-Delay = 8
-ReloadTime = 45
-Round = 2
-HeatCount = 500
-MaxHeatCount = 900
-RigidityTime = 20
-
-Group = MainGun
-LockTime = 10
+Delay = 90
+LockTime = 12
 ProximityFuseDist = 1
+ModelBullet = aim9h
 Sound = missile_1_snd
-RigidityTime = 3
-MaxAmmo = 6
-SuppliedNum = 6
-DamageFactor = heli, 1.5
-Item =  1, iron_ingot
 
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  2, redstone

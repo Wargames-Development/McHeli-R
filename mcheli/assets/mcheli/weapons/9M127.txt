@@ -1,30 +1,26 @@
-DisplayName = 9M127“涡流”反坦克导弹
+DisplayName = 9m127 涡流 反坦克导弹 [电视制导]
 Type = TVMissile
-Power = 500
-Acceleration = 4
+Power = 4000
+Acceleration = 3.5
 Explosion = 6
-Explosionblock = 0
+Explosionblock = 2
 Flaming = false
 Sight = MoveSight
-Delay = 100
+
 ModeNum = 2
-ModelBullet = agm114
+ModelBullet = 9k118
 Sound = sa-2_snd
-ReloadTime = 100
-Round = 6
-DamageFactor = player, 1
-DamageFactor = plane, 2
-DamageFactor = heli, 2
-DamageFactor =vehicle , 1
-DamageFactor = tank, 1.1
+
+
 ProximityFuseDist = 1
-HeatCount = 1200
-MaxHeatCount = 2000
-TimeFuse = 100
 
 
+DamageFactor = tank, 1.5
+DamageFactor = plane, 3.5
+DamageFactor = vehicle 3.5
+DamageFactor = heli, 3.5
+DamageFactor = player, 3.5
 
-
-MaxAmmo = 6
+MaxAmmo = 12
 SuppliedNum = 6
-Item =  1, iron_ingot
+Item =  6, hbm:item.ammo_rocket,1

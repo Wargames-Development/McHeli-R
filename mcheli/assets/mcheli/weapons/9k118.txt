@@ -1,12 +1,12 @@
 DisplayName = 9K118 Sheksna
 Type = ATMissile
-Power = 330
+Power = 62
 Acceleration = 4.0
 Explosion = 4
 Flaming = true
 Sight = MissileSight 
 Delay = 100
-LockTime = 5
+LockTime = 20
 ModeNum = 2
 ProximityFuseDist = 1
 Sound = missile_1_snd
@@ -14,7 +14,7 @@ RidableOnly = true
 
 DamageFactor = tank, 2.0
 
-MaxAmmo = 32
+MaxAmmo = 4
 SuppliedNum = 2
 Item =  1, iron_ingot
 Item =  1, gunpowder

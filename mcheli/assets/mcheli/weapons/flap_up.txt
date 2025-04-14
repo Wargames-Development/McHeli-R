@@ -1,2 +1,2 @@
-DisplayName = ÊÕÆğ½óÒí
+ï»¿DisplayName = ãƒ•ãƒ©ãƒƒãƒ—åç´
 Type = Dummy

@@ -1,0 +1,25 @@
+DisplayName = 9k121 Vikhr
+Type = TVMissile
+Power = 3000
+Acceleration = 3.5
+Explosion = 6
+Explosionblock = 3
+Flaming = false
+Sight = MoveSight
+fixmode = 1
+ModeNum = 2
+ModelBullet = 9k121
+Sound = sa-2_snd
+
+
+ProximityFuseDist = 1
+
+
+DamageFactor = tank, 1.5
+DamageFactor = plane, 3.5
+DamageFactor = vehicle 3.5
+DamageFactor = heli, 3.5
+DamageFactor = player, 3.5
+MaxAmmo = 12
+SuppliedNum = 6
+Item =  6, hbm:item.ammo_rocket,1

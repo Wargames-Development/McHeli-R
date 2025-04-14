@@ -7,7 +7,7 @@ MaxHp = 400
 EnableFoldBlade = true
 EnableNightVision = true
 EnableEntityRadar = true
-Speed = 1.1
+Speed = 0.33
 FlareType = 3
 ; FlareOption = 浣嶇疆X, 浣嶇疆Y, 浣嶇疆Z
 ; TEST

@@ -1,0 +1,29 @@
+DisplayName = AGM-65
+Type = TVMissile
+Power = 1000
+Acceleration = 4.0
+Explosion = 13
+
+Sight = MoveSight
+Delay = 60
+ModelBullet = agm65e
+Sound = missile_2_snd
+SoundVolume = 10
+DisableSmoke = true
+modenum =2
+DamageFactor = tank, 30.0
+DamageFactor = plane, 10.5
+DamageFactor = vehicle 10.5
+DamageFactor = heli, 10.5
+DamageFactor = player, 30.0
+
+
+
+MaxAmmo = 6
+SuppliedNum = 3
+Item =  1, hbm:item.missile_assembly
+Item =  3, hbm:item.ammo_nuke,4
+
+
+
+

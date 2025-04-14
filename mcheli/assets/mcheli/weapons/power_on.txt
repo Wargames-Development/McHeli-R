@@ -1,2 +1,2 @@
-DisplayName = 机体电源接通
+DisplayName = 婡懱揹尮僆儞
 Type = Dummy

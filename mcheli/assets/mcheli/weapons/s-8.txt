@@ -1,23 +1,18 @@
 DisplayName = S-8 80mmRocket
 Type = Rocket
-Power = 35
+Power = 42
 ModelBullet = hydra70
-Acceleration = 8.0
-Explosion = 4
-Sound = rocket_snd
-Flaming = true
+Acceleration = 4.0
+Explosion = 3
+Flaming = false
 Sight = MoveSight
-Delay = 2
+Delay = 7
 ReloadTime = 110
-Round = 40
+Round = 17
+ModeNum = 2
+Sound = rocket_snd
 
-
-; Particle test
-;TrajectoryParticle = heart
-;TrajectoryParticle = fireworksSpark
-
-MaxAmmo = 160
-SuppliedNum = 2
-Item =  3, iron_ingot
+MaxAmmo = 20
+SuppliedNum = 20
+Item =  4, iron_ingot
 Item =  3, gunpowder
-

@@ -1,32 +1,19 @@
-DisplayName = RBS17 ·´Ì¹¿Ëµ¼µ¯
+DisplayName = TV-Guided ATGM
 Type = TVMissile
-Power = 400
-Acceleration = 2.8
-Explosion = 6
-Explosionblock = 0
-Flaming = false
+Power = 52
+Acceleration = 2.0
+Explosion = 3
+ExplosionBlock = 0
 Sight = MoveSight
-Delay = 100
-ModeNum = 2
+Delay = 80
 ModelBullet = agm114
-Sound = sa-2_snd
-DamageFactor = player, 1
-DamageFactor = plane, 1.5
-DamageFactor = heli, 1
-DamageFactor =vehicle , 1
-DamageFactor = tank, 1.0
-ProximityFuseDist = 1
-round = 2
-reloadtime = 100
-HeatCount = 1000
-MaxHeatCount = 1000
-TimeFuse = 80
-
-
-
-
+Sound = missile_1_snd
+TimeFuse = 200
+Round = 2
+ReloadTime = 80
 
 MaxAmmo = 16
-SuppliedNum = 16
-Item =  1, iron_ingot
-
+SuppliedNum = 4
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone
