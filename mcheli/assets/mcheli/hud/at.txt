@@ -1,88 +1,64 @@
-If=sight_type==2&&(lock==0)
-DrawTexture = ATL ,-64, -64,  128,128, 0,0, 256,256
-EndIf
-
-
 If=lock<=0.15&&lock>0
-DrawTexture = lat, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=0.2&&lock>0.15
-DrawTexture = bk, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=0.25&&lock>0.2
-DrawTexture = lat, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=0.3&&lock>0.25
-DrawTexture = bk, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=0.35&&lock>0.3
-DrawTexture = lat, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=0.4&&lock>0.35
-DrawTexture = bk, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=0.45&&lock>0.4
-DrawTexture = lat, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=0.5&&lock>0.45
-DrawTexture = bk, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=0.55&&lock>0.5
-DrawTexture = lat, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=0.6&&lock>0.55
-DrawTexture = bk, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=0.65&&lock>0.6
-DrawTexture = lat, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=0.7&&lock>0.65
-DrawTexture = bk, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=0.75&&lock>0.7
-DrawTexture = lat, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=0.8&&lock>0.75
-DrawTexture = bk, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=0.85&&lock>0.8
-DrawTexture = lat, -500, -250,  1000,500, 0,0, 2048,1024
-EndIf
-If=lock<=1&&lock>0.85
-DrawTexture = lat2, -500, -250,  1000,500, 0,0, 2048,1024
+DrawTexture = LOCK1 ,-64, -64,  128,128, 0,0, 256,256
 EndIf
 
-If=lock<=0.09&&lock>0
-DrawTexture = ATL ,-64, -64,  128,128, 0,0, 256,256
+If=lock<=0.2&&lock>0.15
+DrawTexture = LOCK2 ,-64, -64,  128,128, 0,0, 256,256
 EndIf
-If=lock<=0.18&&lock>0.09
-DrawTexture = ATL2 ,-64, -64,  128,128, 0,0, 256,256
+
+If=lock<=0.25&&lock>0.2
+DrawTexture = LOCK3 ,-64, -64,  128,128, 0,0, 256,256
 EndIf
-If=lock<=0.27&&lock>0.18
-DrawTexture = ATL3 ,-64, -64,  128,128, 0,0, 256,256
+
+If=lock<=0.3&&lock>0.25
+DrawTexture = LOCK4 ,-64, -64,  128,128, 0,0, 256,256
 EndIf
-If=lock<=0.36&&lock>27
-DrawTexture = ATL4 ,-64, -64,  128,128, 0,0, 256,256
+
+If=lock<=0.35&&lock>0.3
+DrawTexture = LOCK5 ,-64, -64,  128,128, 0,0, 256,256
 EndIf
-If=lock<=0.45&&lock>36
-DrawTexture =ATL5 ,-64, -64,  128,128, 0,0, 256,256
+
+If=lock<=0.4&&lock>0.35
+DrawTexture = LOCK6 ,-64, -64,  128,128, 0,0, 256,256
 EndIf
-If=lock<=0.54&&lock>0.45
-DrawTexture = ATL6 ,-64, -64,  128,128, 0,0, 256,256
+
+If=lock<=0.45&&lock>0.4
+DrawTexture = LOCK7 ,-64, -64,  128,128, 0,0, 256,256
 EndIf
-If=lock<=0.63&&lock>0.54
-DrawTexture = ATL7 ,-64, -64,  128,128, 0,0, 256,256
+
+If=lock<=0.5&&lock>0.45
+DrawTexture = LOCK8 ,-64, -64,  128,128, 0,0, 256,256
 EndIf
-If=lock<=0.72&&lock>0.63
-DrawTexture = ATL8 ,-64, -64,  128,128, 0,0, 256,256
+
+If=lock<=0.55&&lock>0.5
+DrawTexture = LOCK9 ,-64, -64,  128,128, 0,0, 256,256
 EndIf
-If=lock<=0.81&&lock>0.72
-DrawTexture =ATL9 ,-64, -64,  128,128, 0,0, 256,256
+
+If=lock<=0.6&&lock>0.55
+DrawTexture = LOCK10 ,-64, -64,  128,128, 0,0, 256,256
 EndIf
-If=lock<=90&&lock>0.81
-DrawTexture = ATL10 ,-64, -64,  128,128, 0,0, 256,256
+
+If=lock<=0.65&&lock>0.6
+DrawTexture = LOCK10 ,-64, -64,  128,128, 0,0, 256,256
 EndIf
-If=lock<=1&&lock>0.91
-DrawTexture = ATL11 ,-64, -64,  128,128, 0,0, 256,256
+
+If=lock<=0.7&&lock>0.65
+DrawTexture = LOCK9 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+
+If=lock<=0.75&&lock>0.7
+DrawTexture = LOCK8 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+
+If=lock<=0.8&&lock>0.75
+DrawTexture = LOCK9 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+
+If=lock<=0.85&&lock>0.8
+DrawTexture = LOCK10 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+
+If=lock<=1&&lock>0.85
+DrawTexture = LOCK11 ,-64, -64,  128,128, 0,0, 256,256
 EndIf
 

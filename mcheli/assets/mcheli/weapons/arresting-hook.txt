@@ -1,2 +1,0 @@
-﻿DisplayName = アレスティングフック展開
-Type = Dummy

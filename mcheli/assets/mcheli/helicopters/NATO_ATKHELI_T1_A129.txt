@@ -8,7 +8,7 @@ onGroundPitch = 3.5
 EnableFoldBlade = true
 EnableNightVision = true
 EnableEntityRadar = true
-Speed = 0.33
+Speed = 1.1
 FlareType = 3
 ; FlareOption = 浣嶇疆X, 浣嶇疆Y, 浣嶇疆Z
 ; TEST

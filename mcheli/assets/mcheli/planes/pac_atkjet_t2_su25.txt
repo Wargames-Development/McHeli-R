@@ -2,7 +2,7 @@ DisplayName = SU25SM3
 AddDisplayName = zh_CN,SU25SM3“蛙足”攻击机 [泛亚联军T2攻击机]
 AddDisplayName = en_US,SU25SM3
 ItemID = 28705
-MaxHp = 500
+MaxHp = 450
 DamageFactor = 0.0
 AutoPilotRot = 0
 
@@ -21,7 +21,7 @@ EnableGunnerMode = true
 CameraPosition =  0.00, 1.73, 5.1
 
 
-ArmorMinDamage = 13
+ArmorMinDamage = 10
 VariableSweepWing = true
 AddPartSteeringWheel =  0,3.06,-13.7, 1, 0, 0.0,   -25
 AddPartSteeringWheel =  6.0,2.6368,-7.7416, 1, 0, 0.0,   -20
@@ -64,7 +64,8 @@ AddPartLGRev = 0.5521, 1.084, -4.516,  0,0,1,-70
 AddPartNozzle =  -1.109, 1.665, -10.0, -1,0,0
 AddPartNozzle =  1.109, 1.665, -10.0, -1,0,0
 
-
+AddWeapon = ru_gsh302,  0.5,    1.5,  1.75,   0.1, -0.2
+AddWeapon = ru_gsh302,  0.48,    1.48,  0,   -0.1, -0.2
 
 AddPartWeaponMissile = ru_kh38ML,  false, false, false,  -5.0, 0,  0
 AddPartWeaponMissile = ru_kh38ML,  false, false, false,  -5.0, 0,  0

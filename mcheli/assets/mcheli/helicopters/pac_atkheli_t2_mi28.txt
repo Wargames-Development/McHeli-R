@@ -7,7 +7,7 @@ EnableGunnerMode = true
 EnableFoldBlade = true
 EnableNightVision = true
 EnableEntityRadar = true
-Speed = 0.33
+Speed = 1
 FlareType = 3
 ; FlareOption = 浣嶇疆X, 浣嶇疆Y, 浣嶇疆Z
 ; TEST
@@ -37,6 +37,8 @@ ArmorMinDamage = 14
 ; AddPartWeapon      = 閫ｅ嫊銇欍倠姝﹀櫒鍚?鐒°仐銇檪銇痭one), 銈兂銉娿兗鏅傞潪琛ㄧず锛? Yaw閫ｅ嫊, Pitch閫ｅ嫊, 鍥炶虎搴фX,Y,Z
 ; AddPartWeaponChild = Yaw閫ｅ嫊, Pitch閫ｅ嫊, 鍥炶虎搴фX,Y,Z
 ; M230
+Sound = Mi28_idle
+
 AddPartWeapon = ru_2A42,     false,  true,  false,   0.00, 0.93, 3.80  
 AddPartWeaponChild  =   false, true,  0.00, 0.776, 3.80
 
@@ -48,7 +50,11 @@ AddPartWeaponMissile = ru_kh39, false,  false,  false,    -1.72,  0.96, -1.64
 AddPartWeaponMissile = ru_kh39t, false,  false,  false,     -1.72,  0.96, -1.64
 AddPartWeaponMissile = ru_kh39t, false,  false,  false,    -1.72,  0.96, -1.64
 
+AddPartWeaponMissile = ru_s8, false,  false,  false,     -1.72,  0.96, -1.64
+AddPartWeaponMissile = ru_s8, false,  false,  false,     -1.72,  0.96, -1.64
 
+AddWeapon = ru_s8,      2.1,  1.14, 1.4,  0.4, 0,  false,1,  0,0,0, 0, 0
+AddWeapon = ru_s8,     -2.1,  1.14, 1.4, -0.4, 0,  false,1,  0,0,0, 0, 0
 
 AddRotor= 1, 0,  0.00,  3.70,  0.587,  0.0, 1.0, 0.0
 AddRotor= 1, 0, -0.772,   3.71, -10.88,  1.0, 0.0, 0.0
@@ -60,7 +66,7 @@ AddGunnerSeat = 0.0,  1.7,  3.7,  0.0, 1.2, 4.954,  true,-10, 70, false
 
 ;AddWeapon = 姝﹀櫒鍚? 浣嶇疆X,Y,Z, Yaw, Pitch, 銉戙偆銉儍銉堛亴浣跨敤銇с亶銈嬶紵, 搴у腑鐣彿, DefaultYaw,RangeYaw, MinPitch, MaxPitch
 
-AddWeapon = ru_2A42,     0.0, 0.93, 3.80 ,  0,0,  false,2,  0,-360,360, -10,70
+AddWeapon = ru_2A42,     0.0, 0.93, 3.80 ,  0,0,  false,1,  0,-360,360, -10,70
 
 
 AddWeapon = ru_s13,      1.86,  1.36, -0.45,  1, 0,  false,1,  0,0,0, 0, 25
@@ -69,6 +75,11 @@ AddWeapon = ru_s13,     -1.86,  1.36, -0.45, -1, 0,  false,1,  0,0,0, 0, 25
 
 AddWeapon = ru_kh39,  1.72,  0.96, -1.64,  0, -0,false,2, 0,-360,360, -10,70
 AddWeapon =ru_kh39t,  -1.72,  0.96, -1.64,  0, -0
+
+
+
+
+
 
 NameOnModernAARadar = M28
 NameOnEarlyAARadar = HELI

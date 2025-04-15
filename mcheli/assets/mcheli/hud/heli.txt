@@ -1,4 +1,4 @@
-
+﻿
 ; パイロット共通描画呼び出し
 Call = common_pilot
 
@@ -21,3 +21,20 @@ EndIf
 
 Color = 0xCFFFFFFF
 DrawCameraRot = 0, 60
+
+color=56
+
+
+;高度130mでスロットルMAXの場合 Y:150
+;高度120mでスロットルMAXの場合 Y:140
+
+
+
+;DrawTexture = kasoru, 18, 0, 15,15 , 0,0, 256,256
+
+;DrawTexture = kasoru, -27, 0, 15,15 , 0,0, 256,256
+
+;DrawTexture = kasoru, 0, -90, 15,15 , 0,0, 256,256
+
+;DrawTexture = kasoru, 0, 15, 15,15 , 0,0, 256,256
+

@@ -1,13 +1,13 @@
 DisplayName = AGM114L PassiveRadar-AGM
 Type = ATMissile
 Power = 600
-Acceleration = 0.1
+Acceleration = 2
 Explosion = 4
 Flaming = false
 Sight = MissileSight
 Delay = 120
 ModeNum = 1
-Sound = 9K118_F
+Sound = Heatseekers_F
 SoundVolume = 10
 RidableOnly = true
 ModelBullet = AGM114

@@ -1,92 +1,64 @@
-
-; 色設定(Current Color)
-Color = 0xCFFFFFFF
-
-
-
-If = cam_zoom>1
-	Color = #FF000000
-	DrawRect =  127.5, -127.5, 1080, 1080
-	DrawRect =  127.5,  127.5,-1080, 1080
-	DrawRect = -127.5,  127.5,-1080,-1080
-	DrawRect = -127.5, -127.5, 1080,-1080
-	DrawTexture = tank_scope, -127.5, -128,  256,256, 0,0, 256,256
-EndIf
-
-
-
-; 十字
-DrawLine = -40,   0,   -10,   0
-DrawLine =  40,   0,    10,   0
-DrawLine =   0, -40,     0, -10
-DrawLine =   0,  40,     0,  10
-
-; 枠
-DrawLine =  -70, -25,   -70, -50,   -25, -50
-DrawLine =  -70, +25,   -70, +50,   -25, +50
-DrawLine =  +70, -25,   +70, -50,   +25, -50
-DrawLine =  +70, +25,   +70, +50,   +25, +50
-
-; カメラの倍率を表示する
-Color = 0xFFFFE400
-DrawString = -70, -10, "x%.1f", CAM_ZOOM
-
-
+﻿
 ; ヨーの目盛
 Color = 0xFFFFE400
 DrawGraduationYaw   = plyr_yaw, 0,   0, -100
 DrawLine = 0,-87,   2,-83,  -2,-83,   0,-87
 DrawCenteredString =   0, -81, "%.0f", PLYR_YAW
 
-; HP
-Color = 0xFFFFE400
-DrawLine =  145, 22,   207, 22,    207, 14,    145, 14,   145,  22,
-Color = hp_rto>0.2? 0xFFFFE400: 0xFFDF0408
-DrawString  = 150,     5, "%3.0f", HP_PER
-DrawString  = 150+26,  5, "/ 100", HP_PER
-DrawRect    = 146,    15,   hp_rto*60, 6
 
-Color = 0xFFFFE400
-If = free_look==1
-	DrawString = 145, -40, "FREE LOOK"
-Endif
-
-If = cam_mode==1
-	DrawString = 145, -30, "NIGHT VISION"
-Endif
-If = cam_mode==2
-	DrawString = 145, -30, "THERMAL VISION"
-Endif
-
-
-; 砲塔コンパス
-DrawTexture = mbt_hud, 80,55,  32,32,  0, 0,64,64, yaw - plyr_yaw
-DrawTexture = mbt_hud, 80,55,  32,32, 64, 0,64,64, 
-
-; 弾数, 残弾 背景 (Ammo background)
-DrawTexture = hud, -208, 57,  62,10,  128,64, 128,20
-; 武器名 (Weapon name background)
-DrawTexture = hud, -208, 68, 106,10,  128,64, 128,20
-
-
-; 弾数, 残弾 (Ammo) リロード中でなければ緑、リロード中であれば赤
-Color = reloading==0? 0xFF28d448: 0xFFDF0408
-DrawString = -207, 58, "%s",  WPN_AMMO
-DrawString = -181, 58, "/",   WPN_AMMO
-DrawString = -172, 58, "%s",  WPN_RM_AMMO
-; 武器名 (Weapon name)
-DrawString = -207, 69, "%s",  WPN_NAME
-
-; 銃身の熱量タイプの場合(Heat)
-If = is_heat_wpn==1
-	Color = 0xFF28d448
-	DrawRect = -145, 57, 43, 10
-	Color = 0xFF188428
-	DrawRect = -144, 58, 41, 8
-	Color = 0xFFDF0408
-	DrawRect = -144, 58, 41*wpn_heat, 8
+If = sight_type==0&&cam_zoom<2
+DrawTexture = HMG1x,  -600, -300,  1200,600, 0,0, 2048,1024
 EndIf
 
-; 迫撃砲の着弾距離
-Color = 0xFF28d448
-Call = mortar
+If = sight_type==0&&cam_zoom>=2
+DrawTexture = HMG3x,  -600, -300,  1200,600, 0,0, 2048,1024
+EndIf
+
+If = sight_type==1&&dsp_mt_dist==1
+DrawTexture = APS, -500,-250,  1000,500, 0,0, 2048,1024
+Endif
+
+If = reloading==1
+DrawCenteredString =   -125, 55, "%.2f%%",   RELOAD_PER
+EndIf
+DrawCenteredString = 0, 57, "%s",  WPN_NAME
+DrawCenteredString = -26, 68, "%s",  WPN_AMMO
+DrawCenteredString =   0, 68, "/",   WPN_AMMO
+DrawCenteredString =  26, 68, "%s",  WPN_RM_AMMO
+
+If = is_heat_wpn==1
+	Color = 0xCFA99D38
+	DrawRect = -20, 77, 41, 2
+	Color = 0xFFDF0408
+	DrawRect = -20, 77, 41*wpn_heat, 2
+EndIf
+
+Color = 0xFFFFE400
+DrawLine =  115, 30,   177, 30,    177, 22,    115, 22,   115,  30,
+DrawString  = 120,     13, "%3.0f", HP_PER
+DrawString  = 120+26,  13, "/ 100", HP_PER
+DrawRect    = 116,    23,   hp_rto*60, 6
+
+If = cam_mode==1
+DrawTexture = IRNV, 250, -20, 70,20 ,0,0, 280,80,0
+EndIf
+If = cam_mode==2
+DrawTexture = FLIR, 250, -20, 70,20 ,0,0, 280,80,0
+EndIf
+If = cam_mode==0
+DrawTexture = 60Hzyellow, 250, -20, 70,20 ,0,0, 280,80,0
+EndIf
+If = have_flare==1
+DrawTexture = IRSmokeyellow, -210, -20, 70,20 ,0,0, 280,80,0
+EndIf
+
+If = have_flare==1&&can_flare==1
+DrawTexture = Readyyellow, -210, 0, 70,20 ,0,0, 280,80,0
+EndIf
+
+If = have_flare==1&&can_flare==0
+DrawTexture = NotReady, -210, 0, 70,20 ,0,0, 280,80,0
+EndIf
+
+DrawTexture = mbt_hud, -16,85,  32,32,  0, 0,64,64, yaw - plyr_yaw
+DrawTexture = mbt_hud, -16,85,  32,32, 64, 0,64,64, 

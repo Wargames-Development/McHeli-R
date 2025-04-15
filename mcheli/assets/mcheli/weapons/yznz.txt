@@ -1,9 +1,0 @@
-DisplayName = This chair can sit
-Type = TargetingPod
-Sight = MoveSight
-Delay = 20
-Sound = lockon
-Length = 300
-Radius = 300
-Target = planes/helicopters/vehicles/players/tanks
-MarkTime = 20

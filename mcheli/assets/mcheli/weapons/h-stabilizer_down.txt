@@ -1,2 +1,0 @@
-﻿DisplayName = 水平尾翼下げ
-Type = Dummy

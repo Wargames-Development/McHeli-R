@@ -13,14 +13,14 @@ Round =4
 reloadtime =100
 ProximityFuseDist = 1
 ModelBullet = AGM65
-Sound = missile_11_snd
+Sound = missile_3_snd
 RidableOnly = false
 HeatCount = 800
 MaxHeatCount = 1600
 fixmode=1
 
 laserGuidance = true
-hasLaserGuidancePod = false
+hasLaserGuidancePod = true
 
 turningFactor = 0.05
 NukeEffectOnly=true

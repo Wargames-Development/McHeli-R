@@ -5,13 +5,13 @@ Call = uav_fs
 Call = AA
 
 If = sight_type==1&&(reloading==0||wpn_heat<1.0)
-	DrawTexture = aa_ready, -500, -250,  1000,500, 0,0, 2048,1024
-       DrawTexture = aa2_ready,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+	DrawTexture = gun2, -500, -250,  1000,500, 0,0, 2048,1024
+     
 EndIf
 
 If = sight_type==1&&(reloading==1||wpn_heat==1.0)
-	DrawTexture = aa_noready, -500, -250,  1000,500, 0,0, 2048,1024
-       DrawTexture = aa2_noready,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024
+	DrawTexture = gun3, -500, -250,  1000,500, 0,0, 2048,1024
+      
 EndIf
 
 
@@ -83,17 +83,17 @@ Color = 0xFFFFE400
 Color = reloading==0? 0xFFFFE400: 0xFFDF0408
 ;リロード
 If = reloading==1
-;DrawCenteredString =   0, 45, "%.2f%% %.2fsec",   RELOAD_PER, RELOAD_SEC
+DrawCenteredString =   0, 45, "%.2f%% %.2fsec",   RELOAD_PER, RELOAD_SEC
 DrawString = -90, 45, "%.2fsec",    RELOAD_SEC
 EndIf
 ;リロードゲージ
 Color = 0xCFA99D38
 DrawRect = -90,-40, 2, 80
 Color = 0xFFDF0408
-DrawRect = -90, 40, 2, -80*reload_time
+;DrawRect = -90, 40, 2, -80*reload_time
 If = reloading==0
-	Color = 0xFFFFE400
-	DrawRect = -90,-40, 2, 80
+	;Color = 0xFFFFE400
+	;DrawRect = -90,-40, 2, 80
 EndIf
 
 
@@ -101,7 +101,7 @@ EndIf
 DrawCenteredString = -26, 68, "%s",  WPN_AMMO
 DrawCenteredString =   0, 68, "/",   WPN_AMMO
 DrawCenteredString =  26, 68, "%s",  WPN_RM_AMMO
-; 武器名 (Weapon name)
+ 武器名 (Weapon name)
 DrawCenteredString = 0, 57, "%s",  WPN_NAME
 ; 銃身の熱量タイプの場合(Heat)
 If = is_heat_wpn==1
@@ -175,7 +175,7 @@ Endif
 
 ; レーダーを持つ機体の場合
 If = have_radar==1&&cam_zoom==1
-	DrawTexture = plane_hud, 144, 37,  64,64,  0,0, 128,128
+	;DrawTexture = plane_hud, 144, 37,  64,64,  0,0, 128,128
 
 	Color = 0xFF28d448
 	DrawEntityRadar = -plyr_yaw-180, 144, 37,  64,64
@@ -183,6 +183,6 @@ If = have_radar==1&&cam_zoom==1
 	Color = 0xFFDF0408
 	DrawEnemyRadar  = -plyr_yaw-180, 144, 37,  64,64
 
-	DrawTexture = plane_hud, 144+16, 37,  32,64,  128,0, 64,128, radar_rot
+	;DrawTexture = plane_hud, 144+16, 37,  32,64,  128,0, 64,128, radar_rot
 EndIf
 

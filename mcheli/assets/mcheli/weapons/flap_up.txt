@@ -1,2 +1,0 @@
-﻿DisplayName = フラップ収納
-Type = Dummy

@@ -1,19 +1,20 @@
-DisplayName =2A42 30MM Cannon[AP]
-Type = MachineGun1
-Power =20
+DisplayName =2A42 30MM Cannon[HE]
+Type = MachineGun2
+Power =13
 Acceleration = 18.0
 Gravity = -0.005
 DisplayMortarDistance = true
-Explosion = 0
-explosionblock = 1
+Explosion = 1
+explosionblock = 0
 modelbullet = he
 Sight = MoveSight
 Flaming = false
 Sight = MoveSight
 Delay = 3
-SoundVolume = 0.6
+SoundVolume = 1
 SoundPitch = 1.0
-Sound = bmp_30_snd
+;Sound = bmp_30_snd
+Sound = 30mm_snd
 
 Accuracy = 0.8
 HeatCount = 16

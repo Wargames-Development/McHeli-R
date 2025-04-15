@@ -1,8 +1,8 @@
 DisplayName = GBU31 2000lb JDAM
-Type = ROCKET
-Power = 1500
-Acceleration = 1.5
-Explosion = 15
+Type = BOMB
+Power = 1800
+Acceleration = 1
+Explosion = 16
 Flaming = false
 Flaming = false
 Sight = MoveSight
@@ -17,6 +17,7 @@ TimeFuse = 200
 Accuracy = 0
 DisableSmoke = True
 ProximityFuseDist = 2.0
+Gravity = -0.00981
 
 DisplayMortarDistance = true
 

@@ -1,9 +1,0 @@
-DisplayName = 车长周视镜 侦查模式[20s]
-Type = TargetingPod
-Sight = MoveSight
-Delay = 20
-Sound = SCAN
-Length = 300
-Radius = 25
-Target = planes/helicopters/vehicles/players
-MarkTime = 20

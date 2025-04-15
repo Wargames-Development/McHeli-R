@@ -1,0 +1,81 @@
+;DisplayName = GBU-38
+;Type = rocket
+;Power = 500
+;radius=1000
+;Acceleration = 2
+;Explosion = 15
+;Flaming = true
+;Sight = MoveSight
+;Delay = 6
+
+;ReloadTime = 90
+;SoundVolume = 3
+;SoundPitch = 0.1
+;Sound = bomb_snd
+;modenum=2
+;ModelBullet = gbu-38
+;Gravity = -0.001
+;DisableSmoke = true
+;ExplosionAltitude = 2
+
+;DamageFactor = tank, 30.0
+;DamageFactor = plane, 10.5
+;DamageFactor = vehicle 10.5
+;DamageFactor = heli, 10.5
+;DamageFactor = player,50.0
+;displaymortardistance = true
+
+;MaxAmmo = 8
+;SuppliedNum = 4
+;Item =  4, hbm:item.ammo_nuke,5
+;Item =  4, hbm:item.circuit,6
+;Item =  4, hbm:item.mp_stability_10_flat
+
+
+
+
+
+
+;-------------------------------------------------------------------------------------
+
+DisplayName = GBU-38 500 lb JDAM
+Type = BOMB
+Power = 800
+Acceleration = 1
+Explosion = 8
+Flaming = false
+Sight = MoveSight
+Delay = 10
+round=4
+reloadtime = 200
+ModeNum = 1
+Sound = bomb_snd
+RidableOnly = true
+ModelBullet = gbu-32
+TimeFuse = 200
+Accuracy = 0
+DisableSmoke = True
+ProximityFuseDist = 2.0
+
+DisplayMortarDistance = true
+
+Gravity = -0.00981
+
+HeatCount = 500
+MaxHeatCount = 1600
+
+DamageFactor = player, 1
+DamageFactor = plane, 1
+DamageFactor = heli, 1.0
+DamageFactor =vehicle , 1
+DamageFactor = tank, 1
+turningFactor = 1
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone
+
+NukeEffectOnly=true
+explosiontype=hbmNT
+WeaponSwitchSound = Switch_Jet_Weapon_Missile

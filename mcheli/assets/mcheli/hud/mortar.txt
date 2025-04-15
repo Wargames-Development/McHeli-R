@@ -1,4 +1,4 @@
-
+﻿
 ; 色設定は本ファイルを呼び出す前に設定すること!
 
 ; 着弾距離を表示する場合、かつ、距離が測定できた場合
@@ -9,3 +9,27 @@ If = dsp_mt_dist == 1 && mt_dist <= 0
 	DrawString = 30, 30, "DIST = ----"
 Endif
 
+If = have_radar==1
+	DrawTexture = heli_hud, 144, 21,  64,64,  0,0, 128,128
+	
+	Color = 0x80FFFFFF
+	DrawLine = 144,    21+32,   144+64, 21+32
+	DrawLine = 144+32, 21,      144+32, 21+64
+
+	Color = 0xFF28d448
+	DrawEntityRadar = -plyr_yaw-180, 144, 21,  64,64
+
+	Color = 0xFFDF0408
+	DrawEnemyRadar  = -plyr_yaw-180, 144, 21,  64,64
+
+	DrawTexture = heli_hud, 144+16, 21,  32,64,  128,0, 64,128, radar_rot
+EndIf
+
+
+; 耐久値(HP)
+; HPが20%を超えている場合は橙(0xFFFFC90E)、HPが20%以下の場合は赤(0xFFDF0408)
+Color = hp_rto>0.2? 0xFFFFC90E: 0xFFDF0408
+DrawTexture = hud, 144, 95, 64,20, 128,64, 128,20
+DrawString  = 150,    97, "%3.0f", HP_PER
+DrawString  = 150+26, 97, "/ 100", HP_PER
+DrawRect    = 146, 107, hp_rto*60, 6

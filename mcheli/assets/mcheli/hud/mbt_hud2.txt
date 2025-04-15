@@ -1,8 +1,12 @@
 
+
+
+
 ; 色設定を緑にしてUAVの電波の強さ描画を呼び出す。色設定はCall先にも引き継がれる。
 Color = 0xFF28d448
 Call = uav_fs
 call =at
+
 If = reloading==0||wpn_heat<1.0
 	DrawTexture = gun2_ready, -500, -250,  1000,500, 0,0, 2048,1024
        DrawTexture = gun_ready,  -300-stick_x*15, -150-stick_y*15,  600,300, 0,0, 2048,1024

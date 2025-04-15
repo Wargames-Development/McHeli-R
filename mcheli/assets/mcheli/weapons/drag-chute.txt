@@ -1,2 +1,0 @@
-﻿DisplayName = ドラッグシュート展開
-Type = Dummy
