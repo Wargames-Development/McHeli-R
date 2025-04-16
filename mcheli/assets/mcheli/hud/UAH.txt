@@ -1,8 +1,0 @@
-;本文件由TV90及BFMC开发团队制作，禁止盗用！！！
-;背景
-If = hp_rto>0.5
-DrawTexture = UAH, -500, -500 , 1000,1000, 0,0, 1024,1024
-EndIf
-If = hp_rto<=0.5
-DrawTexture = UAHLOWHP, -500, -500,  1000,1000, 0,0, 1024,1024
-EndIf
