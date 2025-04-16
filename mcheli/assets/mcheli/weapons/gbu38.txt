@@ -1,0 +1,30 @@
+DisplayName = GBU-38
+Type = rocket
+Power = 500
+Acceleration = 1.7
+Explosion = 15
+Flaming = true
+Sight = MoveSight
+Delay = 6
+
+ReloadTime = 90
+SoundVolume = 10
+SoundPitch = 0.1
+Sound = bomb_snd
+ModelBullet = gbu-38
+Gravity = -0.001
+DisableSmoke = true
+ExplosionAltitude = 2
+
+displaymortardistance = true
+DamageFactor = tank, 30.0
+DamageFactor = plane, 10.5
+DamageFactor = vehicle 10.5
+DamageFactor = heli, 10.5
+DamageFactor = player,50.0
+displaymortardistance = true
+MaxAmmo = 24
+SuppliedNum = 12
+Item =  12, hbm:item.ammo_nuke,5
+Item =  12, hbm:item.circuit,6
+Item =  12, hbm:item.mp_stability_10_flat

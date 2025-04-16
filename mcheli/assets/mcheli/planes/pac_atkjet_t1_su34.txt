@@ -1,0 +1,121 @@
+﻿DisplayName = Su-34
+AddDisplayName = zh_CN,Su-34M 战斗轰炸机 [泛亚联军T1攻击机]
+AddDisplayName = en_US,Su-34
+MaxHp = 400
+ArmorMinDamage = 11
+
+
+
+Speed = 2.0
+
+FlareType = 4
+ParticlesScale = 1.0
+EnableSeaSurfaceParticle = true
+EnableGunnerMode = true
+MaxFuel         = 28000
+FuelConsumption = 20
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+DamageFactor = 0.0
+HUD = plane, su34_gnr
+
+ThirdPersonDist = 25
+ThrottleUpDown = 0.8
+MobilityYaw = 0.9
+
+MobilityRoll = 1.5
+MobilityPitch = 0.9
+
+CameraPosition = 0.0, 1.627, -4.173
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+
+AddSeat 	=  0.4767,  2.5,  -0.45
+AddGunnerSeat = -0.4767,  2.5, 0.0 , 0.0, 1.627, -4.173, true
+
+AddPartLG =  0, 2.36, -1.816,  1,0,0,120
+AddPartLGRev =  -0.0, 1.962, -0.1599,  1,0,0,-30
+AddPartLGRev = -0.4185, 2.266, -2.144,  0,0,1,-80
+AddPartLGRev =  0.4257, 2.266, -2.143,  0,0,1,80
+AddPartLGRev = -0.4836, 2.362, -3.839,  0,0,1,-100
+AddPartLGRev = 0.4934, 2.362, -3.839,  0,0,1,100
+
+AddPartLG =  -2, 2.5, -9.623,  0,0,0,90
+AddPartLGRev = -2.43, 2.673, -7.353,  0,0,1,-100
+AddPartLGRev = -2.40, 2.522, -9.258,  0,0,1,-85
+
+AddPartLG =  2, 2.5, -9.623,  0,0,0,90
+AddPartLGRev = 2.446, 2.658, -7.346,  0,0,1,100
+AddPartLGRev = 2.423, 2.520, -9.257,  0,0,1,85
+
+AddPartSteeringWheel =  2.427, 2.880, -14.11, 0.0, -1.0, 0.337, 30
+AddPartSteeringWheel = -2.398, 2.880, -14.12, 0.0, -1.0, 0.337, 30
+AddPartSteeringWheel =  2.567,  2.904,  -11.31,   -4.4633, -0.0758, 1.9205,  25
+AddPartSteeringWheel = -2.545,  2.904,  -11.31,    4.4633, -0.0758, 1.9205,  25
+AddPartSteeringWheel =  2.10, 2.256,-14.99, 1, 0, 0.0,   -15
+AddPartSteeringWheel =  -2.081, 2.256,-14.99,  -1, 0, 0.0,   -15
+AddPartSteeringWheel =  0.4856,2.838,-0.3173, 0, 0, 1,   -20
+AddPartSteeringWheel =  0.4736,2.841,-0.3173, 1, 0, 0,   -20
+
+AddPartwing =   0.00,  2.659,-4.721,  1,0, 0, 25
+SweepWingSpeed = 0.9
+
+AddPartLG =  0, 2.124, -0.1331,  1,0,0,45
+
+AddPartWeaponBay = ru_kh38/ru_kh36,  0, 2.352, -5.923,  1.000, 0.000, 0.000, 30
+AddPartWeaponBay = ru_kh38/ru_kh36,  0,  2.352, -5.923,  1.000, 0.000, 0.000, 45
+
+
+
+AddPartNozzle =  1.34, 2.273, -17.09, -1,0,0
+AddPartNozzle = -1.34, 2.273, -17.09, -1,0,0
+
+AddPartWeaponMissile = ru_kh38,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = ru_kh38,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = none,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = none,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = ru_kh36,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = ru_kh36,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = ru_r74,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = ru_r74,   false, false, false,  -0.297,  0.518, -8.699
+
+
+
+
+
+AddWeapon = ru_at_gun,  -1.214,  3.02,  -3.465,  -0.5,  0.0
+AddWeapon = ru_s8,  -5,  2.09, -8,  -1.4,  0.0
+AddWeapon = ru_s8,    5,  2.09, -8,  1.8 , 0.0
+AddWeapon = ru_r74,   -6.87,  1.985, -8.499,  0.0,  -30
+AddWeapon = ru_r74,   6.87,  1.985, -8.499,  0.0,  -30
+
+AddWeapon = ru_kh38,     -1.892, 0.50, -5.73,  0,-0.0, false,2,  0,-360,360, 0,90,  false,2
+AddWeapon = ru_kh38,     1.892, 0.50, -5.73,  0,-0.0,  false,2,  0,-360,360, 0,90,  false,2
+AddWeapon = ru_kH36,     -0.32,  1.758, -1.699,  0,-0.0, true,2,  0,-360,360, 2,90,  false,2
+AddWeapon = ru_kH36,      0.32,  1.758, -1.699,  0,-0.0,  true,2,  0,-360,360, 2,90,  false,2
+AddPartCanopy =  0.00, 4.089, -1.808,  -1,0,0,  40
+
+BoundingBox =  0.00, 2.40, 1.5,  3.0, 3.5
+BoundingBox =  0.00, 1.90, -3.0,  4.9, 3.2
+BoundingBox =  0.00, 1.90, -7.80, 5.0, 3.2
+BoundingBox =  0.00, 1.90, -12.50, 4.0, 3.2
+BoundingBox = -4.2, 2.20, -10.50,  5.0, 1.4
+BoundingBox =  4.2, 2.20, -10.50,  5.0, 1.4
+BoundingBox =  0.00, 2.20, -14.3,  3.5, 2.0,1.5
+EntityWidth  = 0.75
+EntityHeight = 0.75
+
+
+AddTurretWeapon = AESA,   -0.846, 3.68,  0.373,   0.0, 0.0, false, 2, 0, -360,360, -70,10
+
+NameOnModernAARadar = Su34
+NameOnEarlyAARadar = Su27
+NameOnModernASRadar = ?
+NameOnEarlyASRadar = ?
+RadarType = Early_AS
+
+motionfactor=0.955
+HasChaff = true
+ChaffUseTime = 100
+ChaffWaitTime = 400

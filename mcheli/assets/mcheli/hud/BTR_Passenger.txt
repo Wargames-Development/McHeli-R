@@ -1,0 +1,12 @@
+;本文件由TV90及BFMC开发团队制作，禁止盗用！！！
+;背景
+If = hp_rto>0.25
+DrawTexture = BTR90_Passenger_BNK,(-600*width/683)-stick_x*3, (-600*height/353)-stick_y*3+pitch*3,1200*width/683,1200*height/353, 0,0, 1960,1960
+EndIf
+
+If = hp_rto<=0.25
+DrawTexture = BTR90_Passenger_BNK_LOWHP, (-600*width/683)-stick_x*3, (-600*height/353)-stick_y*3+pitch*3,1200*width/683,1200*height/353, 0,0, 1960,1960
+EndIf
+
+;准星以及放大
+DrawTexture = BTR90_Passenger_Cross, -500, -250,  1000,500, 0,0, 2048,1024

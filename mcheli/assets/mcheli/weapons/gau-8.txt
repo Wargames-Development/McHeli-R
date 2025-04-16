@@ -1,0 +1,36 @@
+DisplayName = GAU-8 Avenger
+
+Type = machinegun1
+Power = 120
+Acceleration = 8.0
+
+Flaming = false
+Sight = MoveSight
+Delay = 0
+ReloadTime = 150
+
+SoundPitch = 1.0
+Sound = GAU-8_F
+Accuracy = 0.5
+modenum = 2
+explosion = 1
+explosionblock = 0
+
+disablesmoke = true
+
+modelbullet = bullet
+HeatCount = 10
+MaxHeatCount = 1000
+SoundVolume = 150
+
+
+
+AddMuzzleFlash      = 2.1,     0.85,        1,  150,254,219,154
+AddMuzzleFlash      = 2.0,     0.80,        1,  150,254,219,184
+AddMuzzleFlashSmoke = 2.2, 1,  10.0,  3.0, 25,  160,160,140,120
+AddMuzzleFlashSmoke = 3.2, 2,  11.0,  5.0, 15,  160,190,170,150
+
+MaxAmmo = 1200
+SuppliedNum = 200
+Item =  2, hbm:item.ammo_dgk
+item = 2, hbm:item.ingot_u238

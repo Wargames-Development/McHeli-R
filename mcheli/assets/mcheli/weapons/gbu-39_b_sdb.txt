@@ -1,0 +1,27 @@
+DisplayName = GBU-39/B SDB
+Type = ATMissile
+Power = 250
+Acceleration = 1
+Explosion = 13
+ExplosionBlock = 10
+
+
+Delay = 6
+Sight = MissileSight
+ReloadTime = 190
+SoundVolume = 10
+SoundPitch = 0.1
+Sound = JDAM_F
+ModelBullet = sdb
+Gravity = -0.001
+DisableSmoke = true
+DamageFactor = tank, 5
+DamageFactor = plane, 1
+DamageFactor = vehicle 2
+DamageFactor = heli, 1
+DamageFactor = player,5
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  2, hbm:item.ammo_nuke,5
+Item =  4, hbm:item.circuit,6
+Item =  4, hbm:item.mp_stability_10_flat

@@ -1,0 +1,34 @@
+DisplayName = GBU-24 PavewayIII
+Type = TVMissile
+Power = 3000
+Acceleration = 2
+Explosion = 30
+Flaming = true
+Sight = MoveSight
+Delay = 5
+Round = 4 
+ReloadTime = 190
+SoundVolume = 10
+SoundPitch = 0.1
+Sound = JDAM_F
+ModelBullet = GBU-24B
+Gravity = -0.002
+DisableSmoke = true
+Piercing  = 2
+DamageFactor = tank, 50.0
+DamageFactor = plane, 20.5
+DamageFactor = vehicle 20.5
+DamageFactor = heli, 20.5
+DamageFactor = player, 20.0
+
+displaymortardistance = true
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  8, hbm:item.ammo_nuke,5
+Item =  2, hbm:item.circuit,6
+Item =  2, hbm:item.mp_stability_10_flat
+
+laserGuidance = true
+hasLaserGuidancePod = true
+WeaponSwitchSound = Switch_Jet_Weapon_Missile
+RecoilPitch = 100

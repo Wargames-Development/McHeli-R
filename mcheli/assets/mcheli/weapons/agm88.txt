@@ -1,0 +1,64 @@
+;DisplayName = AGM-88 HARM
+;Type = AtMissile
+;Power = 500
+;Acceleration = 6.0
+;Explosion = 12
+;Flaming = true
+;LockTime = 20
+;Sight = MissileSight
+;Delay = 300
+;ModelBullet = agm88
+;Sound = missile_2_snd
+
+;DamageFactor = tank, 20.0
+;DamageFactor = plane, 10.5
+;DamageFactor = vehicle 10.5
+;DamageFactor = heli, 10.5
+;DamageFactor = player,50.0
+
+
+;MaxAmmo = 2
+;SuppliedNum = 2
+;Item =  4, hbm:item.ammo_stinger_rocket
+
+;-----------------------------------------------------------------
+
+DisplayName = AGM-88 HARM (Temp Laser-Guided)
+Type = TVMissile
+Power = 350
+Acceleration = 2.5
+Explosion = 4
+ExplosionBLOCK = 2
+Flaming = false
+Sight = MissileSight 
+Delay = 10
+
+ModeNum = 2
+Round =4
+reloadtime =100
+ProximityFuseDist = 1
+ModelBullet = AGM65
+Sound = missile_3_snd
+RidableOnly = false
+HeatCount = 800
+MaxHeatCount = 1600
+fixmode=1
+
+laserGuidance = true
+hasLaserGuidancePod = true
+
+turningFactor = 0.05
+NukeEffectOnly=true
+explosiontype=hbmNT
+
+DamageFactor = player, 0.5
+DamageFactor = plane, 1.5
+DamageFactor = heli, 1.5
+DamageFactor =vehicle , 1.1
+DamageFactor = tank, 1.1
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  10, iron_ingot
+
+WeaponSwitchSound = Switch_Jet_Weapon_Missile

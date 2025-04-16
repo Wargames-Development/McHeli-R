@@ -1,0 +1,51 @@
+DisplayName = GBU-28
+Type = TVMissile
+fixmode = 1
+modenum = 2
+Power = 7500
+radius=500
+Acceleration = 2
+Explosion = 45
+
+Flaming = true
+Sight = MoveSight
+Delay = 25
+
+ReloadTime = 90
+SoundVolume = 30
+SoundPitch = 0.1
+Sound = bomb_snd
+ModelBullet = gbu28
+DisableSmoke = true
+
+HeatCount = 1000
+MaxHeatCount = 1000
+piercing  = 8
+Gravity = -0.00981
+
+
+laserGuidance = true
+hasLaserGuidancePod = true
+
+turningFactor = 0.05
+NukeEffectOnly=true
+explosiontype=hbmNT
+
+DamageFactor = player, 0.5
+DamageFactor = plane, 1.5
+DamageFactor = heli, 1.5
+DamageFactor =vehicle , 1.1
+DamageFactor = tank, 1.1
+
+
+
+
+
+
+displaymortardistance = true
+
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, hbm:item.warhead_buster_medium
+Item =  2, hbm:item.mp_stability_10_flat

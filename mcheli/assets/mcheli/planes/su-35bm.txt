@@ -1,0 +1,401 @@
+DisplayName = Su-35BM Flanker-E
+AddDisplayName = ja_JP, Su-35BM フランカーE
+AddDisplayName = ru_RU, Су-35
+MaxHp = 230
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+Speed = 1.5
+Sound = saturn_al31_sound
+SoundVolume = 15
+HUD = plane, plane_gnr
+FlareType = 5
+FlareOption =  2.08,  1.70, -13.5
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+MaxFuel         = 1200
+;MaxFuel         = 20000
+FuelConsumption = 0.58
+ThirdPersonDist = 28
+MotionFactor = 0.97
+;MotionFactor = 0.9695
+ThrottleUpDown = 0.6
+ThrottleUpDownOnEntity = 2.0
+;PivotTurnThrottle = 0.09
+
+CanMoveOnGround = true
+CanRotOnGround  = true
+
+EnableBack = false
+
+MobilityPitch = 0.65
+MobilityRoll  = 2.68
+MobilityYaw   = 0.40
+
+AddSeat =  0.0, 2.7940, 6.6456
+;AddSeat =  0.00,  2.405,  5.68
+
+;AddRack = stairs1,  2.2127, -0.7460, 5.8142,  0.0, 0.0, 0.0,  10.0, 100000,  94.4,-70.5
+
+;VariableSweepWing = true
+;SweepWingSpeed = 2.5
+;AddPartWing =  -3.7089, 2.7622, -6.6573,  0,-1,0, 50
+
+AddTexture = su-35bm_1
+AddTexture = su-35bm_2
+AddTexture = su-35bm_3
+AddTexture = su-35bm_4
+AddTexture = su-35bm_5
+AddTexture = su-35bm_6
+AddTexture = su-35bm_7
+AddTexture = su-35bm_test
+
+;Gravity = 0.007
+Gravity = -0.04
+
+EnableGunnerMode = true
+CameraPosition =-1.5085, 0.597, 0.1592
+AutoPilotRot = 0
+
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+
+___________________________________________________________________________________________________________________________
+
+	;Acelerador
+AddPartThrottle =   0.5751, 2.9411, 6.9341,   12.4544, 1.4923, 0.0000,   32
+
+	; Joystick
+AddPartSteeringWheel =  0.0, 3.0313, 4.7817,     0.0000,  0.0000, -1.0000,   12
+	; Alerones
+AddPartSteeringWheel =  6.3973, 2.6169, -6.2952,     3.2553, -0.1220, -1.2164,   20,20
+AddPartSteeringWheel = -6.3973, 2.6169, -6.2952,    -3.2553, -0.1220, -1.2164,   20,20
+	; Toberas
+AddPartSteeringWheel =  1.4512, 2.0398, -9.8507,     1.1057, -0.6384,  0.0000,   15,15
+AddPartSteeringWheel = -1.4512, 2.0398, -9.8507,    -1.1057, -0.6384,  0.0000,   15,15
+	; Estavilizadores horizontales
+AddPartSteeringWheel =  0.0, 1.9708, -8.9954,     1.0000,  0.0000,  0.0000,   15,15
+AddPartSteeringWheel =  0.0, 1.9708, -8.9954,    -1.0000,  0.0000,  0.0000,   15,15
+	; Estavilizadores verticales
+AddPartSteeringWheel =  2.5931, 5.3493, -8.5949,     0.0003, -1.9440,  0.5333,    0,20
+AddPartSteeringWheel = -2.5931, 5.3493, -8.5949,     0.0003, -1.9440,  0.5333,    0,20
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+  ;Interruptor cabina (lg0)
+AddPartLG =  0.4633, 3.3252, 7.3678,   1, 0, 0,    50
+
+  ;Tren delantero (lg1 - lg3)
+AddPartLG =  		 0.0, 2.3644, 3.5334,  -1.0000, 0.0000, 0.0000,    99
+AddPartLG =  		 0.0, 2.2357, 1.7199,  -1.0000, 0.0000, 0.0000,    32
+AddPartSlideRotLG = 	 0.0, -0.2307, 0.5108,   0.0, 2.2357, 1.7199,   -1.000, 0.00, 0.0,    31
+
+  ;Tren izquierdo (lg4 - lg9)
+AddPartLG =  		 2.1645, 2.2825, -3.8025,  -0.5750,-0.5500, 0.5000,    120.7
+AddPartSlideRotLG = 	 0.0, -0.4799, 0.0,   2.1645, 2.2825, -3.8025,  -0.5750,-0.5500, 0.5000,    120.7
+AddPartSlideRotLG = 	 0.0, -0.4799, 0.0,   2.1645, 2.2825, -3.8025,  -0.5750,-0.5500, 0.5000,    127.0
+AddPartLG =  		 2.1645, 2.2825, -3.8025,  -0.5750,-0.5500, 0.5000,    133.0
+AddPartLG =  		 2.2101, 2.0181, -5.0186,  -0.3565, 0.2365,-0.5785,    37.0
+AddPartSlideRotLG = 	-0.0646, -0.0735, 0.7449,   2.2101, 2.0181, -5.0186,  -0.3565, 0.2365,-0.5785,    36.0
+
+  ;Tren izquierdo (lg10 - lg15)
+AddPartLG =  		-2.1645, 2.2825, -3.8025,   0.5750,-0.5500, 0.5000,   -120.7
+AddPartSlideRotLG = 	 0.0, -0.4799, 0.0,  -2.1645, 2.2825, -3.8025,   0.5750,-0.5500, 0.5000,   -120.7
+AddPartSlideRotLG = 	 0.0, -0.4799, 0.0,  -2.1645, 2.2825, -3.8025,   0.5750,-0.5500, 0.5000,   -127.0
+AddPartLG =  		-2.1645, 2.2825, -3.8025,   0.5750,-0.5500, 0.5000,   -133.0
+AddPartLG =  		-2.2101, 2.0181, -5.0186,   0.3565, 0.2365,-0.5785,   -37.0
+AddPartSlideRotLG = 	 0.0646, -0.0735, 0.7449,  -2.2101, 2.0181, -5.0186,   0.3565, 0.2365,-0.5785,   -36.0
+
+  ;Compuerta delantera (lg16 - lg17)
+AddPartLGRev =  	-0.4183, 2.1194, 6.0579,   0.0370, 0.0946,-1.9664,   95
+AddPartLGRev =  	 0.0, 2.0524, 1.8674,   1.0000, 0.0000, 0.0000,   32
+
+  ;Compuertas izquierda (lg18 - lg19)
+AddPartLGRev =  	 2.7341, 2.4944, -0.9394,  -0.0513,-0.0184, 0.6521,   105
+AddPartLGRev =  	 2.4214, 2.5287, -2.3599,  -0.0833, 0.1786, 1.4520,   60
+
+  ;Compuertas derecha (lg20 - lg21)
+AddPartLGRev =  	-2.7341, 2.4944, -0.9394,   0.0513,-0.0184, 0.6521,  -105
+AddPartLGRev =  	-2.4214, 2.5287, -2.3599,   0.0833, 0.1786, 1.4520,  -60
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+AddPartCanopy = 0.0, 3.7778, 4.808,   -1,0,0, 30
+AddPartSlideCanopy = 0.00, 0.1876,-0.1127 
+AddPartCanopy = 0.0, 3.7778, 4.808,   -1,0,0,  0
+AddPartCanopy = 0.0, 3.7778, 4.808,   -1,0,0,  0
+AddPartCanopy = 0.0, 3.7778, 4.808,   -1,0,0, 30
+___________________________________________________________________________________________________________________________
+
+AddPartWeaponMissile = nada_nada,   	false, false, false,   1.2636, 1.0657, 2.6013
+AddPartWeaponMissile = RU_R27ER,   	false, false, false,   1.2636, 1.0657, 2.6013
+AddPartWeaponMissile = RU_R27ER,   	false, false, false,   1.2636, 1.0657, 2.6013
+AddPartWeaponMissile = RU_R27ER,   	false, false, false,   1.2636, 1.0657, 2.6013
+AddPartWeaponMissile = RU_R27ER,   	false, false, false,   1.2636, 1.0657, 2.6013
+AddPartWeaponMissile = kh-29te_2m,   	false, false, false,   1.2636, 1.0657, 2.6013
+AddPartWeaponMissile = kh-29te_2m,   	false, false, false,   1.2636, 1.0657, 2.6013
+AddPartWeaponMissile = r-77-1_2m,   	false, false, false,   1.2636, 1.0657, 2.6013
+AddPartWeaponMissile = r-77-1_2m,   	false, false, false,   1.2636, 1.0657, 2.6013
+AddPartWeaponMissile = r-74m_4m,   	false, false, false,   1.2636, 1.0657, 2.6013
+AddPartWeaponMissile = r-74m_4m,   	false, false, false,   1.2636, 1.0657, 2.6013
+AddPartWeaponMissile = r-74m_4m,   	false, false, false,   1.2636, 1.0657, 2.6013
+AddPartWeaponMissile = r-74m_4m,   	false, false, false,   1.2636, 1.0657, 2.6013
+
+;AddWeapon = system_on,	  0.0000, 0.0000, 0.0000,   0.0,  0.0
+AddWeapon = ru_gsh302,	 -1.2205, 2.7308, 5.3652,  -0.4, -0.2
+AddWeapon = r-77-1_2m,	  5.6825, 1.8638,-1.3558,   0.0,  0.0
+AddWeapon = r-77-1_2m,	 -5.6825, 1.8638,-1.3558,   0.0,  0.0
+AddWeapon = kh-29te_2m,	  1.5085, 0.5970, 0.2762,   0.0,  0.0
+AddWeapon = kh-29te_2m,	 -1.5085, 0.5970, 0.2762,   0.0,  0.0
+AddWeapon = RU_R27ER,	  3.9702, 1.7850,-0.4321,   0.0,  0.0
+AddWeapon = RU_R27ER,	 -3.9702, 1.7850,-0.4321,   0.0,  0.0
+AddWeapon = RU_R27ER,	  0.0000, 1.4341, 2.3393,   0.0,  0.0
+AddWeapon = RU_R27ER,	  0.0000, 1.5026,-4.1455,   0.0,  0.0
+AddWeapon = r-74m_4m,	  8.8260, 2.2050,-2.9753,   0.0,  0.0
+AddWeapon = r-74m_4m,	 -8.8260, 2.2050,-2.9753,   0.0,  0.0
+AddWeapon = r-74m_4m,	  7.5531, 1.9026,-3.5319,   0.0,  0.0
+AddWeapon = r-74m_4m,	 -7.5531, 1.9026,-3.5319,   0.0,  0.0
+
+AddWeapon = targeting_pod_ph50s,   0.0, 0.6328, -1.3572,   0.0, 0.0
+;AddWeapon = targeting_pod_mob1,    0.0, 0.6328, -1.3572,   0.0, 0.0
+;AddWeapon = targeting_pod_block,   0.0, 0.6328, -1.3572,   0.0, 0.0
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+									(Sus iluminados g. 	0.0002 h.u.l respecto al no iluminado)
+;Rotación pantalla central: 	0.0,-10.0000, 7.1474,   1,0,0,  -0.0008	(Su ícono misil Giró 	0.0004 hacia un lado)
+									(Su retángulo g. 	0.0008 h.u.l)
+									(Su cubierta indiv. g. 	0.0008 h.u.l)
+									(Su cubierta grande g. 	0.0012 h.u.l)
+;Rotación pantalla rincipal: 	0.0,-16.0604, 2.1521,   1,0,0,  -0.0008	(Su ícono misil g. 	0.0004 h.u.l)
+									(Su cubierta grande g. 	0.0008 h.u.l)
+									(Su encendido g. 	0.0005 h.u.l) wb17
+
+;Rotación panel lateral:	0.245542,-2.786217,-0.948379,  0.137989,0.019278,-0.018695,   0.0014	(Giro 0.0007 hacia un lado)
+
+	;($wb0) Cabina y cuerpo
+AddPartWeaponBay = system_on / gsh-301 / r-77-1_2m / kh-29te_2m / r-27er_4m / r-74m_4m / targeting_pod_ph50s,	0.0, 0.0000, 0.0000,   1,0,0,   0
+	;($wb1) HUD
+AddPartWeaponBay = system_on / gsh-301 / r-77-1_2m / kh-29te_2m / r-27er_4m / r-74m_4m / targeting_pod_ph50s,	0.0, 3.1310,-2.6530,  -1,0,0,   180
+	;($wb2) Nada
+AddPartWeaponBay = system_on / gsh-301 / r-77-1_2m / kh-29te_2m / r-27er_4m / r-74m_4m / targeting_pod_ph50s,	0.0, 0.0000, 0.0000,   1,0,0,   0
+	;($wb3) Cubierta pantallas principales
+AddPartWeaponBay = system_on / gsh-301 / r-77-1_2m / kh-29te_2m / r-27er_4m / r-74m_4m / targeting_pod_ph50s,	0.0,-16.0604,2.1521,   1,0,0,   0.0016
+	;($wb4) Cubierta pantalla central
+AddPartWeaponBay = system_on / gsh-301 / r-77-1_2m / kh-29te_2m / r-27er_4m / r-74m_4m / targeting_pod_ph50s,	0.0,-10.000, 7.1474,   1,0,0,   0.0024
+
+	;($wb5-$wb8) R-27ER
+AddPartWeaponBay = r-27er_4m,	0.0,-10.00, 7.1474,  1,0,0,  0.0006
+AddPartWeaponBay = r-27er_4m,	0.0,-10.00, 7.1474,  1,0,0,  0.0006
+AddPartWeaponBay = r-27er_4m,	0.0,-10.00, 7.1474,  1,0,0,  0.0006
+AddPartWeaponBay = r-27er_4m,	0.0,-10.00, 7.1474,  1,0,0,  0.0006
+	;($wb9-$wb10) Kh-29TE
+AddPartWeaponBay = kh-29te_2m,	0.0,-10.00, 7.1474,  1,0,0,  0.0006
+AddPartWeaponBay = kh-29te_2m,	0.0,-10.00, 7.1474,  1,0,0,  0.0006
+	;($wb11-$wb12) R-77-1
+AddPartWeaponBay = r-77-1_2m,	0.0,-10.00, 7.1474,  1,0,0,  0.0006
+AddPartWeaponBay = r-77-1_2m,	0.0,-10.00, 7.1474,  1,0,0,  0.0006
+	;($wb13-$wb16) R-74M
+AddPartWeaponBay = r-74m_4m,	0.0,-10.00, 7.1474,  1,0,0,  0.0006
+AddPartWeaponBay = r-74m_4m,	0.0,-10.00, 7.1474,  1,0,0,  0.0006
+AddPartWeaponBay = r-74m_4m,	0.0,-10.00, 7.1474,  1,0,0,  0.0006
+AddPartWeaponBay = r-74m_4m,	0.0,-10.00, 7.1474,  1,0,0,  0.0006
+
+	;($wb17) Panel principl
+AddPartWeaponBay = system_on / gsh-301 / r-77-1_2m / kh-29te_2m / r-27er_4m / r-74m_4m / targeting_pod_ph50s,	 0.000000,-16.06040, 2.152100,	-1,0,0,   			0.0010
+	;($wb18) Panel izquierdo
+AddPartWeaponBay = system_on / gsh-301 / r-77-1_2m / kh-29te_2m / r-27er_4m / r-74m_4m / targeting_pod_ph50s,	 0.245542,-2.786217,-0.948379, 	-0.137989,-0.019278, 0.018695,	0.0014
+	;($wb19) Panel derecho
+AddPartWeaponBay = system_on / gsh-301 / r-77-1_2m / kh-29te_2m / r-27er_4m / r-74m_4m / targeting_pod_ph50s,	-0.245542,-2.786217,-0.948379, 	-0.137989, 0.019278,-0.018695,	0.0014
+	;($wb20) Panel derecho
+AddPartWeaponBay = system_on / gsh-301 / r-77-1_2m / kh-29te_2m / r-27er_4m / r-74m_4m / targeting_pod_ph50s,	 0.000000,-10.00000, 7.147400,  -1,0,0,  			0.0012
+___________________________________________________________________________________________________________________________
+
+	;Fuselaje Central
+BoundingBox =  0.0, 2.1117, 12.168,   0.50, 0.50,   0.8
+BoundingBox =  0.0, 2.2193, 11.3993,   0.80, 0.80,   0.8
+BoundingBox =  0.0, 2.3901, 10.2831,   1.10, 1.10,   0.8
+BoundingBox =  0.0, 2.6007, 8.844,   1.35, 1.35
+BoundingBox =  0.0, 2.7306, 7.1768,   1.50, 1.40
+BoundingBox =  0.0, 2.8862, 5.3305,   1.65, 1.45
+BoundingBox =  0.0, 3.0231, 3.5545,   1.40, 1.50
+BoundingBox =  0.0, 2.9892, 1.9165,   1.40, 1.45
+BoundingBox =  0.0, 2.919, 0.3662,   1.25, 1.33
+BoundingBox =  0.0, 2.4919, 0.2515,   1.75, 0.59
+BoundingBox =  0.0, 2.8137, -1.0085,   1.10, 1.15
+BoundingBox =  0.0, 2.7259, -2.209,   0.95, 1.00
+BoundingBox =  0.0, 2.4919, -1.7959,   1.75, 0.59
+BoundingBox =  0.0, 2.6557, -3.2315,   0.80, 0.88
+BoundingBox =  0.0, 2.4919, -3.8423,   1.75, 0.59
+BoundingBox =  0.0, 2.4919, -5.8886,   1.75, 0.59
+BoundingBox =  0.0, 2.4919, -7.7899,   1.50, 0.59
+BoundingBox =  0.0, 2.4919, -9.5449,   1.50, 0.59,   0.9
+BoundingBox =  0.0, 2.4393, -10.8599,   0.75, 0.59,   0.8
+BoundingBox =  0.0, 2.3972, -11.6204,   0.55, 0.61,   0.7
+BoundingBox =  0.0, 2.3656, -12.2382,   0.50, 0.60,   0.6
+BoundingBox =  0.0, 2.3656, -12.7647,   0.40, 0.40,   0.5
+	;Fuselaje lateral izquierdo
+BoundingBox =  0.351, 2.4603, 5.3305,   1.65, 0.30
+BoundingBox =  0.819, 2.5797, 3.5545,   1.40, 0.30
+BoundingBox =  1.287, 2.6499, 2.0065,   1.25, 0.32
+BoundingBox =  1.755, 2.6499, 0.5429,   1.25, 0.32
+BoundingBox =  1.755, 2.6499, -0.9196,   1.25, 0.32
+BoundingBox =  1.755, 2.6499, -2.3821,   1.25, 0.32
+BoundingBox =  1.755, 2.6499, -3.8446,   1.25, 0.32
+BoundingBox =  1.755, 2.6499, -5.3071,   1.25, 0.32
+	;Fuselaje lateral derecho
+BoundingBox = -0.351, 2.4603, 5.3305,   1.65, 0.30
+BoundingBox = -0.819, 2.5797, 3.5545,   1.40, 0.30
+BoundingBox = -1.287, 2.6499, 2.0065,   1.25, 0.32
+BoundingBox = -1.755, 2.6499, 0.5429,   1.25, 0.32
+BoundingBox = -1.755, 2.6499, -0.9196,   1.25, 0.32
+BoundingBox = -1.755, 2.6499, -2.3821,   1.25, 0.32
+BoundingBox = -1.755, 2.6499, -3.8446,   1.25, 0.32
+BoundingBox = -1.755, 2.6499, -5.3071,   1.25, 0.32
+
+	;Entrada Motor izquierdo
+BoundingBox =  1.3595, 1.7934, -0.0725,   0.85, 1.12,   0.8
+BoundingBox =  1.3595, 1.7934, -1.0015,   0.85, 1.12,   0.9
+BoundingBox =  1.3888, 1.7934, -2.0253,   0.90, 1.12
+BoundingBox =  1.4180, 1.7934, -3.1075,   0.95, 1.12
+BoundingBox =  1.4473, 1.8168, -4.2483,   1.00, 1.08
+	;Entrada Motor derecho
+BoundingBox = -1.3595, 1.7934, -0.0725,   0.85, 1.12,   0.8
+BoundingBox = -1.3595, 1.7934, -1.0015,   0.85, 1.12,   0.9
+BoundingBox = -1.3888, 1.7934, -2.0253,   0.90, 1.12
+BoundingBox = -1.4180, 1.7934, -3.1075,   0.95, 1.12
+BoundingBox = -1.4473, 1.8168, -4.2483,   1.00, 1.08
+	:Motor izquierdo
+BoundingBox =  1.4473, 2.0742, -5.4768,   1.10, 1.44,   1.2
+BoundingBox =  1.4473, 2.0976, -6.7638,   1.10, 1.40,   1.2
+BoundingBox =  1.4473, 2.0918, -8.0508,   1.10, 1.31,   1.2
+BoundingBox =  1.4473, 2.0742, -9.3378,   1.10, 1.20,   1.1
+BoundingBox =  1.4473, 2.0274,-10.6353,   1.05, 1.05,   0.8
+	:Motor derecho
+BoundingBox = -1.4473, 2.0742, -5.4768,   1.10, 1.44,   1.2
+BoundingBox = -1.4473, 2.0976, -6.7638,   1.10, 1.40,   1.2
+BoundingBox = -1.4473, 2.0918, -8.0508,   1.10, 1.31,   1.2
+BoundingBox = -1.4473, 2.0742, -9.3378,   1.10, 1.20,   1.1
+BoundingBox = -1.4473, 2.0274,-10.6353,   1.05, 1.05,   0.8
+
+	;Ala izquierda
+BoundingBox =  3.2175, 2.6499, -1.0822,   1.25, 0.32
+BoundingBox =  3.2175, 2.6499, -2.5447,   1.25, 0.32
+BoundingBox =  3.2175, 2.6499, -4.0072,   1.25, 0.32
+BoundingBox =  3.2175, 2.6499, -5.4697,   1.25, 0.32
+
+BoundingBox =  4.3875, 2.6499, -1.7538,   0.75, 0.25
+BoundingBox =  4.6800, 2.6499, -2.9238,   1.25, 0.25
+BoundingBox =  4.6800, 2.6499, -4.3863,   1.25, 0.25
+BoundingBox =  4.6800, 2.6499, -5.8488,   1.25, 0.25
+
+BoundingBox =  5.9962, 2.5914, -3.4772,   1.00, 0.25
+BoundingBox =  6.1425, 2.5914, -4.7935,   1.25, 0.25
+BoundingBox =  6.1425, 2.5914, -6.2560,   1.25, 0.25
+
+BoundingBox =  7.0200, 2.5212, -3.9967,   0.75, 0.25,   0.9
+BoundingBox =  7.6050, 2.5212, -5.1655,   1.25, 0.25,   0.9
+BoundingBox =  7.6050, 2.5212, -6.6280,   1.25, 0.25,   0.9
+
+BoundingBox =  8.6288, 2.4627, -5.6008,   0.50, 0.25,   0.7
+BoundingBox =  8.6288, 2.4627, -6.1858,   0.50, 0.25,   0.7
+BoundingBox =  8.6288, 2.4627, -6.7708,   0.50, 0.25,   0.7
+BoundingBox =  8.6288, 2.4627, -7.3558,   0.50, 0.25,   0.7
+
+	;Ala derecha
+BoundingBox = -3.2175, 2.6499, -1.0822,   1.25, 0.32
+BoundingBox = -3.2175, 2.6499, -2.5447,   1.25, 0.32
+BoundingBox = -3.2175, 2.6499, -4.0072,   1.25, 0.32
+BoundingBox = -3.2175, 2.6499, -5.4697,   1.25, 0.32
+
+BoundingBox = -4.3875, 2.6499, -1.7538,   0.75, 0.25
+BoundingBox = -4.6800, 2.6499, -2.9238,   1.25, 0.25
+BoundingBox = -4.6800, 2.6499, -4.3863,   1.25, 0.25
+BoundingBox = -4.6800, 2.6499, -5.8488,   1.25, 0.25
+
+BoundingBox = -5.9962, 2.5914, -3.4772,   1.00, 0.25
+BoundingBox = -6.1425, 2.5914, -4.7935,   1.25, 0.25
+BoundingBox = -6.1425, 2.5914, -6.2560,   1.25, 0.25
+
+BoundingBox = -7.0200, 2.5212, -3.9967,   0.75, 0.25,   0.9
+BoundingBox = -7.6050, 2.5212, -5.1655,   1.25, 0.25,   0.9
+BoundingBox = -7.6050, 2.5212, -6.6280,   1.25, 0.25,   0.9
+
+BoundingBox = -8.6288, 2.4627, -5.6008,   0.50, 0.25,   0.7
+BoundingBox = -8.6288, 2.4627, -6.1858,   0.50, 0.25,   0.7
+BoundingBox = -8.6288, 2.4627, -6.7708,   0.50, 0.25,   0.7
+BoundingBox = -8.6288, 2.4627, -7.3558,   0.50, 0.25,   0.7
+
+	;Estabilizador horizontal izquierdo
+BoundingBox =  2.6290, 1.9584, -7.2072,   0.6, 0.1,   0.8
+BoundingBox =  2.8630, 1.9584, -8.1432,   1.0, 0.1,   0.8
+BoundingBox =  2.8630, 1.9584, -9.3132,   1.0, 0.1,   0.8
+BoundingBox =  2.8630, 1.9584,-10.4832,   1.0, 0.1,   0.8
+
+BoundingBox =  3.7990, 1.9584, -8.4837,   0.6, 0.1,   0.8
+BoundingBox =  4.0330, 1.9584, -9.4197,   1.0, 0.1,   0.8
+BoundingBox =  4.0330, 1.9584,-10.5897,   1.0, 0.1,   0.8
+
+BoundingBox =  4.9690, 1.9584, -9.7660,   0.6, 0.1,   0.5
+BoundingBox =  5.2030, 1.9584,-10.7020,   1.0, 0.1,   0.5
+
+	;Estabilizador horizontal derecho
+BoundingBox = -2.6290, 1.9584, -7.2072,   0.6, 0.1,   0.8
+BoundingBox = -2.8630, 1.9584, -8.1432,   1.0, 0.1,   0.8
+BoundingBox = -2.8630, 1.9584, -9.3132,   1.0, 0.1,   0.8
+BoundingBox = -2.8630, 1.9584,-10.4832,   1.0, 0.1,   0.8
+
+BoundingBox = -3.7990, 1.9584, -8.4837,   0.6, 0.1,   0.8
+BoundingBox = -4.0330, 1.9584, -9.4197,   1.0, 0.1,   0.8
+BoundingBox = -4.0330, 1.9584,-10.5897,   1.0, 0.1,   0.8
+
+BoundingBox = -4.9690, 1.9584, -9.7660,   0.6, 0.1,   0.5
+BoundingBox = -5.2030, 1.9584,-10.7020,   1.0, 0.1,   0.5
+
+	;Estabilizador vertical izquierdo
+BoundingBox =  2.5927, 2.926, -5.0977,   0.25, 0.25,   0.8
+BoundingBox =  2.5927, 3.0957, -5.3902,   0.25, 0.54,   0.8
+BoundingBox =  2.5927, 3.2653, -5.6827,   0.25, 0.83,   0.8
+BoundingBox =  2.5927, 3.4349, -5.9752,   0.25, 1.12,   0.8
+BoundingBox =  2.5927, 3.6046, -6.2677,   0.25, 1.41,   0.8
+BoundingBox =  2.5927, 3.7742, -6.5602,   0.25, 1.70,   0.8
+BoundingBox =  2.5927, 3.7742, -6.8527,   0.25, 1.70,   0.8
+BoundingBox =  2.5927, 3.7742, -7.1452,   0.25, 1.70,   0.8
+BoundingBox =  2.5927, 3.7742, -7.4377,   0.25, 1.70,   0.8
+BoundingBox =  2.5927, 3.7742, -7.7302,   0.25, 1.70,   0.8
+BoundingBox =  2.5927, 3.7742, -8.0227,   0.25, 1.70,   0.8
+BoundingBox =  2.5927, 3.7742, -8.3152,   0.25, 1.70,   0.8
+BoundingBox =  2.5927, 3.7742, -8.6077,   0.25, 1.70,   0.8
+BoundingBox =  2.5927, 3.7742, -8.9002,   0.25, 1.70,   0.8
+BoundingBox =  2.5927, 3.7742, -9.1927,   0.25, 1.70,   0.8
+	;Estabilizador vertical izquierdo
+BoundingBox = -2.5927, 2.926, -5.0977,   0.25, 0.25,   0.8
+BoundingBox = -2.5927, 3.0957, -5.3902,   0.25, 0.54,   0.8
+BoundingBox = -2.5927, 3.2653, -5.6827,   0.25, 0.83,   0.8
+BoundingBox = -2.5927, 3.4349, -5.9752,   0.25, 1.12,   0.8
+BoundingBox = -2.5927, 3.6046, -6.2677,   0.25, 1.41,   0.8
+BoundingBox = -2.5927, 3.7742, -6.5602,   0.25, 1.70,   0.8
+BoundingBox = -2.5927, 3.7742, -6.8527,   0.25, 1.70,   0.8
+BoundingBox = -2.5927, 3.7742, -7.1452,   0.25, 1.70,   0.8
+BoundingBox = -2.5927, 3.7742, -7.4377,   0.25, 1.70,   0.8
+BoundingBox = -2.5927, 3.7742, -7.7302,   0.25, 1.70,   0.8
+BoundingBox = -2.5927, 3.7742, -8.0227,   0.25, 1.70,   0.8
+BoundingBox = -2.5927, 3.7742, -8.3152,   0.25, 1.70,   0.8
+BoundingBox = -2.5927, 3.7742, -8.6077,   0.25, 1.70,   0.8
+BoundingBox = -2.5927, 3.7742, -8.9002,   0.25, 1.70,   0.8
+BoundingBox = -2.5927, 3.7742, -9.1927,   0.25, 1.70,   0.8
+
+
+hasChaff = true
+ChaffUseTime = 100
+ChaffWaitTime = 400
+engineshutdownthres = 20
+
+NameOnModernAARadar = SU35
+NameOnEarlyAARadar = SU35
+NameOnModernASRadar = ?
+NameOnEarlyASRadar = ?
+RadarType = Modern_AA
+___________________________________________________________________________________________________________________________
+
+;AddRecipe = " Y ",  "XRX",  "XDX",  X, iron_block, Y, glass, D, diamond_block, R,redstone_block
+
+EntityWidth  = 0.99
+EntityHeight = 0.99

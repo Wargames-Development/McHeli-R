@@ -1,0 +1,132 @@
+﻿; 色設定(Current Color)
+Color = 0xCFFFFFFF
+
+If = hp_rto>0.25
+DrawTexture = T14BNK, (-700*width/683)-stick_x*3, (-700*height/353)-stick_y*3+pitch*3,1400*width/683,1400*height/353, 0,0, 1960,1960
+EndIf
+If = hp_rto<=0.25
+DrawTexture = T14BNKLOWHP, (-700*width/683)-stick_x*5, (-700*height/353)-stick_y*5+pitch*3,1400*width/683,1400*height/353, 0,0, 1960,1960
+EndIf
+
+DrawString  = 180, 50, "HP %3.0f", HP_PER
+
+; ヨーの目盛描画
+Color = 0xCFFFFFFF
+DrawGraduationYaw   = plyr_yaw, 0,   0, -100
+DrawLine = 0,-87,   2,-83,  -2,-83,   0,-87
+DrawCenteredString =   0, -81, "%.0f", PLYR_YAW
+DrawCenteredString = -140, -15, "仰角"
+DrawCenteredString = 140, -15, "着弹"
+
+If = reloading==1
+DrawCenteredString =   -140, 55, "%.2f%%",   RELOAD_PER
+EndIf
+
+DrawCenteredString = -26, 68, "%s",  WPN_AMMO
+DrawCenteredString =   0, 68, "/",   WPN_AMMO
+DrawCenteredString =  26, 68, "%s",  WPN_RM_AMMO
+; 武器名 (Weapon name)
+DrawCenteredString = 0, 57, "%s",  WPN_NAME
+; 銃身の熱量タイプの場合(Heat)
+If = is_heat_wpn==1
+	Color = 0xCFA99D38
+	DrawRect = -20, 77, 41, 2
+	Color = 0xFFDF0408
+	DrawRect = -20, 77, 41*wpn_heat, 2
+EndIf
+
+If = is_heat_wpn==1
+	Color = 0xCFFFFFFF
+	DrawRect = -20, 77, 41, 2
+	Color = 0xFFDF0408
+	DrawRect = -20, 77, 41*wpn_heat, 2
+EndIf
+
+; レーダーを持つ機体の場合
+If = have_radar==1
+	Color = 0xCFFFFFFF
+	DrawLine = 144,21,   144+64, 21,   144+64, 21+64,   144, 21+64,   144, 21
+	
+	DrawLine = 144,    21+32,   144+64, 21+32
+	DrawLine = 144+32, 21,      144+32, 21+64
+
+	Color = 0xCFFFFFFF
+	DrawEntityRadar = -plyr_yaw-180, 144, 21,  64,64
+
+	Color = 0xFFDF0408
+	DrawEnemyRadar  = -plyr_yaw-180, 144, 21,  64,64
+EndIf
+
+; ピッチの目盛描画
+Color = 0xCFFFFFFF
+DrawGraduationPitch1 = plyr_pitch, 0, 0, 0
+Color = plyr_pitch<=-20? 0xCFFFFFFF : 0xFFDF0408
+DrawCenteredString = -140, -4, "%.0f", PLYR_PITCH
+Color = 0xCFFFFFFF
+DrawLine = -120,0,   -120-5,-5,   -120-30,-5,   -120-30,5,   -120-5,5,   -120,0  
+DrawLine =  120,0,    120+5,-5,    120+30,-5,    120+30,5,    120+5,5,    120,0
+
+If = dsp_mt_dist == 1 && mt_dist > 0
+	DrawCenteredString = 140, -4, "%.0f", MORTAR_DIST
+Endif
+If = dsp_mt_dist == 1 && mt_dist <= 0
+	DrawCenteredString = 140, -4, "---"
+Endif
+
+
+If = (dsp_mt_dist==1)&&cam_zoom<2
+DrawTexture = D-30_1x, -500, -250,  1000,500, 0,0, 2048,1024
+EndIf
+If = (dsp_mt_dist==1)&&cam_zoom>=2
+DrawTexture = D-30_3x, -500, -250,  1000,500, 0,0, 2048,1024
+EndIf
+
+
+If=lock<=0.15&&lock>0
+DrawTexture = LOCK1 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.2&&lock>0.15
+DrawTexture = LOCK2 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.25&&lock>0.2
+DrawTexture = LOCK3 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.3&&lock>0.25
+DrawTexture = LOCK4 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.35&&lock>0.3
+DrawTexture = LOCK5 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.4&&lock>0.35
+DrawTexture = LOCK6 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.45&&lock>0.4
+DrawTexture = LOCK7 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.5&&lock>0.45
+DrawTexture = LOCK8 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.55&&lock>0.5
+DrawTexture = LOCK9 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.6&&lock>0.55
+DrawTexture = LOCK10 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.65&&lock>0.6
+DrawTexture = LOCK10 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.7&&lock>0.65
+DrawTexture = LOCK9 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.75&&lock>0.7
+DrawTexture = LOCK8 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.8&&lock>0.75
+DrawTexture = LOCK9 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.85&&lock>0.8
+DrawTexture = LOCK10 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=1&&lock>0.85
+DrawTexture = LOCK11 ,-64, -64,  128,128, 0,0, 256,256
+EndIf

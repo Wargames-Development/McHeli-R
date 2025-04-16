@@ -1,0 +1,120 @@
+﻿DisplayName = J-20
+AddDisplayName = zh_CN,歼-20 战斗机 [泛亚联军T2空优机]
+AddDisplayName = en_US,J-20
+MaxHp = 400
+ArmorMinDamage = 11
+
+AddPartwing =  0.00, 3.542, -4.496,  -1,0,0,  -20
+SweepWingSpeed = 0.9
+Stealth = 0.75
+
+Speed = 3.0
+
+FlareType = 4
+ParticlesScale = 1.0
+EnableSeaSurfaceParticle = true
+EnableGunnerMode = true
+MaxFuel         = 28000
+FuelConsumption = 20
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+DamageFactor = 0.0
+HUD = plane, su34_gnr
+
+ThirdPersonDist = 25
+
+MobilityYaw = 1
+ThrottleUpDown = 2
+MobilityRoll = 2
+MobilityPitch = 1
+
+CameraPosition = 0.0, 0.0, 0
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+
+AddSeat 	=  0.00,  2.05,  1.9
+
+
+
+AddPartNozzle =  0.8727, 1.95, -16.58, -1,0,0
+AddPartNozzle =  -0.8727, 1.95, -16.58, -1,0,0
+
+AddPartWeaponMissile = CN_PL10,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = CN_PL10,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = CN_PL15,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile =CN_PL15,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = CN_PL15,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile =CN_PL15,   false, false, false,  -0.297,  0.518, -8.699
+
+AddPartWeaponBay = CN_PL15,  1.15,  0.9143, -4.329,  0.000, 0.000, 1.000, 130
+AddPartWeaponBay = CN_PL15,  -1.15, 0.9143, -4.329,  0.000, 0.000, 1.000, -130
+AddPartWeaponBay = CN_PL10,  1.82,  1.821, -3.39,  0.000, 0.000, 1.000, 80
+AddPartWeaponBay = CN_PL10,  -1.82, 1.821, -3.39,  0.000, 0.000, 1.000, -80
+
+
+
+
+AddPartLG    =  0.00,  0.959,  -0.7694,    -1, 0, 0,  92
+AddPartLGRev =  0.00,  0.954,  -0.8988,    1, 0, 0,  30
+AddPartLGRev =  0.2431,  1.058,  0.6256,    0.011, 0.05, 1.0,  90
+
+
+AddPartLG    =  0,  -0.1,  0,    0, 0, 1.0,  53
+AddPartLGRev =  1.951,  1.954,  -7.739,    0, 0, 1,  55
+AddPartLGRev =  1.570,  1.229,  -6.350,    0, 0, 1,  -110
+
+AddPartLG =  0,  -0.1,  0,    0, 0, 1.0,  -53
+AddPartLGRev =  -1.951,  1.954,  -7.739,    0, 0, 1,  -55
+AddPartLGRev =  -1.570,  1.229,  -6.350,    0, 0, 1, 110
+
+
+AddPartSteeringWheel =  2.293,  2.347,  -13.82,  0.0, 1.0, 0,   -25
+AddPartSteeringWheel =  -2.293,  2.347,  -13.82,  0.0, 1.0, 0,   -25
+AddPartSteeringWheel =  3.772,2.119,-12.87, 1, 0, 0.0,   -7
+AddPartSteeringWheel =  -3.772,2.119,-12.87, 1, 0, 0.0,   7
+AddPartSteeringWheel =  -0.3570,2.507,2.138, 0, 0, 1,   -15
+
+
+
+AddPartThrottle =  1.946, 2.521, -2.177,  1,0,0.00, -8
+AddPartThrottle =  -1.946, 2.521, -2.177,  1,0,0.00, -8
+AddPartThrottle =  0.3964, 2.485, 2.192,  1,0,0.00, 40
+
+
+
+NameOnModernAARadar = J20
+NameOnEarlyAARadar = ?
+NameOnModernASRadar = ?
+NameOnEarlyASRadar = ?
+RadarType = MORDERN_AA
+
+
+AddWeapon = CN_aa_gun,  -0.8,  2.5,  0.8,  0.0,  0.0
+AddWeapon = CN_PL15,     6.232,  1.758, -7.699,  0,0.0
+AddWeapon = CN_PL15,     -6.232,  1.758, -7.699,  0,0.0
+AddWeapon = CN_PL15,     4.232,  1.758, -7.699,  0,0.0
+AddWeapon = CN_PL15,     -4.232,  1.758, -7.699,  0,0.0
+AddWeapon = CN_PL10,     6.232,  1.758, -7.699,  0,0.0
+AddWeapon = CN_PL10,     -6.232,  1.758, -7.699,  0,0.0
+
+
+
+AddPartCanopy =  0.00, 3.0527, -0.6146,  -1,0,0,  50
+
+
+BoundingBox =  0.00, 2.40, 1.5,  3.0, 2.0
+BoundingBox =  0.00, 1.90, -3.0,  4.9, 2.2
+BoundingBox =  0.00, 1.90, -7.80, 5.0, 2.2
+BoundingBox =  0.00, 1.90, -12.50, 4.0, 2.2
+BoundingBox = -4.2, 2.20, -10.50,  5.0, 1.4
+BoundingBox =  4.2, 2.20, -10.50,  5.0, 1.4
+BoundingBox =  0.00, 2.20, -13.3,  3.5, 2.0,1.2
+EntityWidth  = 0.75
+EntityHeight = 0.75
+
+motionfactor=0.965
+HasChaff = true
+ChaffUseTime = 100
+ChaffWaitTime = 400
+

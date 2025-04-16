@@ -1,0 +1,128 @@
+﻿DisplayName = F-22A
+AddDisplayName = zh_CN,F-22A战斗机 [北约联军T2空优机]
+AddDisplayName = en_US,F-22A
+MaxHp = 400
+ArmorMinDamage = 11
+
+AddPartwing =  0.00, 3.542, -4.496,  -1,0,0,  -20
+SweepWingSpeed = 0.9
+
+
+Speed = 3.0
+
+FlareType = 4
+ParticlesScale = 1.0
+EnableSeaSurfaceParticle = true
+EnableGunnerMode = true
+MaxFuel         = 28000
+FuelConsumption = 20
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+DamageFactor = 0.0
+HUD =plane, su34_gnr
+
+ThirdPersonDist = 25
+
+MobilityYaw = 1
+
+MobilityRoll = 2
+MobilityPitch = 1
+ThrottleUpDown = 2
+CameraPosition = 0.0, 0.0, 0
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+
+AddSeat 	=  0.00,  2.05,  3.03
+
+
+
+AddPartNozzle =  0.7529, 1.804, -8.873, -1,0,0
+AddPartNozzle =  -0.7529, 1.804, -8.873, -1,0,0
+
+AddPartWeaponMissile = us_aim9,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile = us_aim9,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = us_aim120,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile =us_aim120,   false, false, false,  -0.297,  0.518, -8.699
+AddPartWeaponMissile = us_aim120,   false, false, false,   0.297,  0.518, -8.699
+AddPartWeaponMissile =us_aim120,   false, false, false,  -0.297,  0.518, -8.699
+
+AddPartWeaponBay = us_aim9,  -2.005, 1.596, -2.441,  0.000, 0.000, 1.000, -130
+AddPartWeaponBay = us_aim9,  2.020,  1.594, -2.441,  0.000, 0.000, 1.000, 130
+
+AddPartWeaponBay = us_aim120,  0.007808,  0.8034, -4.916,  0.000, 0.000, 1.000, 85
+AddPartWeaponBay = us_aim120,  0.007808, 0.8034, -4.917,  0.000, 0.000, 1.000, -85
+
+AddPartWeaponBay = us_aim120,  -1.213, 0.7845, -4.732,  0.000, 0.000, 1.000, -100
+AddPartWeaponBay = us_aim120,  1.224,  0.7834, -4.734,  0.000, 0.000, 1.000, 100
+
+
+
+;前起落架
+AddPartLG =  0, 1.346, 0.9327,  1,0,0,-90
+AddPartLGRev = 0.2789, 1.068, 2.224,  0,0,1,80
+AddPartLGRev = -0.2601, 1.068, 2.224,  0,0,1,-80
+
+AddPartLG =  1.399, 1.604, -6.076,  0,0,0,90
+AddPartLGRev = 2.871, 1.810, -5.463,  0,0,1,45
+
+AddPartLG =  -1.399, 1.604, -6.076,  0,0,0,90
+AddPartLGRev = -2.86, 1.812, -5.459,  0,0,1,-45
+
+
+AddPartSteeringWheel =  3.427, 1.802,-9.042, 1, 0, 0.0,   -8
+AddPartSteeringWheel =  -3.427, 1.802,-9.042,  -1, 0, 0.0,   -8
+
+
+AddPartSteeringWheel =  2.10, 1.852,-11.57, 1, 0, 0.0,   -15
+AddPartSteeringWheel =  -2.081, 1.852,-11.57,  -1, 0, 0.0,   -15
+AddPartSteeringWheel =  -0.3850,2.29,3.302, 0, 0, 1,   -20
+AddPartThrottle = -0.3785, 2.618, 2.350,  0, 0, 0,  0,  0, 0, 0.22
+
+
+
+AddPartThrottle = -0.3785, 2.618, 2.350,  0, 0, 0,  0,  0, 0, 0.3
+
+AddPartSlideweaponbay =us_aim174/us_aim9, 0,0,0.01
+
+
+
+AddWeapon = us_aa_gun,  -0.8,  2.5,  0.8,  0.0,  0.0
+AddWeapon = us_aim120,     6.232,  1.758, -7.699,  0,-0.0
+AddWeapon = us_aim120,     -6.232,  1.758, -7.699,  0,-0.0
+AddWeapon = us_aim9,     4.232,  1.758, -7.699,  0,-0.0
+AddWeapon = us_aim9,     -4.232,  1.758, -7.699,  0,-0.0
+AddWeapon = us_aim9,     6.232,  1.758, -7.699,  0,-0.0
+AddWeapon = us_aim9,     -6.232,  1.758, -7.699,  0,-0.0
+
+
+
+AddPartCanopy =  0.00, 3.140,0.9595,  -1,0,0,  40
+AddPartCanopy =  0.00, 3.903, -2.891,  -1,0,0,  0
+
+BoundingBox =  0.00, 2.40, 3.5,  3.0, 3.5
+BoundingBox =  0.00, 1.90, -1.0,  4.9, 3.2
+BoundingBox =  0.00, 1.90, -5.80, 5.0, 3.2
+BoundingBox =  0.00, 1.90, -10.50, 4.0, 3.2
+BoundingBox = -4.2, 2.20, -8.50,  5.0, 1.4
+BoundingBox =  4.2, 2.20, -8.50,  5.0, 1.4
+BoundingBox =  0.00, 2.20, -12.3,  3.5, 2.0,1.5
+EntityWidth  = 0.70
+EntityHeight = 0.70
+
+
+HasChaff = true
+ChaffUseTime = 100
+ChaffWaitTime = 400
+
+NameOnModernAARadar = F22
+NameOnEarlyAARadar = ?
+NameOnModernASRadar = ?
+NameOnEarlyASRadar = ?
+RadarType = Moden_AA
+motionfactor=0.96
+
+motionfactor=0.965
+HasChaff = true
+ChaffUseTime = 100
+ChaffWaitTime = 400

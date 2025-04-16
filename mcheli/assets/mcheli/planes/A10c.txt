@@ -1,0 +1,205 @@
+﻿DisplayName = A-10 Thunderbolt II
+AddDisplayName = zh_CN, A-10 “雷电”Ⅱ
+ItemID = 28705
+MaxHp = 450
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+EnableGunnerMode = true
+Speed = 1.4
+FlareType = 5
+ThrottleUpDown = 0.4
+MaxFuel         = 1800
+FuelConsumption = 1.0
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+ThirdPersonDist = 20
+CanRotOnGround  = true
+AutoPilotRot = 0
+VariableSweepWing = true
+SweepWingSpeed = 0.8
+addtexture = a10c1
+addtexture = a10c2
+ArmorMinDamage = 10
+
+AddPartwing =   0.0,  3.4,  -7.38,  1,0, 0,70
+
+MobilityRoll = 0.8
+MobilityPitch = 0.8
+Mobilityaw = 0.8
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+HUD = plane
+AddSeat = 0.0,  3.5, 0.0
+
+AddPartCanopy = 0.0, 4.685, -2.4043, -1,0,0,  70
+
+AddPartLG =  0.00, 2.3388, -0.7373,  -1,0.0,0,  90
+AddPartLG = -0.7093, 2.5185, -1.87,  0, 0,1, 98.5
+AddPartLG =  3.5, 2.2281, -7.5951,  -1,0.0,0,  80.0
+AddPartLG =  3.5, 2.2281, -7.5951,  -1,0.0,0,  90.0
+
+DebugBoundingBox = true
+
+
+
+
+
+
+
+AddPartWeaponMissile = us_AIM-9L,  false, false, false,  8.7, 2.7,  -4.3
+AddPartWeaponMissile = us_AIM-9L,  false, false, false,  -8.7, 2.7,  -4.3
+AddPartWeaponMissile = us_AIM-9L,  false, false, false,  7.5, 2.7,  -4.3
+AddPartWeaponMissile = us_AIM-9L,  false, false, false,  -7.5, 2.7,  -4.3
+AddPartWeaponMissile = us_gbu38a,  false, false, false,  6.6, 2.2,  -5
+AddPartWeaponMissile = us_gbu38a,  false, false, false,  -6.6, 2.2,  -5
+AddPartWeaponMissile = us_gbu38a,  false, false, false,  6.6, 2.2,  -8
+AddPartWeaponMissile = us_gbu38a,  false, false, false,  -6.6, 2.2,  -8
+AddPartWeaponMissile = us_gbu38a,  false, false, false,  6, 2.2,  -5
+AddPartWeaponMissile = us_gbu38a,  false, false, false,  -6, 2.2,  -5
+AddPartWeaponMissile = us_gbu38a,  false, false, false,  6, 2.2,  -8
+AddPartWeaponMissile = us_gbu38a,  false, false, false,  -6, 2.2,  -8
+AddPartWeaponMissile = us_cbu-100,  false, false, false,  6.3, 1.8,  -4.1
+AddPartWeaponMissile = us_cbu-100,  false, false, false,  -6.3, 1.8,  -6.5
+AddPartWeaponMissile = us_cbu-100,  false, false, false,  6.3, 1.8,  -6.5
+AddPartWeaponMissile = us_cbu-100,  false, false, false,  -6.3, 1.8,  -4.1
+AddPartWeaponMissile = us_agm65,  false, false, false,  4.8, 1.57, -4.6
+AddPartWeaponMissile = us_agm65,  false, false, false,  -4.8, 1.57, -4.6
+AddPartWeaponMissile = us_agm65,  false, false, false,   5.3, 2.0, -4.7
+AddPartWeaponMissile = us_agm65,  false, false, false,  -5.3, 2.0, -4.7
+AddPartWeaponMissile = us_agm65,  false, false, false,   4.3, 2.0, -4.7
+AddPartWeaponMissile = us_agm65,  false, false, false, -4.3, 2.0, -4.7
+AddPartWeaponMissile = us_gbu31,  false,  false,  false,    1.9, 1.3, -6
+AddPartWeaponMissile = us_gbu31,  false,  false,  false,   -1.9, 1.3, -6
+AddPartWeaponMissile = us_gbu31,  false,  false,  false,    2.3, 1.8, -6
+AddPartWeaponMissile = us_gbu31,  false,  false,  false,   -2.3, 1.8, -6
+AddPartWeaponMissile = us_gbu31,  false,  false,  false,    1.5, 1.8, -6
+AddPartWeaponMissile = us_gbu31,  false,  false,  false,   -1.5, 1.8, -6
+AddPartWeaponMissile = us_gbu31,  false,  false,  false,    0.8, 1.7, -6
+AddPartWeaponMissile = us_gbu31,  false,  false,  false,   -0.8, 1.7, -6
+AddPartWeaponMissile = gbu28_e,  false,  false,  false,    0, 1.7, -6
+
+
+
+AddPartRotWeapon     = us_gau8,   false, true,  true,    0.0704,    2.4461,  3.9283
+AddWeapon = us_gau8,  -0.0704,    2.4461,  3.9283,   0.0, 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AddWeapon = us_AIM-9L, 8.7, 2.6, -4.3
+AddWeapon = us_AIM-9L, -8.7, 2.6, -4.3
+AddWeapon = us_AIM-9L, 7.5, 2.6, -4.3
+AddWeapon = us_AIM-9L, -7.5, 2.6, -4.3
+AddWeapon = us_gbu38a, -6.6, 2.2,  -5, 0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_gbu38a, 6.6, 2.2,  -8, 0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_gbu38a, -6.6, 2.2,  -8, 0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_gbu38a, 6, 2.2,  -5, 0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_gbu38a, -6, 2.2,  -5, 0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_gbu38a, 6, 2.2,  -8, 0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_gbu38a, -6, 2.2,  -8, 0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_cbu-100, 6.3, 1.8,  -4.1
+AddWeapon = us_cbu-100, -6.3, 1.8,  -6.5
+AddWeapon = us_cbu-100, 6.3, 1.8,  -6.5
+AddWeapon = us_cbu-100, -6.3, 1.8,  -4.1
+AddWeapon = us_agm65,  4.8, 1.57, -4.6, 0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_agm65,  -4.8, 1.57, -4.6, 0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_agm65,  5.3, 2.0, -4.7, 0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_agm65,  -5.3, 2.0, -4.7, 0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_agm65,  4.3, 2.0, -4.7, 0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_agm65,  -4.3, 2.0, -4.7, 0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_gbu31,   1.9, 1.3, -6,   0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_gbu31,  -1.9, 1.3, -6,   0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_gbu31,   2.3, 1.8, -6,   0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_gbu31,  -2.3, 1.8, -6,   0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_gbu31,  1.5, 1.8, -6,   0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_gbu31,  -1.5, 1.8, -6,   0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_gbu31,   0.8, 1.7, -6,   0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = us_gbu31,  -0.8, 1.7, -6,   0.0, 0.0,true,  2, 0,-90,90, -5,90
+AddWeapon = gbu28_e,   0, 1.7, -6,   0.0, 0.0,true,  2, 0,-90,90, -5,90
+
+
+
+
+
+
+
+
+
+AddPartSteeringWheel =  0, 3.1845, -16.1653,  1, 0, 0.0,   -30
+AddPartSteeringWheel =  -9.5, 3.34, -7.71, 1, 0, 0.0,   20
+AddPartSteeringWheel =  9.5, 3.34, -7.71,  1, 0, 0.0,   -20
+AddPartSteeringWheel =  -3.8, 3.0, -16.22, 0, 1, 0.0,   -20
+AddPartSteeringWheel =  3.8, 3.0, -16.22,  0, 1, 0.0,   -20
+AddPartSteeringWheel =  0, 3.7, 0.2,  0, 0, 1,   -15
+AddPartSteeringWheel =  0, 3.1845, -16.1653,  1, 0, 0.0,   30
+BoundingBox =  0.00, 2.9,  2.21,  1.5, 1.5
+BoundingBox =  0.00, 3.5,1.0,  1.8, 2.4
+BoundingBox =  0.00, 3.5,-0.8,  1.8, 2.4
+BoundingBox =  0.00, 3.5,-2.6,  1.8, 2.4
+BoundingBox =  0.00, 3.5,-4.4,  1.8, 2.4
+BoundingBox =  0.00, 3.5,-6.2,  1.8, 2.3
+BoundingBox =  0.00, 3.4,-8.0,  1.8, 2.2
+BoundingBox =  0.00, 3.5,-9.8,  1.8, 2.0
+BoundingBox =  0.00, 3.3,-11.6,  1.8, 1.6
+BoundingBox =  0.00, 3.2,-13.4,  1.8, 1.4
+BoundingBox =  0.00, 3.0,-15.6,  2.2, 1.0
+BoundingBox =  2.4, 3.1,-15.6,  2.5, 0.3
+BoundingBox =  -2.4, 3.1,-15.6,  2.5, 0.3
+
+BoundingBox = -2.7, 2.8, -6.8,  3.5, 0.7,  0.9
+BoundingBox = -6.2, 2.8, -6.8,  3.5, 0.7,  0.8
+BoundingBox =  2.7, 2.8, -6.8,  3.5, 0.7,  0.9
+BoundingBox =  6.2, 2.8, -6.8,  3.5, 0.7,  0.8
+BoundingBox = -9.7, 3.2, -6.9,  3.5, 0.7,  0.6
+BoundingBox = 9.7, 3.2, -6.9,  3.5, 0.7,  0.6
+
+BoundingBox =  2.00, 4.2,-9.8,  1.8, 2.0,1.3
+BoundingBox =  2.00, 4.2,-11.8,  1.8, 2.0,1.3
+BoundingBox =  -2.00, 4.2,-9.8,  1.8, 2.0,1.3
+BoundingBox =  -2.00, 4.2,-11.8,  1.8, 2.0,1.3
+
+
+BoundingBox =  3.8, 4.5,-14.8,  0.4, 3.2
+BoundingBox =  3.8, 4.5,-15.2,  0.4, 3.2
+BoundingBox =  3.8, 4.5,-15.6,  0.4, 3.2
+BoundingBox =  3.8, 4.5,-16.0,  0.4, 3.2
+BoundingBox =  3.8, 4.5,-16.4,  0.4, 3.2
+
+BoundingBox =  -3.8, 4.5,-14.8,  0.4, 3.2
+BoundingBox =  -3.8, 4.5,-15.2,  0.4, 3.2
+BoundingBox =  -3.8, 4.5,-15.6,  0.4, 3.2
+BoundingBox =  -3.8, 4.5,-16.0,  0.4, 3.2
+BoundingBox =  -3.8, 4.5,-16.4,  0.4, 3.2
+
+NameOnModernAARadar = A10
+NameOnEarlyAARadar = A10
+NameOnModernASRadar = ?
+NameOnEarlyASRadar = ?
+
+RadarType = Modern_AS
+hasMaintenance=true
+MaintenceUsetime=60
+MaintenceWaittime=300
+
+HasChaff = true
+ChaffUseTime = 100
+ChaffWaitTime = 600
+engineshutdownthres = 10
+explosionsizebycrash=10
+

@@ -1,0 +1,237 @@
+﻿;本文件由TV90及BFMC开发团队制作，禁止盗用！！！
+
+;低血量警告
+If = hp_rto>0.25 && hp_rto<0.75
+DrawTexture = AH6JWARN, -41, 50,  86,15, 0,0, 460,80
+EndIf
+If = hp_rto<=0.25
+DrawTexture = AH6JBIGWARN, -74, 50,  150,15, 0,0, 800,80
+EndIf
+
+;高度
+Color = 0xCFFFFFFF
+DrawString = -150, 50, "%3d", ALTITUDE
+
+;重力
+Color = 0xCFFFFFFF
+DrawString = -150, 30, "%.2f",motion_Y
+Color = 0xCFFFFFFF
+DrawString = -150,  -100, "%02d:%02d:%02d",MC_THOR, MC_TMIN, MC_TSEC
+DrawString = -120, 30,"%.1fB",PLYR_YAW
+DrawString = -120, 50,"%.1f", PLYR_PITCH
+
+Color = 0xCFFFFFFF
+If = free_look==1
+	DrawString = -90, -80, "FREE LOOK"
+Endif
+
+If = hovering==1
+	Color = 0xCFFFFFFF
+	DrawCenteredString = 40, 10, "HOVERING"
+Endif
+
+If = cam_mode==1
+DrawTexture = IRNV, 110, -90, 70,20 ,0,0, 280,80,0
+Endif
+If = cam_mode==2
+DrawTexture = FLIR, 110, -90, 70,20 ,0,0, 280,80,0
+Endif
+
+DrawTexture = TVM, -900,-900,  1800,1800, 0,0, 2048,2048
+
+If = sight_type==1
+DrawString = -150,  -120, "TVM"
+DrawTexture = AH64TGM, -400-stick_x*15, -200-stick_y*15,  800,400, 0,0, 2048,1024
+DrawLine =  -100, -50,   -100, -75,   -75, -75
+DrawLine =  -100, +50,   -100, +75,   -75, +75
+DrawLine =  +100, -50,   +100, -75,   +75, -75
+DrawLine =  +100, +50,   +100, +75,   +75, +75
+DrawLine = -50,   0,   -10,   0
+DrawLine =  50,   0,    10,   0
+DrawLine =   0, -50,     0, -10
+DrawLine =   0,  50,     0,  10
+DrawString = -100, -85, "x%.1f",    CAM_ZOOM
+DrawString = 80, -85, "%3dm", ALTITUDE
+Endif
+
+If = sight_type==2&&dsp_mt_dist==1
+DrawTexture = MAVcross, -100, -100,  200,200, 0,0, 1024,1024
+Color = 0xCFFFFFFF
+Endif
+
+If = reloading==0 && wpn_heat<1.0
+DrawCenteredString = 0,  100, "RDY"
+EndIf
+If = reloading==1 && wpn_heat<1.0
+DrawCenteredString = 0,  100, "WAIT"
+EndIf
+If = wpn_heat==1.0
+DrawCenteredString = 0,  100, "RELOADING"
+EndIf
+
+Color = 0xCFFFFFFF
+DrawCenteredString = 0, 80, "%s",  WPN_NAME
+If = is_heat_wpn==1
+	Color = 0xFF28d448
+	DrawRect = -20, 90, 41, 2
+	Color = 0xFFDF0408
+	DrawRect = -20, 90, 41*wpn_heat, 2
+EndIf
+
+If=lock<=0.15&&lock>0&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK1 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.2&&lock>0.15&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK2 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.25&&lock>0.2&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK3 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.3&&lock>0.25&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK4 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.35&&lock>0.3&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK5 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.4&&lock>0.35&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK6 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.45&&lock>0.4&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK7 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.5&&lock>0.45&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK8 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.55&&lock>0.5&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK9 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.6&&lock>0.55&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK10 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.65&&lock>0.6&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK10 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.7&&lock>0.65&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK9 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.75&&lock>0.7&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK8 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.8&&lock>0.75&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK9 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=0.85&&lock>0.8&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK10 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+If=lock<=1&&lock>0.85&&sight_type==2&&dsp_mt_dist==0
+DrawTexture = LOCK11 ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+
+
+If= lock<=0.1&&lock>0&&sight_type==2&&dsp_mt_dist==1
+DrawString = 60, 10, "user_case 3rd_player@n 正在启动程序批次"
+DrawString = 60, -10, ">configuring>projects>root project>MAV_jammer"
+Endif
+
+If= lock<=0.2&&lock>0.1&&sight_type==2&&dsp_mt_dist==1
+DrawString = 60, -30, "获取player.Cood.X = %+.1f", pos_X
+DrawString = 60, -20, "获取player.Cood.Y = %+.1f", pos_Y
+DrawString = 60, -10, "获取player.Cood.Z = %+.1f", pos_Z
+DrawString = 60, 0, "//成功获取player信息，连线中//"
+DrawString = 60, 10, "user_case 3rd_player@n 正在启动电子干扰"
+DrawString = 60, 20, "尝试使用exodus_handshake.dat打招呼"
+DrawString = 60, 25, "//player正在识别敌方目标//"
+DrawString = 60, 30, "//player正在处理入侵策略//"
+Endif
+
+If= lock<=0.3&&lock>0.2&&sight_type==2&&dsp_mt_dist==1
+DrawString = 60, -35, "user_case 3rd_player@n 正在启动电子干扰"
+DrawString = 60, -25, "尝试使用exodus_handshake.dat打招呼"
+DrawString = 60, -15, "//player正在识别敌方目标//"
+DrawString = 60, -10, "//player正在处理入侵策略//"
+DrawString = 60, 0, "if request.url = https://bfmc.cc --fiter.runtime"
+DrawString = 60, 10, "ffpass import --from /dev/sdx/injection_package.dat"
+DrawString = 60, 20, ">load data from https://bfmc.cc/data/--metadata.xml"
+DrawString = 60, 30, "data loaded successfully "
+DrawString = 60, 35, "data loaded successfully "
+Endif
+
+If= lock<=0.4&&lock>0.3&&sight_type==2&&dsp_mt_dist==1
+DrawString = 60, -35, "//player正在识别敌方目标//"
+DrawString = 60, -30, "//player正在处理入侵策略//"
+DrawString = 60, -20, "if request.url = https://bfmc.cc --fiter.runtime"
+DrawString = 60, -10, "ffpass import --from /dev/sdx/injection_package.dat"
+DrawString = 60, 0, ">load data from https://bfmc.cc/data/--metadata.xml"
+DrawString = 60, 10, "data loaded successfully "
+DrawString = 60, 15, "data loaded successfully "
+DrawString = 60, 25, ">load data from https://bfmc.cc/net/SNAPSHOT/data2.dat"
+DrawString = 60, 35, "zipStorePath = dev/dists"
+Endif
+
+If= lock<=0.5&&lock>0.4&&sight_type==2&&dsp_mt_dist==1
+DrawString = 60, -35, ">load data from https://bfmc.cc/data/--metadata.xml"
+DrawString = 60, -25, "data loaded successfully"
+DrawString = 60, -20, "data loaded successfully"
+DrawString = 60, -10, ">load data from https://bfmc.cc/net/SNAPSHOT/data2.dat"
+DrawString = 60, 0, "zipStorePath = dev/dists"
+DrawString = 60, 10, "data loaded successfully"
+DrawString = 60, 20, "@served payloads = hash.new[0]"
+DrawString = 60, 25, "@served payloads = hash.new[1]"
+DrawString = 60, 35, "@served payloads = hash.new[2]"
+Endif
+
+If= lock<=0.6&&lock>0.5&&sight_type==2&&dsp_mt_dist==1
+DrawString = 60, -35, "data loaded successfully "
+DrawString = 60, -25, "@served payloads = hash.new[0]"
+DrawString = 60, -20, "@served payloads = hash.new[1]"
+DrawString = 60, -10, "@served payloads = hash.new[2]"
+DrawString = 60, 0, "Baskmaling..."
+DrawString = 60, 10, ">loading resourse table"
+DrawString = 60, 20, "loaded successfully"
+DrawString = 60, 25, "Regular manifest package"
+DrawString = 60, 35, "ffpass import --from /dev/sdx/injection_package.dat"
+Endif
+
+If= lock<=0.7&&lock>0.6&&sight_type==2&&dsp_mt_dist==1
+DrawString = 60, -35, "loaded successfully"
+DrawString = 60, -25, "Regular manifest package"
+DrawString = 60, -20, "ffpass import --from /dev/sdx/injection_package.dat"
+DrawString = 60, -10, "//player入侵策略处理完毕//"
+DrawString = 60, -5, "//player正在处理攻击向量//"
+DrawString = 60, 15, "@served payloads = hash.new[4]"
+DrawString = 60, 25, "@served payloads = hash.new[5]"
+DrawString = 60, 35, "//player攻击向量处理完毕//"
+Endif
+
+If= lock<=0.8&&lock>0.7&&sight_type==2&&dsp_mt_dist==1
+DrawString = 60, -35, "//player攻击向量处理完毕//"
+DrawString = 60, -30, "//player正在启动电子干扰//"
+DrawString = 60, -20, "ffpass export --file /devsdx/jamming_package.csv"
+DrawString = 60, -10, "..................................."
+DrawString = 60, 0,   "..................................."
+DrawString = 60, 10,  "..................................."
+DrawString = 60, 20,  "..................................."
+DrawString = 60, 30,  "..................................."
+Endif
+
+If= lock<=0.9&&lock>0.8&&sight_type==2&&dsp_mt_dist==1
+DrawString = 60, -30, "..................................."
+DrawString = 60, -20, "..................................."
+DrawString = 60, -10, "..................................."
+DrawString = 60, 0,   "..................................."
+DrawString = 60, 10,  "..................................."
+DrawString = 60, 20,  "..................................."
+DrawString = 60, 30,  "..................................."
+Endif
+
+If= lock<=1.0&&lock>0.9&&sight_type==2&&dsp_mt_dist==1
+DrawString = 60, -35, "..................................."
+DrawString = 60, -25, "..................................."
+DrawString = 60, -15, "//player成功启动电子干扰//"
+DrawString = 60, -10, "//player正在生成日志记录//"
+DrawString = 60, 0,  "//player日志记录生成完毕//"
+DrawString = 60, 5,  "//player正在导出日志记录//"
+DrawString = 60, 15,  "ffpass export --file player/documents/log/latest.log"
+DrawString = 60, 25,  "TOTAL TIME：1.50sec"
+DrawString = 60, 35,  "end_"
+Endif

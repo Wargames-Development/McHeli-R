@@ -1,0 +1,6 @@
+
+
+If=lock<=1&&lock>0
+DrawTexture = Starstreak ,-64, -64,  128,128, 0,0, 256,256
+EndIf
+
