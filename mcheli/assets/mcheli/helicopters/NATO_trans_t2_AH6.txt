@@ -20,7 +20,7 @@ HUD = Z10, Z10_GNR
 
 DamageFactor = 0.00
 
-
+Sound = littlebird
 ArmorMinDamage = 5
 
 AddRotor = 1,0,  -0.0000486,  4.312,  0.00004864,  0.0, 1.0, 0.0
